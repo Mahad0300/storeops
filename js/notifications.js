@@ -12,7 +12,7 @@ const initialNotificationsData = [
     unread: true,
     workOrder: "#WO-2026-00101",
     description:
-      "Technician Mahad Bukhari is en route for emergency HVAC repair at Coral Springs location.",
+      "Technician Michael Carter is en route for emergency HVAC repair at Coral Springs location.",
     iconType: "workorder",
   },
   {
@@ -100,7 +100,7 @@ const initialNotificationsData = [
     unread: false,
     workOrder: "N/A",
     description:
-      "Successful login for @admin_mahad from IP Address 192.168.1.104 (Windows 11 Chrome).",
+      "Successful login for @michael_carter from IP Address 192.168.1.104 (Windows 11 Chrome).",
     iconType: "security",
   },
   {

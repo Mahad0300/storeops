@@ -7,8 +7,8 @@ const initialAuditLogsData = [
   {
     id: 1,
     timestamp: "2026-08-14 03:22:15 UTC",
-    userName: "Mahad Bukhari",
-    avatar: "MB",
+    userName: "Michael Carter",
+    avatar: "MC",
     action: "Status Changed",
     workOrder: "#WO-2026-00101",
     details:
@@ -55,8 +55,8 @@ const initialAuditLogsData = [
   {
     id: 6,
     timestamp: "2026-08-13 16:15:00 UTC",
-    userName: "Mahad Bukhari",
-    avatar: "MB",
+    userName: "Michael Carter",
+    avatar: "MC",
     action: "User Modified",
     workOrder: "N/A",
     details: "Promoted user account @alex_morgan to System Role 'Team Lead'",
@@ -92,8 +92,8 @@ const initialAuditLogsData = [
   {
     id: 10,
     timestamp: "2026-08-12 19:44:33 UTC",
-    userName: "Mahad Bukhari",
-    avatar: "MB",
+    userName: "Michael Carter",
+    avatar: "MC",
     action: "Attached W9 Doc",
     workOrder: "#WO-2026-00111",
     details: "Attached signed vendor contract agreement agreement_final.pdf",
@@ -137,8 +137,8 @@ const initialAuditLogsData = [
   {
     id: 15,
     timestamp: "2026-08-11 12:45:09 UTC",
-    userName: "Mahad Bukhari",
-    avatar: "MB",
+    userName: "Michael Carter",
+    avatar: "MC",
     action: "Created Work Order",
     workOrder: "#WO-2026-00113",
     details: "Created work order for Store #402 (Orlando North Signage Repair)",

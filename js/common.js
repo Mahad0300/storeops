@@ -221,12 +221,12 @@ let masterJobsDataset = [...initialJobsData];
 const initialUsersData = [
   {
     id: 1,
-    loginName: "admin_mahad",
-    fullName: "Mahad Bukhari",
+    loginName: "michael_carter",
+    fullName: "Michael Carter",
     password: "••••••••",
     systemRole: "Administrator",
     accountStatus: "Active / Operational",
-    avatar: "MB",
+    avatar: "MC",
   },
   {
     id: 2,

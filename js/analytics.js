@@ -41,8 +41,8 @@ const initialStaffPerformanceData = [
     vendorPaid: "$8,400.00",
   },
   {
-    member: "Mahad Bukhari",
-    avatar: "MB",
+    member: "Michael Carter",
+    avatar: "MC",
     role: "Administrator",
     assigned: 7,
     completed: 7,
