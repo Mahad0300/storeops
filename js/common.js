@@ -348,6 +348,9 @@ function initLogout() {
   if (logoutBtn) {
     logoutBtn.addEventListener("click", () => {
       showToast("Logged out of Administrator account");
+      setTimeout(() => {
+        window.location.href = "index.html";
+      }, 1000);
     });
   }
 }
