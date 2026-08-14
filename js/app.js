@@ -12,10 +12,10 @@ const initialJobsData = [
     assignedUser: "Sophia Martinez",
     assignedAvatar: "SM",
     addedDate: "Aug 12, 2026",
-    vendorCharges: 450.00,
-    jobRevenue: 1200.00,
+    vendorCharges: 450.0,
+    jobRevenue: 1200.0,
     urgency: "Within SLA",
-    status: "Pending"
+    status: "Pending",
   },
   {
     id: 102,
@@ -25,10 +25,10 @@ const initialJobsData = [
     assignedUser: "Alex Morgan",
     assignedAvatar: "AM",
     addedDate: "Aug 11, 2026",
-    vendorCharges: 320.00,
-    jobRevenue: 850.00,
+    vendorCharges: 320.0,
+    jobRevenue: 850.0,
     urgency: "Within SLA",
-    status: "New"
+    status: "New",
   },
   {
     id: 103,
@@ -38,10 +38,10 @@ const initialJobsData = [
     assignedUser: "Sophia Martinez",
     assignedAvatar: "SM",
     addedDate: "Aug 10, 2026",
-    vendorCharges: 280.00,
-    jobRevenue: 750.00,
+    vendorCharges: 280.0,
+    jobRevenue: 750.0,
     urgency: "Within SLA",
-    status: "New"
+    status: "New",
   },
   {
     id: 104,
@@ -51,10 +51,10 @@ const initialJobsData = [
     assignedUser: "John Doe",
     assignedAvatar: "JD",
     addedDate: "Aug 09, 2026",
-    vendorCharges: 150.00,
-    jobRevenue: 500.00,
+    vendorCharges: 150.0,
+    jobRevenue: 500.0,
     urgency: "Within SLA",
-    status: "New"
+    status: "New",
   },
   {
     id: 105,
@@ -64,10 +64,10 @@ const initialJobsData = [
     assignedUser: "Marcus Vance",
     assignedAvatar: "MV",
     addedDate: "Aug 08, 2026",
-    vendorCharges: 680.00,
-    jobRevenue: 1800.00,
+    vendorCharges: 680.0,
+    jobRevenue: 1800.0,
     urgency: "Urgent",
-    status: "Done"
+    status: "Done",
   },
   {
     id: 106,
@@ -77,10 +77,10 @@ const initialJobsData = [
     assignedUser: "Sarah Jenkins",
     assignedAvatar: "SJ",
     addedDate: "Aug 07, 2026",
-    vendorCharges: 510.00,
-    jobRevenue: 1400.00,
+    vendorCharges: 510.0,
+    jobRevenue: 1400.0,
     urgency: "Urgent",
-    status: "In Progress"
+    status: "In Progress",
   },
   {
     id: 107,
@@ -90,10 +90,10 @@ const initialJobsData = [
     assignedUser: "Alex Morgan",
     assignedAvatar: "AM",
     addedDate: "Aug 06, 2026",
-    vendorCharges: 890.00,
-    jobRevenue: 2500.00,
+    vendorCharges: 890.0,
+    jobRevenue: 2500.0,
     urgency: "Within SLA",
-    status: "Done"
+    status: "Done",
   },
   {
     id: 108,
@@ -103,10 +103,10 @@ const initialJobsData = [
     assignedUser: "Sophia Martinez",
     assignedAvatar: "SM",
     addedDate: "Aug 05, 2026",
-    vendorCharges: 210.00,
-    jobRevenue: 650.00,
+    vendorCharges: 210.0,
+    jobRevenue: 650.0,
     urgency: "Within SLA",
-    status: "In Progress"
+    status: "In Progress",
   },
   {
     id: 109,
@@ -116,10 +116,10 @@ const initialJobsData = [
     assignedUser: "Marcus Vance",
     assignedAvatar: "MV",
     addedDate: "Aug 04, 2026",
-    vendorCharges: 1100.00,
-    jobRevenue: 3200.00,
+    vendorCharges: 1100.0,
+    jobRevenue: 3200.0,
     urgency: "Within SLA",
-    status: "Done"
+    status: "Done",
   },
   {
     id: 110,
@@ -129,10 +129,10 @@ const initialJobsData = [
     assignedUser: "Sarah Jenkins",
     assignedAvatar: "SJ",
     addedDate: "Aug 03, 2026",
-    vendorCharges: 420.00,
-    jobRevenue: 1150.00,
+    vendorCharges: 420.0,
+    jobRevenue: 1150.0,
     urgency: "Within SLA",
-    status: "Pending"
+    status: "Pending",
   },
   {
     id: 111,
@@ -142,10 +142,10 @@ const initialJobsData = [
     assignedUser: "Alex Morgan",
     assignedAvatar: "AM",
     addedDate: "Aug 02, 2026",
-    vendorCharges: 340.00,
-    jobRevenue: 920.00,
+    vendorCharges: 340.0,
+    jobRevenue: 920.0,
     urgency: "Within SLA",
-    status: "New"
+    status: "New",
   },
   {
     id: 112,
@@ -155,10 +155,10 @@ const initialJobsData = [
     assignedUser: "Sophia Martinez",
     assignedAvatar: "SM",
     addedDate: "Aug 01, 2026",
-    vendorCharges: 480.00,
-    jobRevenue: 1300.00,
+    vendorCharges: 480.0,
+    jobRevenue: 1300.0,
     urgency: "Within SLA",
-    status: "In Progress"
+    status: "In Progress",
   },
   {
     id: 113,
@@ -168,10 +168,10 @@ const initialJobsData = [
     assignedUser: "Marcus Vance",
     assignedAvatar: "MV",
     addedDate: "Jul 30, 2026",
-    vendorCharges: 620.00,
-    jobRevenue: 1750.00,
+    vendorCharges: 620.0,
+    jobRevenue: 1750.0,
     urgency: "Within SLA",
-    status: "Done"
+    status: "Done",
   },
   {
     id: 114,
@@ -181,10 +181,10 @@ const initialJobsData = [
     assignedUser: "Sarah Jenkins",
     assignedAvatar: "SJ",
     addedDate: "Jul 28, 2026",
-    vendorCharges: 250.00,
-    jobRevenue: 700.00,
+    vendorCharges: 250.0,
+    jobRevenue: 700.0,
     urgency: "Urgent",
-    status: "Pending"
+    status: "Pending",
   },
   {
     id: 115,
@@ -194,10 +194,10 @@ const initialJobsData = [
     assignedUser: "Alex Morgan",
     assignedAvatar: "AM",
     addedDate: "Jul 26, 2026",
-    vendorCharges: 290.00,
-    jobRevenue: 820.00,
+    vendorCharges: 290.0,
+    jobRevenue: 820.0,
     urgency: "Within SLA",
-    status: "Done"
+    status: "Done",
   },
   {
     id: 116,
@@ -207,11 +207,11 @@ const initialJobsData = [
     assignedUser: "Sophia Martinez",
     assignedAvatar: "SM",
     addedDate: "Jul 24, 2026",
-    vendorCharges: 390.00,
-    jobRevenue: 1100.00,
+    vendorCharges: 390.0,
+    jobRevenue: 1100.0,
     urgency: "Within SLA",
-    status: "New"
-  }
+    status: "New",
+  },
 ];
 
 let masterJobsDataset = [...initialJobsData];
@@ -227,7 +227,7 @@ const initialUsersData = [
     password: "••••••••",
     systemRole: "Administrator",
     accountStatus: "Active / Operational",
-    avatar: "MB"
+    avatar: "MB",
   },
   {
     id: 2,
@@ -236,7 +236,7 @@ const initialUsersData = [
     password: "••••••••",
     systemRole: "Team Lead",
     accountStatus: "Active / Operational",
-    avatar: "AM"
+    avatar: "AM",
   },
   {
     id: 3,
@@ -245,7 +245,7 @@ const initialUsersData = [
     password: "••••••••",
     systemRole: "User",
     accountStatus: "Active / Operational",
-    avatar: "SM"
+    avatar: "SM",
   },
   {
     id: 4,
@@ -254,7 +254,7 @@ const initialUsersData = [
     password: "••••••••",
     systemRole: "Team Lead",
     accountStatus: "Active / Operational",
-    avatar: "MV"
+    avatar: "MV",
   },
   {
     id: 5,
@@ -263,7 +263,7 @@ const initialUsersData = [
     password: "••••••••",
     systemRole: "User",
     accountStatus: "Active / Operational",
-    avatar: "SJ"
+    avatar: "SJ",
   },
   {
     id: 6,
@@ -272,7 +272,7 @@ const initialUsersData = [
     password: "••••••••",
     systemRole: "User",
     accountStatus: "Suspended / Blocked",
-    avatar: "JD"
+    avatar: "JD",
   },
   {
     id: 7,
@@ -281,7 +281,7 @@ const initialUsersData = [
     password: "••••••••",
     systemRole: "User",
     accountStatus: "Active / Operational",
-    avatar: "RS"
+    avatar: "RS",
   },
   {
     id: 8,
@@ -290,13 +290,13 @@ const initialUsersData = [
     password: "••••••••",
     systemRole: "Administrator",
     accountStatus: "Active / Operational",
-    avatar: "ER"
-  }
+    avatar: "ER",
+  },
 ];
 
 let masterUsersDataset = [...initialUsersData];
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   initLiveClocks();
   initAccordions();
   initTaskList();
@@ -306,32 +306,32 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileSidebar();
   initWorkOrderConfigControls();
   initLoginPage();
-  
+
   // Page Route Handling
-  if (document.getElementById('masterJobsTableBody')) {
+  if (document.getElementById("masterJobsTableBody")) {
     renderAllJobsMasterTable();
   }
-  if (document.getElementById('activeJobsTableBody')) {
+  if (document.getElementById("activeJobsTableBody")) {
     renderDashboardActiveJobs();
   }
-  if (document.getElementById('masterVendorsTableBody')) {
+  if (document.getElementById("masterVendorsTableBody")) {
     renderMasterVendorsTable();
     initVendorFilters();
     initRemarkModal();
   }
-  if (document.getElementById('masterUsersGrid')) {
+  if (document.getElementById("masterUsersGrid")) {
     renderMasterUsersCards();
     initUserFilters();
   }
-  if (document.getElementById('masterAuditTableBody')) {
+  if (document.getElementById("masterAuditTableBody")) {
     renderMasterAuditLogsTable();
     initAuditFilters();
   }
-  if (document.getElementById('notifFeedContainer')) {
+  if (document.getElementById("notifFeedContainer")) {
     renderNotificationsFeed();
     initNotifEvents();
   }
-  if (document.getElementById('analyticsView')) {
+  if (document.getElementById("analyticsView")) {
     renderAnalyticsPage();
   }
   updateFinancialSummaryKPIs();
@@ -341,26 +341,30 @@ document.addEventListener('DOMContentLoaded', () => {
    1. Live Dual Clocks (US Eastern & PK Pakistan Time)
    ========================================================================== */
 function initLiveClocks() {
-  const usClockEl = document.getElementById('usTimeDigits') || document.getElementById('usTime');
-  const pkClockEl = document.getElementById('pkTimeDigits') || document.getElementById('pkTime');
+  const usClockEl =
+    document.getElementById("usTimeDigits") ||
+    document.getElementById("usTime");
+  const pkClockEl =
+    document.getElementById("pkTimeDigits") ||
+    document.getElementById("pkTime");
 
   function updateClocks() {
     const now = new Date();
 
-    const usTimeString = now.toLocaleTimeString('en-US', {
-      timeZone: 'America/New_York',
-      hour: 'numeric',
-      minute: '2-digit',
-      second: '2-digit',
-      hour12: true
+    const usTimeString = now.toLocaleTimeString("en-US", {
+      timeZone: "America/New_York",
+      hour: "numeric",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
     });
 
-    const pkTimeString = now.toLocaleTimeString('en-US', {
-      timeZone: 'Asia/Karachi',
-      hour: 'numeric',
-      minute: '2-digit',
-      second: '2-digit',
-      hour12: true
+    const pkTimeString = now.toLocaleTimeString("en-US", {
+      timeZone: "Asia/Karachi",
+      hour: "numeric",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
     });
 
     if (usClockEl) usClockEl.textContent = usTimeString;
@@ -372,30 +376,30 @@ function initLiveClocks() {
 }
 
 function initLogout() {
-  const logoutBtn = document.getElementById('sidebarLogoutBtn');
+  const logoutBtn = document.getElementById("sidebarLogoutBtn");
   if (logoutBtn) {
-    logoutBtn.addEventListener('click', () => {
-      showToast('Logged out of Administrator account');
+    logoutBtn.addEventListener("click", () => {
+      showToast("Logged out of Administrator account");
     });
   }
 }
 
 function initMobileSidebar() {
-  const toggleBtn = document.getElementById('mobileSidebarToggle');
-  const sidebar = document.querySelector('.crm-sidebar');
-  const backdrop = document.getElementById('sidebarBackdrop');
+  const toggleBtn = document.getElementById("mobileSidebarToggle");
+  const sidebar = document.querySelector(".crm-sidebar");
+  const backdrop = document.getElementById("sidebarBackdrop");
 
   if (toggleBtn && sidebar) {
-    toggleBtn.addEventListener('click', () => {
-      sidebar.classList.toggle('sidebar-active');
-      if (backdrop) backdrop.classList.toggle('active');
+    toggleBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("sidebar-active");
+      if (backdrop) backdrop.classList.toggle("active");
     });
   }
 
   if (backdrop) {
-    backdrop.addEventListener('click', () => {
-      if (sidebar) sidebar.classList.remove('sidebar-active');
-      backdrop.classList.remove('active');
+    backdrop.addEventListener("click", () => {
+      if (sidebar) sidebar.classList.remove("sidebar-active");
+      backdrop.classList.remove("active");
     });
   }
 }
@@ -404,11 +408,13 @@ function initMobileSidebar() {
    2. Render Dashboard Active Jobs Table
    ========================================================================== */
 function renderDashboardActiveJobs() {
-  const tbody = document.getElementById('activeJobsTableBody');
+  const tbody = document.getElementById("activeJobsTableBody");
   if (!tbody) return;
 
   const topJobs = masterJobsDataset.slice(0, 5);
-  tbody.innerHTML = topJobs.map(job => `
+  tbody.innerHTML = topJobs
+    .map(
+      (job) => `
     <tr>
       <td>
         <div class="location-name">${escapeHTML(job.storeName)}</div>
@@ -416,9 +422,11 @@ function renderDashboardActiveJobs() {
       </td>
       <td><span class="designation-text">${escapeHTML(job.designation)}</span></td>
       <td><span class="badge-status ${getStatusClass(job.status)}">${escapeHTML(job.status)}</span></td>
-      <td><span class="badge-urgency ${job.urgency === 'Urgent' ? 'urgent' : 'sla'}">${escapeHTML(job.urgency)}</span></td>
+      <td><span class="badge-urgency ${job.urgency === "Urgent" ? "urgent" : "sla"}">${escapeHTML(job.urgency)}</span></td>
     </tr>
-  `).join('');
+  `,
+    )
+    .join("");
 }
 
 /* ==========================================================================
@@ -426,81 +434,123 @@ function renderDashboardActiveJobs() {
    ========================================================================== */
 // Date Filter Global State
 let currentDateFilterState = {
-  type: 'ALL', // 'ALL', 'PRESET', 'MONTH', 'EXACT'
-  preset: 'all',
+  type: "ALL", // 'ALL', 'PRESET', 'MONTH', 'EXACT'
+  preset: "all",
   monthIndex: 7, // August (0-indexed: 7 = Aug)
   year: 2026,
-  exactDay: null
+  exactDay: null,
 };
 
-const monthNamesArr = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const monthAbbrArr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const monthNamesArr = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+const monthAbbrArr = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
 
 function renderAllJobsMasterTable() {
-  const tbody = document.getElementById('masterJobsTableBody');
+  const tbody = document.getElementById("masterJobsTableBody");
   if (!tbody) return;
 
-  const searchInput = document.getElementById('jobsTableFilterSearch');
-  const urgencySelect = document.getElementById('filterUrgencySelect');
-  const userSelect = document.getElementById('filterUserSelect');
-  const paymentSelect = document.getElementById('filterPaymentSelect');
+  const searchInput = document.getElementById("jobsTableFilterSearch");
+  const urgencySelect = document.getElementById("filterUrgencySelect");
+  const userSelect = document.getElementById("filterUserSelect");
+  const paymentSelect = document.getElementById("filterPaymentSelect");
 
-  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';
-  const urgencyFilter = urgencySelect ? urgencySelect.value : 'ALL';
-  const userFilter = userSelect ? userSelect.value : 'ALL';
-  const paymentFilter = paymentSelect ? paymentSelect.value : 'ALL';
+  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : "";
+  const urgencyFilter = urgencySelect ? urgencySelect.value : "ALL";
+  const userFilter = userSelect ? userSelect.value : "ALL";
+  const paymentFilter = paymentSelect ? paymentSelect.value : "ALL";
 
-  const selectedStatusCBs = Array.from(document.querySelectorAll('.filter-status-cb:checked')).map(cb => cb.value);
+  const selectedStatusCBs = Array.from(
+    document.querySelectorAll(".filter-status-cb:checked"),
+  ).map((cb) => cb.value);
 
-  const filteredJobs = masterJobsDataset.filter(job => {
-    const matchesSearch = !searchTerm ||
+  const filteredJobs = masterJobsDataset.filter((job) => {
+    const matchesSearch =
+      !searchTerm ||
       job.storeName.toLowerCase().includes(searchTerm) ||
       job.storeAddress.toLowerCase().includes(searchTerm) ||
       job.designation.toLowerCase().includes(searchTerm) ||
       job.assignedUser.toLowerCase().includes(searchTerm);
 
-    const matchesStatus = (selectedStatusCBs.length === 0) || selectedStatusCBs.includes(job.status);
-    const matchesUrgency = (urgencyFilter === 'ALL') || (job.urgency === urgencyFilter);
-    const matchesUser = (userFilter === 'ALL') || (job.assignedUser === userFilter);
+    const matchesStatus =
+      selectedStatusCBs.length === 0 || selectedStatusCBs.includes(job.status);
+    const matchesUrgency =
+      urgencyFilter === "ALL" || job.urgency === urgencyFilter;
+    const matchesUser = userFilter === "ALL" || job.assignedUser === userFilter;
 
     let matchesPayment = true;
-    if (paymentFilter === 'Unpaid') {
+    if (paymentFilter === "Unpaid") {
       matchesPayment = job.vendorCharges > 0;
-    } else if (paymentFilter === 'Fully Paid') {
+    } else if (paymentFilter === "Fully Paid") {
       matchesPayment = job.jobRevenue > 0;
     }
 
     // Date Filter Logic
     let matchesDate = true;
-    if (currentDateFilterState.type === 'PRESET') {
+    if (currentDateFilterState.type === "PRESET") {
       const preset = currentDateFilterState.preset;
-      if (preset === 'today') {
-        matchesDate = job.addedDate === 'Aug 14, 2026';
-      } else if (preset === 'yesterday') {
-        matchesDate = job.addedDate === 'Aug 13, 2026';
-      } else if (preset === 'current-month') {
-        matchesDate = job.addedDate.includes('Aug') && job.addedDate.includes('2026');
-      } else if (preset === 'month') {
-        matchesDate = job.addedDate.includes('Jul') && job.addedDate.includes('2026');
-      } else if (preset === 'week') {
+      if (preset === "today") {
+        matchesDate = job.addedDate === "Aug 14, 2026";
+      } else if (preset === "yesterday") {
+        matchesDate = job.addedDate === "Aug 13, 2026";
+      } else if (preset === "current-month") {
+        matchesDate =
+          job.addedDate.includes("Aug") && job.addedDate.includes("2026");
+      } else if (preset === "month") {
+        matchesDate =
+          job.addedDate.includes("Jul") && job.addedDate.includes("2026");
+      } else if (preset === "week") {
         const d = new Date(job.addedDate);
-        const ref = new Date('2026-08-14');
+        const ref = new Date("2026-08-14");
         const diff = Math.abs(ref - d) / (1000 * 60 * 60 * 24);
         matchesDate = diff <= 7;
-      } else if (preset === 'quarter') {
+      } else if (preset === "quarter") {
         const d = new Date(job.addedDate);
-        const ref = new Date('2026-08-14');
+        const ref = new Date("2026-08-14");
         const diff = Math.abs(ref - d) / (1000 * 60 * 60 * 24);
         matchesDate = diff <= 90;
       }
-    } else if (currentDateFilterState.type === 'MONTH') {
+    } else if (currentDateFilterState.type === "MONTH") {
       const targetMonthAbbr = monthAbbrArr[currentDateFilterState.monthIndex];
-      matchesDate = job.addedDate.includes(targetMonthAbbr) && job.addedDate.includes(String(currentDateFilterState.year));
-    } else if (currentDateFilterState.type === 'EXACT') {
+      matchesDate =
+        job.addedDate.includes(targetMonthAbbr) &&
+        job.addedDate.includes(String(currentDateFilterState.year));
+    } else if (currentDateFilterState.type === "EXACT") {
       matchesDate = job.addedDate === currentDateFilterState.exactDay;
     }
 
-    return matchesSearch && matchesStatus && matchesUrgency && matchesUser && matchesPayment && matchesDate;
+    return (
+      matchesSearch &&
+      matchesStatus &&
+      matchesUrgency &&
+      matchesUser &&
+      matchesPayment &&
+      matchesDate
+    );
   });
 
   const totalFiltered = filteredJobs.length;
@@ -515,19 +565,20 @@ function renderAllJobsMasterTable() {
   const pagedJobs = filteredJobs.slice(startIndex, endIndex);
 
   // Update Pagination Controls UI for Jobs
-  const pagInfo = document.getElementById('jobsPaginationInfo');
-  const pagPageNum = document.getElementById('jobsCurrentPageNum');
-  const btnPrev = document.getElementById('btnPrevJobsPage');
-  const btnNext = document.getElementById('btnNextJobsPage');
+  const pagInfo = document.getElementById("jobsPaginationInfo");
+  const pagPageNum = document.getElementById("jobsCurrentPageNum");
+  const btnPrev = document.getElementById("btnPrevJobsPage");
+  const btnNext = document.getElementById("btnNextJobsPage");
 
   if (pagInfo) {
-    pagInfo.textContent = totalFiltered > 0
-      ? `Showing ${startIndex + 1} to ${endIndex} of ${totalFiltered} Work Orders`
-      : `Showing 0 of 0 Work Orders`;
+    pagInfo.textContent =
+      totalFiltered > 0
+        ? `Showing ${startIndex + 1} to ${endIndex} of ${totalFiltered} Work Orders`
+        : `Showing 0 of 0 Work Orders`;
   }
   if (pagPageNum) pagPageNum.textContent = currentJobPage;
-  if (btnPrev) btnPrev.disabled = (currentJobPage <= 1);
-  if (btnNext) btnNext.disabled = (currentJobPage >= totalPages);
+  if (btnPrev) btnPrev.disabled = currentJobPage <= 1;
+  if (btnNext) btnNext.disabled = currentJobPage >= totalPages;
 
   if (pagedJobs.length === 0) {
     tbody.innerHTML = `
@@ -540,9 +591,10 @@ function renderAllJobsMasterTable() {
     return;
   }
 
-  tbody.innerHTML = pagedJobs.map(job => {
-    const netRevenue = job.jobRevenue - job.vendorCharges;
-    return `
+  tbody.innerHTML = pagedJobs
+    .map((job) => {
+      const netRevenue = job.jobRevenue - job.vendorCharges;
+      return `
       <tr>
         <td>
           <div class="location-name">${escapeHTML(job.storeName)}</div>
@@ -559,7 +611,7 @@ function renderAllJobsMasterTable() {
         <td><span class="vendor-charge-text">$${job.vendorCharges.toFixed(2)}</span></td>
         <td><span class="job-revenue-text">$${job.jobRevenue.toFixed(2)}</span></td>
         <td><span class="net-profit-pill">+$${netRevenue.toFixed(2)}</span></td>
-        <td><span class="badge-urgency ${job.urgency === 'Urgent' ? 'urgent' : 'sla'}">${escapeHTML(job.urgency)}</span></td>
+        <td><span class="badge-urgency ${job.urgency === "Urgent" ? "urgent" : "sla"}">${escapeHTML(job.urgency)}</span></td>
         <td><span class="badge-status ${getStatusClass(job.status)}">${escapeHTML(job.status)}</span></td>
         <td style="text-align: right;">
           <div class="table-actions-cell">
@@ -570,49 +622,70 @@ function renderAllJobsMasterTable() {
         </td>
       </tr>
     `;
-  }).join('');
+    })
+    .join("");
 
   updateFinancialSummaryKPIs();
 }
 
 function resetAllJobsFilters() {
   currentJobPage = 1;
-  const searchInput = document.getElementById('jobsTableFilterSearch');
-  const urgencySelect = document.getElementById('filterUrgencySelect');
-  const userSelect = document.getElementById('filterUserSelect');
-  const paymentSelect = document.getElementById('filterPaymentSelect');
-  const statusLabel = document.getElementById('lblStatusFilter');
+  const searchInput = document.getElementById("jobsTableFilterSearch");
+  const urgencySelect = document.getElementById("filterUrgencySelect");
+  const userSelect = document.getElementById("filterUserSelect");
+  const paymentSelect = document.getElementById("filterPaymentSelect");
+  const statusLabel = document.getElementById("lblStatusFilter");
 
-  if (searchInput) searchInput.value = '';
-  if (urgencySelect) urgencySelect.value = 'ALL';
-  if (userSelect) userSelect.value = 'ALL';
-  if (paymentSelect) paymentSelect.value = 'ALL';
+  if (searchInput) searchInput.value = "";
+  if (urgencySelect) urgencySelect.value = "ALL";
+  if (userSelect) userSelect.value = "ALL";
+  if (paymentSelect) paymentSelect.value = "ALL";
 
-  document.querySelectorAll('.filter-status-cb').forEach(cb => cb.checked = false);
-  if (statusLabel) statusLabel.textContent = 'All Statuses';
+  document
+    .querySelectorAll(".filter-status-cb")
+    .forEach((cb) => (cb.checked = false));
+  if (statusLabel) statusLabel.textContent = "All Statuses";
 
-  currentDateFilterState = { type: 'ALL', preset: 'all', monthIndex: 7, year: 2026, exactDay: null };
-  document.querySelectorAll('.calendar-preset-btn').forEach(b => b.classList.remove('active'));
-  const allBtn = document.querySelector('.calendar-preset-btn[data-preset="all"]');
-  if (allBtn) allBtn.classList.add('active');
+  currentDateFilterState = {
+    type: "ALL",
+    preset: "all",
+    monthIndex: 7,
+    year: 2026,
+    exactDay: null,
+  };
+  document
+    .querySelectorAll(".calendar-preset-btn")
+    .forEach((b) => b.classList.remove("active"));
+  const allBtn = document.querySelector(
+    '.calendar-preset-btn[data-preset="all"]',
+  );
+  if (allBtn) allBtn.classList.add("active");
 
   renderCalendarGrid();
   renderAllJobsMasterTable();
-  showToast('Filters reset successfully');
+  showToast("Filters reset successfully");
 }
 
 function renderCalendarGrid() {
-  const monthTitle = document.querySelector('.cal-month-title');
-  const gridContainer = document.querySelector('.calendar-days-grid');
+  const monthTitle = document.querySelector(".cal-month-title");
+  const gridContainer = document.querySelector(".calendar-days-grid");
   if (!monthTitle || !gridContainer) return;
 
   const monthName = monthNamesArr[currentDateFilterState.monthIndex];
   monthTitle.textContent = `${monthName} ${currentDateFilterState.year}`;
 
-  const daysInMonth = new Date(currentDateFilterState.year, currentDateFilterState.monthIndex + 1, 0).getDate();
-  const firstDayIndex = new Date(currentDateFilterState.year, currentDateFilterState.monthIndex, 1).getDay();
+  const daysInMonth = new Date(
+    currentDateFilterState.year,
+    currentDateFilterState.monthIndex + 1,
+    0,
+  ).getDate();
+  const firstDayIndex = new Date(
+    currentDateFilterState.year,
+    currentDateFilterState.monthIndex,
+    1,
+  ).getDay();
 
-  let gridHtml = '';
+  let gridHtml = "";
   for (let i = firstDayIndex - 1; i >= 0; i--) {
     gridHtml += `<span class="muted">${31 - i}</span>`;
   }
@@ -621,12 +694,17 @@ function renderCalendarGrid() {
   for (let day = 1; day <= daysInMonth; day++) {
     const formattedDay = day < 10 ? `0${day}` : `${day}`;
     const dateStr = `${targetMonthAbbr} ${formattedDay}, ${currentDateFilterState.year}`;
-    const isSelected = currentDateFilterState.type === 'EXACT' && currentDateFilterState.exactDay === dateStr;
-    const isToday = day === 14 && currentDateFilterState.monthIndex === 7 && currentDateFilterState.year === 2026;
+    const isSelected =
+      currentDateFilterState.type === "EXACT" &&
+      currentDateFilterState.exactDay === dateStr;
+    const isToday =
+      day === 14 &&
+      currentDateFilterState.monthIndex === 7 &&
+      currentDateFilterState.year === 2026;
 
-    const classNames = [
-      isSelected || isToday ? 'active-day' : ''
-    ].filter(Boolean).join(' ');
+    const classNames = [isSelected || isToday ? "active-day" : ""]
+      .filter(Boolean)
+      .join(" ");
 
     gridHtml += `<span class="${classNames}" data-day="${formattedDay}">${day}</span>`;
   }
@@ -639,19 +717,21 @@ function renderCalendarGrid() {
 
   gridContainer.innerHTML = gridHtml;
 
-  gridContainer.querySelectorAll('span:not(.muted)').forEach(cell => {
-    cell.addEventListener('click', () => {
-      const dayNum = cell.getAttribute('data-day');
+  gridContainer.querySelectorAll("span:not(.muted)").forEach((cell) => {
+    cell.addEventListener("click", () => {
+      const dayNum = cell.getAttribute("data-day");
       const dateStr = `${targetMonthAbbr} ${dayNum}, ${currentDateFilterState.year}`;
       currentDateFilterState = {
-        type: 'EXACT',
+        type: "EXACT",
         preset: null,
         monthIndex: currentDateFilterState.monthIndex,
         year: currentDateFilterState.year,
-        exactDay: dateStr
+        exactDay: dateStr,
       };
 
-      document.querySelectorAll('.calendar-preset-btn').forEach(b => b.classList.remove('active'));
+      document
+        .querySelectorAll(".calendar-preset-btn")
+        .forEach((b) => b.classList.remove("active"));
       renderCalendarGrid();
       currentJobPage = 1;
       renderAllJobsMasterTable();
@@ -660,44 +740,73 @@ function renderCalendarGrid() {
 }
 
 function initJobsTableFilters() {
-  const searchInput = document.getElementById('jobsTableFilterSearch');
-  const urgencySelect = document.getElementById('filterUrgencySelect');
-  const userSelect = document.getElementById('filterUserSelect');
-  const paymentSelect = document.getElementById('filterPaymentSelect');
+  const searchInput = document.getElementById("jobsTableFilterSearch");
+  const urgencySelect = document.getElementById("filterUrgencySelect");
+  const userSelect = document.getElementById("filterUserSelect");
+  const paymentSelect = document.getElementById("filterPaymentSelect");
 
-  const btnStatus = document.getElementById('btnStatusDropdown');
-  const statusMenu = document.getElementById('statusDropdownMenu');
-  const statusLabel = document.getElementById('lblStatusFilter');
+  const btnStatus = document.getElementById("btnStatusDropdown");
+  const statusMenu = document.getElementById("statusDropdownMenu");
+  const statusLabel = document.getElementById("lblStatusFilter");
 
-  const btnCalendar = document.getElementById('btnDatePickerToggle');
-  const calendarMenu = document.getElementById('datePickerPopoverMenu');
-  const btnReset = document.getElementById('btnResetAllFilters');
+  const btnCalendar = document.getElementById("btnDatePickerToggle");
+  const calendarMenu = document.getElementById("datePickerPopoverMenu");
+  const btnReset = document.getElementById("btnResetAllFilters");
 
-  const btnPrevJobs = document.getElementById('btnPrevJobsPage');
-  const btnNextJobs = document.getElementById('btnNextJobsPage');
+  const btnPrevJobs = document.getElementById("btnPrevJobsPage");
+  const btnNextJobs = document.getElementById("btnNextJobsPage");
 
-  if (btnPrevJobs) btnPrevJobs.addEventListener('click', () => { if (currentJobPage > 1) { currentJobPage--; renderAllJobsMasterTable(); } });
-  if (btnNextJobs) btnNextJobs.addEventListener('click', () => { currentJobPage++; renderAllJobsMasterTable(); });
+  if (btnPrevJobs)
+    btnPrevJobs.addEventListener("click", () => {
+      if (currentJobPage > 1) {
+        currentJobPage--;
+        renderAllJobsMasterTable();
+      }
+    });
+  if (btnNextJobs)
+    btnNextJobs.addEventListener("click", () => {
+      currentJobPage++;
+      renderAllJobsMasterTable();
+    });
 
-  if (searchInput) searchInput.addEventListener('input', () => { currentJobPage = 1; renderAllJobsMasterTable(); });
-  if (urgencySelect) urgencySelect.addEventListener('change', () => { currentJobPage = 1; renderAllJobsMasterTable(); });
-  if (userSelect) userSelect.addEventListener('change', () => { currentJobPage = 1; renderAllJobsMasterTable(); });
-  if (paymentSelect) paymentSelect.addEventListener('change', () => { currentJobPage = 1; renderAllJobsMasterTable(); });
-  if (btnReset) btnReset.addEventListener('click', resetAllJobsFilters);
+  if (searchInput)
+    searchInput.addEventListener("input", () => {
+      currentJobPage = 1;
+      renderAllJobsMasterTable();
+    });
+  if (urgencySelect)
+    urgencySelect.addEventListener("change", () => {
+      currentJobPage = 1;
+      renderAllJobsMasterTable();
+    });
+  if (userSelect)
+    userSelect.addEventListener("change", () => {
+      currentJobPage = 1;
+      renderAllJobsMasterTable();
+    });
+  if (paymentSelect)
+    paymentSelect.addEventListener("change", () => {
+      currentJobPage = 1;
+      renderAllJobsMasterTable();
+    });
+  if (btnReset) btnReset.addEventListener("click", resetAllJobsFilters);
 
   // Status Dropdown Toggle & Checkbox handling
   if (btnStatus && statusMenu) {
-    btnStatus.addEventListener('click', (e) => {
+    btnStatus.addEventListener("click", (e) => {
       e.stopPropagation();
-      if (calendarMenu) calendarMenu.classList.remove('open');
-      statusMenu.classList.toggle('open');
+      if (calendarMenu) calendarMenu.classList.remove("open");
+      statusMenu.classList.toggle("open");
     });
 
-    document.querySelectorAll('.filter-status-cb').forEach(cb => {
-      cb.addEventListener('change', () => {
-        const checked = Array.from(document.querySelectorAll('.filter-status-cb:checked')).map(c => c.value);
+    document.querySelectorAll(".filter-status-cb").forEach((cb) => {
+      cb.addEventListener("change", () => {
+        const checked = Array.from(
+          document.querySelectorAll(".filter-status-cb:checked"),
+        ).map((c) => c.value);
         if (statusLabel) {
-          statusLabel.textContent = checked.length > 0 ? `${checked.length} Selected` : 'All Statuses';
+          statusLabel.textContent =
+            checked.length > 0 ? `${checked.length} Selected` : "All Statuses";
         }
         renderAllJobsMasterTable();
       });
@@ -706,42 +815,46 @@ function initJobsTableFilters() {
 
   // Calendar Popover Toggle & Navigation
   if (btnCalendar && calendarMenu) {
-    btnCalendar.addEventListener('click', (e) => {
+    btnCalendar.addEventListener("click", (e) => {
       e.stopPropagation();
-      if (statusMenu) statusMenu.classList.remove('open');
-      calendarMenu.classList.toggle('open');
+      if (statusMenu) statusMenu.classList.remove("open");
+      calendarMenu.classList.toggle("open");
     });
 
-    const prevMonthBtn = calendarMenu.querySelector('.cal-nav-prev');
-    const nextMonthBtn = calendarMenu.querySelector('.cal-nav-next');
+    const prevMonthBtn = calendarMenu.querySelector(".cal-nav-prev");
+    const nextMonthBtn = calendarMenu.querySelector(".cal-nav-next");
 
     if (prevMonthBtn) {
-      prevMonthBtn.addEventListener('click', () => {
+      prevMonthBtn.addEventListener("click", () => {
         if (currentDateFilterState.monthIndex === 0) {
           currentDateFilterState.monthIndex = 11;
           currentDateFilterState.year -= 1;
         } else {
           currentDateFilterState.monthIndex -= 1;
         }
-        currentDateFilterState.type = 'MONTH';
+        currentDateFilterState.type = "MONTH";
         currentDateFilterState.preset = null;
-        document.querySelectorAll('.calendar-preset-btn').forEach(b => b.classList.remove('active'));
+        document
+          .querySelectorAll(".calendar-preset-btn")
+          .forEach((b) => b.classList.remove("active"));
         renderCalendarGrid();
         renderAllJobsMasterTable();
       });
     }
 
     if (nextMonthBtn) {
-      nextMonthBtn.addEventListener('click', () => {
+      nextMonthBtn.addEventListener("click", () => {
         if (currentDateFilterState.monthIndex === 11) {
           currentDateFilterState.monthIndex = 0;
           currentDateFilterState.year += 1;
         } else {
           currentDateFilterState.monthIndex += 1;
         }
-        currentDateFilterState.type = 'MONTH';
+        currentDateFilterState.type = "MONTH";
         currentDateFilterState.preset = null;
-        document.querySelectorAll('.calendar-preset-btn').forEach(b => b.classList.remove('active'));
+        document
+          .querySelectorAll(".calendar-preset-btn")
+          .forEach((b) => b.classList.remove("active"));
         renderCalendarGrid();
         renderAllJobsMasterTable();
       });
@@ -749,26 +862,50 @@ function initJobsTableFilters() {
   }
 
   // Close Popovers on Click Outside
-  document.addEventListener('click', (e) => {
-    if (statusMenu && !statusMenu.contains(e.target) && btnStatus && !btnStatus.contains(e.target)) {
-      statusMenu.classList.remove('open');
+  document.addEventListener("click", (e) => {
+    if (
+      statusMenu &&
+      !statusMenu.contains(e.target) &&
+      btnStatus &&
+      !btnStatus.contains(e.target)
+    ) {
+      statusMenu.classList.remove("open");
     }
-    if (calendarMenu && !calendarMenu.contains(e.target) && btnCalendar && !btnCalendar.contains(e.target)) {
-      calendarMenu.classList.remove('open');
+    if (
+      calendarMenu &&
+      !calendarMenu.contains(e.target) &&
+      btnCalendar &&
+      !btnCalendar.contains(e.target)
+    ) {
+      calendarMenu.classList.remove("open");
     }
   });
 
   // Calendar Preset Buttons
-  document.querySelectorAll('.calendar-preset-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.calendar-preset-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+  document.querySelectorAll(".calendar-preset-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document
+        .querySelectorAll(".calendar-preset-btn")
+        .forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
 
-      const preset = btn.getAttribute('data-preset');
-      if (preset === 'all') {
-        currentDateFilterState = { type: 'ALL', preset: 'all', monthIndex: 7, year: 2026, exactDay: null };
+      const preset = btn.getAttribute("data-preset");
+      if (preset === "all") {
+        currentDateFilterState = {
+          type: "ALL",
+          preset: "all",
+          monthIndex: 7,
+          year: 2026,
+          exactDay: null,
+        };
       } else {
-        currentDateFilterState = { type: 'PRESET', preset: preset, monthIndex: 7, year: 2026, exactDay: null };
+        currentDateFilterState = {
+          type: "PRESET",
+          preset: preset,
+          monthIndex: 7,
+          year: 2026,
+          exactDay: null,
+        };
       }
 
       renderCalendarGrid();
@@ -776,13 +913,23 @@ function initJobsTableFilters() {
     });
   });
 
-  const resetCalBtn = document.getElementById('btnResetCalendar');
+  const resetCalBtn = document.getElementById("btnResetCalendar");
   if (resetCalBtn) {
-    resetCalBtn.addEventListener('click', () => {
-      currentDateFilterState = { type: 'ALL', preset: 'all', monthIndex: 7, year: 2026, exactDay: null };
-      document.querySelectorAll('.calendar-preset-btn').forEach(b => b.classList.remove('active'));
-      const allBtn = document.querySelector('.calendar-preset-btn[data-preset="all"]');
-      if (allBtn) allBtn.classList.add('active');
+    resetCalBtn.addEventListener("click", () => {
+      currentDateFilterState = {
+        type: "ALL",
+        preset: "all",
+        monthIndex: 7,
+        year: 2026,
+        exactDay: null,
+      };
+      document
+        .querySelectorAll(".calendar-preset-btn")
+        .forEach((b) => b.classList.remove("active"));
+      const allBtn = document.querySelector(
+        '.calendar-preset-btn[data-preset="all"]',
+      );
+      if (allBtn) allBtn.classList.add("active");
       renderCalendarGrid();
       renderAllJobsMasterTable();
     });
@@ -790,9 +937,9 @@ function initJobsTableFilters() {
 
   renderCalendarGrid();
 
-  const globalSearch = document.getElementById('globalSearchInput');
+  const globalSearch = document.getElementById("globalSearchInput");
   if (globalSearch) {
-    globalSearch.addEventListener('input', (e) => {
+    globalSearch.addEventListener("input", (e) => {
       if (searchInput) {
         searchInput.value = e.target.value;
         renderAllJobsMasterTable();
@@ -806,45 +953,58 @@ function initJobsTableFilters() {
    ========================================================================== */
 function updateFinancialSummaryKPIs() {
   const totalCount = masterJobsDataset.length;
-  const totalRevenue = masterJobsDataset.reduce((sum, j) => sum + j.jobRevenue, 0);
-  const totalVendorCharges = masterJobsDataset.reduce((sum, j) => sum + j.vendorCharges, 0);
+  const totalRevenue = masterJobsDataset.reduce(
+    (sum, j) => sum + j.jobRevenue,
+    0,
+  );
+  const totalVendorCharges = masterJobsDataset.reduce(
+    (sum, j) => sum + j.vendorCharges,
+    0,
+  );
   const totalNetProfit = totalRevenue - totalVendorCharges;
 
-  const countBadge = document.getElementById('jobsCountBadge');
-  const jobsPageCount = document.getElementById('jobsPageTotalCount');
-  const kpiTotal = document.getElementById('kpiTotalJobs');
-  const kpiNew = document.getElementById('kpiNewJobs');
-  const kpiPending = document.getElementById('kpiPendingJobs');
-  const kpiProgress = document.getElementById('kpiProgressJobs');
-  const kpiDone = document.getElementById('kpiDoneJobs');
+  const countBadge = document.getElementById("jobsCountBadge");
+  const jobsPageCount = document.getElementById("jobsPageTotalCount");
+  const kpiTotal = document.getElementById("kpiTotalJobs");
+  const kpiNew = document.getElementById("kpiNewJobs");
+  const kpiPending = document.getElementById("kpiPendingJobs");
+  const kpiProgress = document.getElementById("kpiProgressJobs");
+  const kpiDone = document.getElementById("kpiDoneJobs");
 
   if (countBadge) countBadge.textContent = totalCount;
   if (jobsPageCount) jobsPageCount.textContent = totalCount;
   if (kpiTotal) kpiTotal.textContent = totalCount;
 
-  const newCount = masterJobsDataset.filter(j => j.status === 'New').length;
-  const pendingCount = masterJobsDataset.filter(j => j.status === 'Pending').length;
-  const progressCount = masterJobsDataset.filter(j => j.status === 'In Progress').length;
-  const doneCount = masterJobsDataset.filter(j => j.status === 'Done').length;
+  const newCount = masterJobsDataset.filter((j) => j.status === "New").length;
+  const pendingCount = masterJobsDataset.filter(
+    (j) => j.status === "Pending",
+  ).length;
+  const progressCount = masterJobsDataset.filter(
+    (j) => j.status === "In Progress",
+  ).length;
+  const doneCount = masterJobsDataset.filter((j) => j.status === "Done").length;
 
   if (kpiNew) kpiNew.textContent = newCount;
   if (kpiPending) kpiPending.textContent = pendingCount;
   if (kpiProgress) kpiProgress.textContent = progressCount;
   if (kpiDone) kpiDone.textContent = doneCount;
 
-  const revEl = document.getElementById('jobsPageTotalRevenue');
-  const vendorEl = document.getElementById('jobsPageTotalVendorCharges');
-  const profitEl = document.getElementById('jobsPageTotalNetProfit');
+  const revEl = document.getElementById("jobsPageTotalRevenue");
+  const vendorEl = document.getElementById("jobsPageTotalVendorCharges");
+  const profitEl = document.getElementById("jobsPageTotalNetProfit");
 
-  if (revEl) revEl.textContent = `$${totalRevenue.toLocaleString('en-US', { minimumFractionDigits: 0 })}`;
-  if (vendorEl) vendorEl.textContent = `$${totalVendorCharges.toLocaleString('en-US', { minimumFractionDigits: 0 })}`;
-  if (profitEl) profitEl.textContent = `$${totalNetProfit.toLocaleString('en-US', { minimumFractionDigits: 0 })}`;
+  if (revEl)
+    revEl.textContent = `$${totalRevenue.toLocaleString("en-US", { minimumFractionDigits: 0 })}`;
+  if (vendorEl)
+    vendorEl.textContent = `$${totalVendorCharges.toLocaleString("en-US", { minimumFractionDigits: 0 })}`;
+  if (profitEl)
+    profitEl.textContent = `$${totalNetProfit.toLocaleString("en-US", { minimumFractionDigits: 0 })}`;
 }
 
 /* Helper Actions */
 function deleteJobOrder(id) {
   if (confirm(`Are you sure you want to remove Work Order #${id}?`)) {
-    masterJobsDataset = masterJobsDataset.filter(j => j.id !== id);
+    masterJobsDataset = masterJobsDataset.filter((j) => j.id !== id);
     renderAllJobsMasterTable();
     renderDashboardActiveJobs();
     showToast(`Work Order #${id} removed`);
@@ -852,32 +1012,39 @@ function deleteJobOrder(id) {
 }
 
 function viewJobDetails(id) {
-  window.location.href = 'job-detail.html';
+  window.location.href = "job-detail.html";
 }
 
 function getStatusClass(status) {
   switch (status) {
-    case 'Pending': return 'pending';
-    case 'New': return 'new';
-    case 'Scheduled': return 'scheduled';
-    case 'In Progress': return 'in-progress';
-    case 'Done': return 'done';
-    case 'Cancelled': return 'cancelled';
-    default: return 'new';
+    case "Pending":
+      return "pending";
+    case "New":
+      return "new";
+    case "Scheduled":
+      return "scheduled";
+    case "In Progress":
+      return "in-progress";
+    case "Done":
+      return "done";
+    case "Cancelled":
+      return "cancelled";
+    default:
+      return "new";
   }
 }
 
 /* Accordions Component */
 function initAccordions() {
-  const accordionHeaders = document.querySelectorAll('.accordion-header');
-  accordionHeaders.forEach(header => {
-    header.addEventListener('click', () => {
+  const accordionHeaders = document.querySelectorAll(".accordion-header");
+  accordionHeaders.forEach((header) => {
+    header.addEventListener("click", () => {
       const parentItem = header.parentElement;
-      const isOpen = parentItem.classList.contains('expanded');
+      const isOpen = parentItem.classList.contains("expanded");
       if (isOpen) {
-        parentItem.classList.remove('expanded');
+        parentItem.classList.remove("expanded");
       } else {
-        parentItem.classList.add('expanded');
+        parentItem.classList.add("expanded");
       }
     });
   });
@@ -885,22 +1052,24 @@ function initAccordions() {
 
 /* Onboarding Task List Toggle */
 function initTaskList() {
-  const checkBtns = document.querySelectorAll('.task-check-btn');
-  const badgeEl = document.getElementById('taskCounterBadge');
+  const checkBtns = document.querySelectorAll(".task-check-btn");
+  const badgeEl = document.getElementById("taskCounterBadge");
 
-  checkBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      btn.classList.toggle('checked');
-      btn.classList.toggle('unchecked');
+  checkBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      btn.classList.toggle("checked");
+      btn.classList.toggle("unchecked");
 
-      if (btn.classList.contains('checked')) {
+      if (btn.classList.contains("checked")) {
         btn.innerHTML = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
       } else {
-        btn.innerHTML = '';
+        btn.innerHTML = "";
       }
 
       const totalTasks = checkBtns.length;
-      const checkedTasks = document.querySelectorAll('.task-check-btn.checked').length;
+      const checkedTasks = document.querySelectorAll(
+        ".task-check-btn.checked",
+      ).length;
       if (badgeEl) badgeEl.textContent = `${checkedTasks}/${totalTasks}`;
     });
   });
@@ -908,23 +1077,23 @@ function initTaskList() {
 
 /* Dynamic CRM Modal System */
 function initModals() {
-  const backdrop = document.getElementById('crmModalBackdrop');
-  const closeBtn = document.getElementById('closeModalBtn');
-  const cancelBtn = document.getElementById('cancelModalBtn');
-  const form = document.getElementById('crmModalForm');
+  const backdrop = document.getElementById("crmModalBackdrop");
+  const closeBtn = document.getElementById("closeModalBtn");
+  const cancelBtn = document.getElementById("cancelModalBtn");
+  const form = document.getElementById("crmModalForm");
 
-  if (closeBtn) closeBtn.addEventListener('click', closeModal);
-  if (cancelBtn) cancelBtn.addEventListener('click', closeModal);
+  if (closeBtn) closeBtn.addEventListener("click", closeModal);
+  if (cancelBtn) cancelBtn.addEventListener("click", closeModal);
   if (backdrop) {
-    backdrop.addEventListener('click', (e) => {
+    backdrop.addEventListener("click", (e) => {
       if (e.target === backdrop) closeModal();
     });
   }
 
   if (form) {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener("submit", (e) => {
       e.preventDefault();
-      const modalType = form.getAttribute('data-modal-type') || 'job';
+      const modalType = form.getAttribute("data-modal-type") || "job";
       handleModalSubmit(modalType);
       closeModal();
     });
@@ -932,42 +1101,48 @@ function initModals() {
 }
 
 function editJobOrder(id) {
-  const job = masterJobsDataset.find(j => j.id === id);
+  const job = masterJobsDataset.find((j) => j.id === id);
   if (!job) return;
-  openCRMModal('edit-job', job);
+  openCRMModal("edit-job", job);
 }
 
 function openCRMModal(type, data = null) {
-  const backdrop = document.getElementById('crmModalBackdrop');
-  const title = document.getElementById('modalTitle');
-  const fieldsContainer = document.getElementById('modalDynamicFields');
-  const form = document.getElementById('crmModalForm');
-  const submitBtn = document.getElementById('modalSubmitBtn');
+  const backdrop = document.getElementById("crmModalBackdrop");
+  const title = document.getElementById("modalTitle");
+  const fieldsContainer = document.getElementById("modalDynamicFields");
+  const form = document.getElementById("crmModalForm");
+  const submitBtn = document.getElementById("modalSubmitBtn");
 
   if (!backdrop || !fieldsContainer) return;
-  form.setAttribute('data-modal-type', type);
+  form.setAttribute("data-modal-type", type);
   if (data && data.id) {
-    form.setAttribute('data-edit-id', data.id);
+    form.setAttribute("data-edit-id", data.id);
   } else {
-    form.removeAttribute('data-edit-id');
+    form.removeAttribute("data-edit-id");
   }
 
-  if (type === 'job' || type === 'edit-job') {
-    const isEdit = type === 'edit-job';
-    title.textContent = isEdit ? 'Edit Work Order' : 'Create New Work Order';
-    if (submitBtn) submitBtn.textContent = isEdit ? 'Update Work Order' : 'Save Entry';
+  if (type === "job" || type === "edit-job") {
+    const isEdit = type === "edit-job";
+    title.textContent = isEdit ? "Edit Work Order" : "Create New Work Order";
+    if (submitBtn)
+      submitBtn.textContent = isEdit ? "Update Work Order" : "Save Entry";
 
-    const storeName = data ? data.storeName : '';
-    const location = data ? (data.location || 'Dallas, TX') : '';
-    const storeAddress = data ? data.storeAddress : '';
-    const issueDesc = data ? (data.issueDescription || 'Describe technical issue in complete paragraphs...') : '';
-    const designation = data ? data.designation : '';
-    const assignedUser = data ? data.assignedUser : '';
-    const jobRevenue = data ? data.jobRevenue : '';
-    const createdAt = data ? (data.createdAt || new Date().toISOString().slice(0, 16)) : new Date().toISOString().slice(0, 16);
-    const slaDate = data ? (data.slaDate || '') : '';
-    const urgency = data ? data.urgency : 'Within SLA';
-    const w9Mandatory = data ? (data.w9Mandatory || 'No') : 'No';
+    const storeName = data ? data.storeName : "";
+    const location = data ? data.location || "Dallas, TX" : "";
+    const storeAddress = data ? data.storeAddress : "";
+    const issueDesc = data
+      ? data.issueDescription ||
+        "Describe technical issue in complete paragraphs..."
+      : "";
+    const designation = data ? data.designation : "";
+    const assignedUser = data ? data.assignedUser : "";
+    const jobRevenue = data ? data.jobRevenue : "";
+    const createdAt = data
+      ? data.createdAt || new Date().toISOString().slice(0, 16)
+      : new Date().toISOString().slice(0, 16);
+    const slaDate = data ? data.slaDate || "" : "";
+    const urgency = data ? data.urgency : "Within SLA";
+    const w9Mandatory = data ? data.w9Mandatory || "No" : "No";
 
     fieldsContainer.innerHTML = `
       <div class="modal-form-grid-2col">
@@ -998,10 +1173,10 @@ function openCRMModal(type, data = null) {
           <div class="form-group">
             <label class="form-label">ASSIGN STAFF TO</label>
             <select id="mAssignedUser" class="form-control">
-              <option value="" ${!assignedUser ? 'selected' : ''}>-- Leave Unassigned --</option>
-              <option value="Sophia Martinez" ${assignedUser === 'Sophia Martinez' ? 'selected' : ''}>Sophia Martinez</option>
-              <option value="Alex Morgan" ${assignedUser === 'Alex Morgan' ? 'selected' : ''}>Alex Morgan</option>
-              <option value="Marcus Vance" ${assignedUser === 'Marcus Vance' ? 'selected' : ''}>Marcus Vance</option>
+              <option value="" ${!assignedUser ? "selected" : ""}>-- Leave Unassigned --</option>
+              <option value="Sophia Martinez" ${assignedUser === "Sophia Martinez" ? "selected" : ""}>Sophia Martinez</option>
+              <option value="Alex Morgan" ${assignedUser === "Alex Morgan" ? "selected" : ""}>Alex Morgan</option>
+              <option value="Marcus Vance" ${assignedUser === "Marcus Vance" ? "selected" : ""}>Marcus Vance</option>
             </select>
           </div>
           <div class="form-group">
@@ -1026,16 +1201,16 @@ function openCRMModal(type, data = null) {
         <div class="form-group">
           <label class="form-label">URGENCY PRIORITY</label>
           <div class="modal-radio-group">
-            <label class="modal-radio-label"><input type="radio" name="mUrgencyRadio" value="Within SLA" ${urgency === 'Within SLA' ? 'checked' : ''}> <span>Within SLA</span></label>
-            <label class="modal-radio-label urgent"><input type="radio" name="mUrgencyRadio" value="Urgent" ${urgency === 'Urgent' ? 'checked' : ''}> <span>Urgent</span></label>
+            <label class="modal-radio-label"><input type="radio" name="mUrgencyRadio" value="Within SLA" ${urgency === "Within SLA" ? "checked" : ""}> <span>Within SLA</span></label>
+            <label class="modal-radio-label urgent"><input type="radio" name="mUrgencyRadio" value="Urgent" ${urgency === "Urgent" ? "checked" : ""}> <span>Urgent</span></label>
           </div>
         </div>
 
         <div class="form-group">
           <label class="form-label">W9 CLEARANCE MANDATORY</label>
           <div class="modal-radio-group">
-            <label class="modal-radio-label"><input type="radio" name="mW9MandatoryRadio" value="No" ${w9Mandatory === 'No' ? 'checked' : ''}> <span>No</span></label>
-            <label class="modal-radio-label"><input type="radio" name="mW9MandatoryRadio" value="Yes" ${w9Mandatory === 'Yes' ? 'checked' : ''}> <span>Yes</span></label>
+            <label class="modal-radio-label"><input type="radio" name="mW9MandatoryRadio" value="No" ${w9Mandatory === "No" ? "checked" : ""}> <span>No</span></label>
+            <label class="modal-radio-label"><input type="radio" name="mW9MandatoryRadio" value="Yes" ${w9Mandatory === "Yes" ? "checked" : ""}> <span>Yes</span></label>
           </div>
         </div>
 
@@ -1054,52 +1229,82 @@ function openCRMModal(type, data = null) {
     `;
 
     setTimeout(() => {
-      const dropzone = document.getElementById('modalDropzoneBtn');
-      const fileInput = document.getElementById('modalFilesInput');
-      const previewGrid = document.getElementById('modalFilesPreview');
+      const dropzone = document.getElementById("modalDropzoneBtn");
+      const fileInput = document.getElementById("modalFilesInput");
+      const previewGrid = document.getElementById("modalFilesPreview");
 
       if (dropzone && fileInput) {
-        dropzone.addEventListener('click', (e) => {
-          if (e.target.tagName !== 'INPUT') fileInput.click();
+        dropzone.addEventListener("click", (e) => {
+          if (e.target.tagName !== "INPUT") fileInput.click();
         });
 
-        fileInput.addEventListener('change', (e) => {
+        fileInput.addEventListener("change", (e) => {
           if (e.target.files && previewGrid) {
-            previewGrid.innerHTML = '';
-            Array.from(e.target.files).slice(0, 10).forEach(file => {
-              const chip = document.createElement('span');
-              chip.className = 'modal-file-chip';
-              chip.innerHTML = `🖼️ ${escapeHTML(file.name)}`;
-              previewGrid.appendChild(chip);
-            });
+            previewGrid.innerHTML = "";
+            Array.from(e.target.files)
+              .slice(0, 10)
+              .forEach((file) => {
+                const chip = document.createElement("span");
+                chip.className = "modal-file-chip";
+                chip.innerHTML = `🖼️ ${escapeHTML(file.name)}`;
+                previewGrid.appendChild(chip);
+              });
           }
         });
       }
     }, 50);
-  } else if (type === 'vendor' || type === 'edit-vendor') {
-    const isEdit = type === 'edit-vendor';
-    title.textContent = isEdit ? 'Edit Vendor Partner' : 'Add Certified Vendor Partner';
-    if (submitBtn) submitBtn.textContent = isEdit ? 'Update Vendor' : 'Save Entry';
+  } else if (type === "vendor" || type === "edit-vendor") {
+    const isEdit = type === "edit-vendor";
+    title.textContent = isEdit
+      ? "Edit Vendor Partner"
+      : "Add Certified Vendor Partner";
+    if (submitBtn)
+      submitBtn.textContent = isEdit ? "Update Vendor" : "Save Entry";
 
-    const vName = data ? data.name : '';
-    const vType = data ? data.type : 'Electrician';
-    const vLocation = data ? data.location : '';
-    const vPhone = data ? data.phone : '';
-    const vSecondaryPhone = data ? data.secondaryPhone : '';
-    const vRemark = data ? (data.remark || '') : '';
+    const vName = data ? data.name : "";
+    const vType = data ? data.type : "Electrician";
+    const vLocation = data ? data.location : "";
+    const vPhone = data ? data.phone : "";
+    const vSecondaryPhone = data ? data.secondaryPhone : "";
+    const vRemark = data ? data.remark || "" : "";
 
     const allTradesList = [
-      "Electrician", "HVAC", "Plumbing", "Fire Protection", "Roofing", "Window Cleaning",
-      "Anything", "Awnings Replacement", "Carpet / Duct / Tiles Cleaning", "Carpet Cleaner",
-      "Carpet Tiles Replacement", "Fences / Roll up Gates / Doors", "Fire Inspection & Extinguisher",
-      "Glass Replacement", "Handyman", "Handyman / Electrician", "Locksmith", "Locksmith & Glass Work",
-      "Locksmith, HVAC, Plumbing, Cleaner", "Painter", "Signage Cleaning", "Signage Company",
-      "Snow Removing", "Tint Removal", "Window Cleaner", "Window Cleaner / Handyman", "Window Replacement", "Windows Cleaning"
+      "Electrician",
+      "HVAC",
+      "Plumbing",
+      "Fire Protection",
+      "Roofing",
+      "Window Cleaning",
+      "Anything",
+      "Awnings Replacement",
+      "Carpet / Duct / Tiles Cleaning",
+      "Carpet Cleaner",
+      "Carpet Tiles Replacement",
+      "Fences / Roll up Gates / Doors",
+      "Fire Inspection & Extinguisher",
+      "Glass Replacement",
+      "Handyman",
+      "Handyman / Electrician",
+      "Locksmith",
+      "Locksmith & Glass Work",
+      "Locksmith, HVAC, Plumbing, Cleaner",
+      "Painter",
+      "Signage Cleaning",
+      "Signage Company",
+      "Snow Removing",
+      "Tint Removal",
+      "Window Cleaner",
+      "Window Cleaner / Handyman",
+      "Window Replacement",
+      "Windows Cleaning",
     ];
 
-    const tradeSelectOptions = allTradesList.map(t =>
-      `<option value="${escapeHTML(t)}" ${vType === t ? 'selected' : ''}>${escapeHTML(t)}</option>`
-    ).join('');
+    const tradeSelectOptions = allTradesList
+      .map(
+        (t) =>
+          `<option value="${escapeHTML(t)}" ${vType === t ? "selected" : ""}>${escapeHTML(t)}</option>`,
+      )
+      .join("");
 
     fieldsContainer.innerHTML = `
       <div class="modal-form-grid-2col">
@@ -1135,7 +1340,9 @@ function openCRMModal(type, data = null) {
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
               </button>
             </div>
-            ${vSecondaryPhone ? `
+            ${
+              vSecondaryPhone
+                ? `
               <div class="vendor-phone-card-row">
                 <div class="phone-field-wrapper">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
@@ -1148,7 +1355,9 @@ function openCRMModal(type, data = null) {
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                 </button>
               </div>
-            ` : ''}
+            `
+                : ""
+            }
           </div>
         </div>
 
@@ -1158,16 +1367,19 @@ function openCRMModal(type, data = null) {
         </div>
       </div>
     `;
-  } else if (type === 'user' || type === 'edit-user') {
-    const isEdit = type === 'edit-user';
-    title.textContent = isEdit ? 'Edit User Account' : 'Add System User / Contractor';
-    if (submitBtn) submitBtn.textContent = isEdit ? 'Update Account' : 'Save Entry';
+  } else if (type === "user" || type === "edit-user") {
+    const isEdit = type === "edit-user";
+    title.textContent = isEdit
+      ? "Edit User Account"
+      : "Add System User / Contractor";
+    if (submitBtn)
+      submitBtn.textContent = isEdit ? "Update Account" : "Save Entry";
 
-    const uLogin = data ? data.loginName : '';
-    const uName = data ? data.fullName : '';
-    const uPass = data ? data.password : '';
-    const uRole = data ? data.systemRole : 'User / Field Contractor';
-    const uStatus = data ? data.accountStatus : 'Active / Operational';
+    const uLogin = data ? data.loginName : "";
+    const uName = data ? data.fullName : "";
+    const uPass = data ? data.password : "";
+    const uRole = data ? data.systemRole : "User / Field Contractor";
+    const uStatus = data ? data.accountStatus : "Active / Operational";
 
     fieldsContainer.innerHTML = `
       <div class="modal-form-grid-2col">
@@ -1186,28 +1398,28 @@ function openCRMModal(type, data = null) {
         <div class="form-group">
           <label class="form-label">SYSTEM ROLE *</label>
           <select id="mUserRole" class="form-control" required>
-            <option value="User" ${uRole === 'User' ? 'selected' : ''}>User</option>
-            <option value="Team Lead" ${uRole === 'Team Lead' ? 'selected' : ''}>Team Lead</option>
-            <option value="Administrator" ${uRole === 'Administrator' ? 'selected' : ''}>Administrator</option>
+            <option value="User" ${uRole === "User" ? "selected" : ""}>User</option>
+            <option value="Team Lead" ${uRole === "Team Lead" ? "selected" : ""}>Team Lead</option>
+            <option value="Administrator" ${uRole === "Administrator" ? "selected" : ""}>Administrator</option>
           </select>
         </div>
         <div class="form-group modal-form-full">
           <label class="form-label">INITIAL ACCOUNT STATUS *</label>
           <select id="mUserStatus" class="form-control" required>
-            <option value="Active / Operational" ${uStatus === 'Active / Operational' ? 'selected' : ''}>Active / Operational</option>
-            <option value="Suspended / Blocked" ${uStatus === 'Suspended / Blocked' ? 'selected' : ''}>Suspended / Blocked</option>
+            <option value="Active / Operational" ${uStatus === "Active / Operational" ? "selected" : ""}>Active / Operational</option>
+            <option value="Suspended / Blocked" ${uStatus === "Suspended / Blocked" ? "selected" : ""}>Suspended / Blocked</option>
           </select>
         </div>
       </div>
     `;
-  } else if (type === 'payment') {
-    title.textContent = 'Record Job Invoice Payment';
-    if (submitBtn) submitBtn.textContent = 'Save Entry';
+  } else if (type === "payment") {
+    title.textContent = "Record Job Invoice Payment";
+    if (submitBtn) submitBtn.textContent = "Save Entry";
     fieldsContainer.innerHTML = `
       <div class="form-group">
         <label class="form-label">Select Work Order</label>
         <select id="mPaymentJobId" class="form-control">
-          ${masterJobsDataset.map(j => `<option value="${j.id}">#${j.id} - ${j.storeName} (${j.designation})</option>`).join('')}
+          ${masterJobsDataset.map((j) => `<option value="${j.id}">#${j.id} - ${j.storeName} (${j.designation})</option>`).join("")}
         </select>
       </div>
       <div class="form-group">
@@ -1225,15 +1437,15 @@ function openCRMModal(type, data = null) {
     `;
   }
 
-  backdrop.classList.add('active');
+  backdrop.classList.add("active");
 }
 
-function addVendorPhoneRow(value = '') {
-  const container = document.getElementById('vendorPhoneNumbersContainer');
+function addVendorPhoneRow(value = "") {
+  const container = document.getElementById("vendorPhoneNumbersContainer");
   if (!container) return;
-  const count = container.querySelectorAll('.vendor-phone-card-row').length + 1;
-  const row = document.createElement('div');
-  row.className = 'vendor-phone-card-row';
+  const count = container.querySelectorAll(".vendor-phone-card-row").length + 1;
+  const row = document.createElement("div");
+  row.className = "vendor-phone-card-row";
   row.innerHTML = `
     <div class="phone-field-wrapper">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
@@ -1250,38 +1462,51 @@ function addVendorPhoneRow(value = '') {
 }
 
 function removePhoneRow(btn) {
-  const container = document.getElementById('vendorPhoneNumbersContainer');
-  if (container && container.querySelectorAll('.vendor-phone-card-row').length > 1) {
+  const container = document.getElementById("vendorPhoneNumbersContainer");
+  if (
+    container &&
+    container.querySelectorAll(".vendor-phone-card-row").length > 1
+  ) {
     btn.parentElement.remove();
   } else {
-    showToast('At least one phone number is required!');
+    showToast("At least one phone number is required!");
   }
 }
 
 function closeModal() {
-  const backdrop = document.getElementById('crmModalBackdrop');
-  if (backdrop) backdrop.classList.remove('active');
+  const backdrop = document.getElementById("crmModalBackdrop");
+  if (backdrop) backdrop.classList.remove("active");
 }
 
 function handleModalSubmit(type) {
-  const form = document.getElementById('crmModalForm');
+  const form = document.getElementById("crmModalForm");
 
-  if (type === 'job' || type === 'edit-job') {
-    const storeName = document.getElementById('mStoreName').value;
-    const storeAddress = document.getElementById('mStoreAddress').value;
-    const designation = document.getElementById('mDesignation').value;
-    const assignedUser = document.getElementById('mAssignedUser').value || 'Unassigned';
-    const jobRevenue = parseFloat(document.getElementById('mJobRevenue').value) || 0;
-    const urgencyRadio = document.querySelector('input[name="mUrgencyRadio"]:checked');
-    const urgency = urgencyRadio ? urgencyRadio.value : 'Within SLA';
+  if (type === "job" || type === "edit-job") {
+    const storeName = document.getElementById("mStoreName").value;
+    const storeAddress = document.getElementById("mStoreAddress").value;
+    const designation = document.getElementById("mDesignation").value;
+    const assignedUser =
+      document.getElementById("mAssignedUser").value || "Unassigned";
+    const jobRevenue =
+      parseFloat(document.getElementById("mJobRevenue").value) || 0;
+    const urgencyRadio = document.querySelector(
+      'input[name="mUrgencyRadio"]:checked',
+    );
+    const urgency = urgencyRadio ? urgencyRadio.value : "Within SLA";
 
-    const initials = assignedUser !== 'Unassigned'
-      ? assignedUser.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2)
-      : 'OP';
+    const initials =
+      assignedUser !== "Unassigned"
+        ? assignedUser
+            .split(" ")
+            .map((n) => n[0])
+            .join("")
+            .toUpperCase()
+            .slice(0, 2)
+        : "OP";
 
-    if (type === 'edit-job' && form) {
-      const editId = parseInt(form.getAttribute('data-edit-id'), 10);
-      const existingJob = masterJobsDataset.find(j => j.id === editId);
+    if (type === "edit-job" && form) {
+      const editId = parseInt(form.getAttribute("data-edit-id"), 10);
+      const existingJob = masterJobsDataset.find((j) => j.id === editId);
       if (existingJob) {
         existingJob.storeName = storeName;
         existingJob.storeAddress = storeAddress;
@@ -1300,11 +1525,15 @@ function handleModalSubmit(type) {
         designation,
         assignedUser,
         assignedAvatar: initials,
-        addedDate: new Date().toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' }),
-        vendorCharges: 450.00,
+        addedDate: new Date().toLocaleDateString("en-US", {
+          month: "short",
+          day: "2-digit",
+          year: "numeric",
+        }),
+        vendorCharges: 450.0,
         jobRevenue,
         urgency,
-        status: 'New'
+        status: "New",
       };
       masterJobsDataset.unshift(newJob);
       showToast(`New Work Order for ${storeName} created successfully!`);
@@ -1312,24 +1541,32 @@ function handleModalSubmit(type) {
 
     renderDashboardActiveJobs();
     renderAllJobsMasterTable();
-  } else if (type === 'vendor' || type === 'edit-vendor') {
-    const vName = document.getElementById('mVendorName').value.trim();
-    const vType = document.getElementById('mVendorType').value;
-    const vLocation = document.getElementById('mVendorLocation').value.trim();
-    const vRemark = document.getElementById('mVendorRemark').value.trim();
+  } else if (type === "vendor" || type === "edit-vendor") {
+    const vName = document.getElementById("mVendorName").value.trim();
+    const vType = document.getElementById("mVendorType").value;
+    const vLocation = document.getElementById("mVendorLocation").value.trim();
+    const vRemark = document.getElementById("mVendorRemark").value.trim();
 
-    const phoneInputs = Array.from(document.querySelectorAll('.vendor-phone-input'))
-      .map(input => input.value.trim())
-      .filter(val => val.length > 0);
+    const phoneInputs = Array.from(
+      document.querySelectorAll(".vendor-phone-input"),
+    )
+      .map((input) => input.value.trim())
+      .filter((val) => val.length > 0);
 
-    const primaryPhone = phoneInputs[0] || '+1 (800) 555-0000';
-    const secondaryPhone = phoneInputs.slice(1).join(' / ');
+    const primaryPhone = phoneInputs[0] || "+1 (800) 555-0000";
+    const secondaryPhone = phoneInputs.slice(1).join(" / ");
 
-    const initials = vName.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2) || 'VN';
+    const initials =
+      vName
+        .split(" ")
+        .map((n) => n[0])
+        .join("")
+        .toUpperCase()
+        .slice(0, 2) || "VN";
 
-    if (type === 'edit-vendor' && form) {
-      const editId = parseInt(form.getAttribute('data-edit-id'), 10);
-      const existingVendor = masterVendorsDataset.find(v => v.id === editId);
+    if (type === "edit-vendor" && form) {
+      const editId = parseInt(form.getAttribute("data-edit-id"), 10);
+      const existingVendor = masterVendorsDataset.find((v) => v.id === editId);
       if (existingVendor) {
         existingVendor.name = vName;
         existingVendor.avatar = initials;
@@ -1349,25 +1586,31 @@ function handleModalSubmit(type) {
         secondaryPhone: secondaryPhone,
         type: vType,
         location: vLocation,
-        remark: vRemark
+        remark: vRemark,
       };
       masterVendorsDataset.unshift(newVendor);
       showToast(`Vendor "${vName}" added successfully!`);
     }
 
     renderMasterVendorsTable();
-  } else if (type === 'user' || type === 'edit-user') {
-    const uLogin = document.getElementById('mUserLogin').value.trim();
-    const uName = document.getElementById('mUserName').value.trim();
-    const uPass = document.getElementById('mUserPassword').value;
-    const uRole = document.getElementById('mUserRole').value;
-    const uStatus = document.getElementById('mUserStatus').value;
+  } else if (type === "user" || type === "edit-user") {
+    const uLogin = document.getElementById("mUserLogin").value.trim();
+    const uName = document.getElementById("mUserName").value.trim();
+    const uPass = document.getElementById("mUserPassword").value;
+    const uRole = document.getElementById("mUserRole").value;
+    const uStatus = document.getElementById("mUserStatus").value;
 
-    const initials = uName.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2) || 'US';
+    const initials =
+      uName
+        .split(" ")
+        .map((n) => n[0])
+        .join("")
+        .toUpperCase()
+        .slice(0, 2) || "US";
 
-    if (type === 'edit-user' && form) {
-      const editId = parseInt(form.getAttribute('data-edit-id'), 10);
-      const existingUser = masterUsersDataset.find(u => u.id === editId);
+    if (type === "edit-user" && form) {
+      const editId = parseInt(form.getAttribute("data-edit-id"), 10);
+      const existingUser = masterUsersDataset.find((u) => u.id === editId);
       if (existingUser) {
         existingUser.loginName = uLogin;
         existingUser.fullName = uName;
@@ -1385,25 +1628,25 @@ function handleModalSubmit(type) {
         password: uPass,
         systemRole: uRole,
         accountStatus: uStatus,
-        avatar: initials
+        avatar: initials,
       };
       masterUsersDataset.unshift(newUser);
       showToast(`User account "${uName}" created successfully!`);
     }
 
     renderMasterUsersCards();
-  } else if (type === 'payment') {
-    const amt = document.getElementById('mPaymentAmount').value;
+  } else if (type === "payment") {
+    const amt = document.getElementById("mPaymentAmount").value;
     showToast(`Payment of $${amt} recorded successfully!`);
   }
 }
 
 function showToast(message) {
-  const container = document.getElementById('toastContainer');
+  const container = document.getElementById("toastContainer");
   if (!container) return;
 
-  const toast = document.createElement('div');
-  toast.className = 'toast';
+  const toast = document.createElement("div");
+  toast.className = "toast";
   toast.innerHTML = `
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
     <span>${escapeHTML(message)}</span>
@@ -1412,9 +1655,9 @@ function showToast(message) {
   container.appendChild(toast);
 
   setTimeout(() => {
-    toast.style.opacity = '0';
-    toast.style.transform = 'translateY(10px)';
-    toast.style.transition = 'all 0.3s ease';
+    toast.style.opacity = "0";
+    toast.style.transform = "translateY(10px)";
+    toast.style.transition = "all 0.3s ease";
     setTimeout(() => toast.remove(), 300);
   }, 3500);
 }
@@ -1422,11 +1665,11 @@ function showToast(message) {
 function escapeHTML(str) {
   return String(str).replace(/[&<>"']/g, function (m) {
     return {
-      '&': '&amp;',
-      '<': '&lt;',
-      '>': '&gt;',
-      '"': '&quot;',
-      "'": '&#039;'
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#039;",
     }[m];
   });
 }
@@ -1434,14 +1677,14 @@ function escapeHTML(str) {
 /* Work Order Detail Configuration Controls Interactive Toggles */
 function initWorkOrderConfigControls() {
   // 1. Radio Pill Groups (Urgency & W9 Clearance)
-  const radioGroups = document.querySelectorAll('.radio-pill-group');
-  radioGroups.forEach(group => {
-    const pills = group.querySelectorAll('.radio-pill');
-    pills.forEach(pill => {
-      pill.addEventListener('click', () => {
+  const radioGroups = document.querySelectorAll(".radio-pill-group");
+  radioGroups.forEach((group) => {
+    const pills = group.querySelectorAll(".radio-pill");
+    pills.forEach((pill) => {
+      pill.addEventListener("click", () => {
         const radio = pill.querySelector('input[type="radio"]');
-        pills.forEach(p => p.classList.remove('active'));
-        pill.classList.add('active');
+        pills.forEach((p) => p.classList.remove("active"));
+        pill.classList.add("active");
         if (radio) {
           radio.checked = true;
         }
@@ -1451,20 +1694,22 @@ function initWorkOrderConfigControls() {
   });
 
   // 2. Status Position Buttons Grid
-  const statusButtons = document.querySelectorAll('.status-pos-btn');
-  const specStatusBadge = document.querySelector('.spec-card-header .status-pill-badge');
-  statusButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      statusButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+  const statusButtons = document.querySelectorAll(".status-pos-btn");
+  const specStatusBadge = document.querySelector(
+    ".spec-card-header .status-pill-badge",
+  );
+  statusButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      statusButtons.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
       const newStatus = btn.innerText.trim();
       showToast(`Work Order Status set to: ${newStatus}`);
 
       if (specStatusBadge) {
         specStatusBadge.textContent = newStatus;
         const cls = getStatusClass(newStatus);
-        if (cls === 'done') {
-          specStatusBadge.className = 'status-pill-badge done-badge';
+        if (cls === "done") {
+          specStatusBadge.className = "status-pill-badge done-badge";
         } else {
           specStatusBadge.className = `status-pill-badge badge-status ${cls}`;
         }
@@ -1473,21 +1718,23 @@ function initWorkOrderConfigControls() {
   });
 
   // 3. Save Changes Button
-  const saveBtn = document.querySelector('.btn-save-changes');
+  const saveBtn = document.querySelector(".btn-save-changes");
   if (saveBtn) {
-    saveBtn.addEventListener('click', () => {
-      showToast('Work order configuration changes saved successfully!');
+    saveBtn.addEventListener("click", () => {
+      showToast("Work order configuration changes saved successfully!");
     });
   }
 
   // 4. Delete Work Order Button
-  const deleteBtn = document.querySelector('.btn-delete-order');
+  const deleteBtn = document.querySelector(".btn-delete-order");
   if (deleteBtn) {
-    deleteBtn.addEventListener('click', () => {
-      if (confirm('Are you sure you want to permanently delete this work order?')) {
-        showToast('Work Order WO-2026-00109 deleted');
+    deleteBtn.addEventListener("click", () => {
+      if (
+        confirm("Are you sure you want to permanently delete this work order?")
+      ) {
+        showToast("Work Order WO-2026-00109 deleted");
         setTimeout(() => {
-          window.location.href = 'jobs.html';
+          window.location.href = "jobs.html";
         }, 1200);
       }
     });
@@ -1500,31 +1747,31 @@ function initWorkOrderConfigControls() {
 function initCommentsAndAttachments() {
   let pendingAttachment = null; // { type: 'general' | 'w9', name: string }
 
-  const btnAttachGen = document.getElementById('btnAttachGeneral');
-  const btnAttachW9 = document.getElementById('btnAttachW9Doc');
-  const genInput = document.getElementById('commentGeneralAttachmentInput');
-  const w9Input = document.getElementById('commentW9FileInput');
-  const previewBox = document.getElementById('attachedFilePreviewBox');
-  const btnPost = document.getElementById('btnPostComment');
-  const textarea = document.getElementById('commentTextarea');
-  const commentsList = document.getElementById('commentsList');
-  const w9Container = document.getElementById('w9FormCardContainer');
+  const btnAttachGen = document.getElementById("btnAttachGeneral");
+  const btnAttachW9 = document.getElementById("btnAttachW9Doc");
+  const genInput = document.getElementById("commentGeneralAttachmentInput");
+  const w9Input = document.getElementById("commentW9FileInput");
+  const previewBox = document.getElementById("attachedFilePreviewBox");
+  const btnPost = document.getElementById("btnPostComment");
+  const textarea = document.getElementById("commentTextarea");
+  const commentsList = document.getElementById("commentsList");
+  const w9Container = document.getElementById("w9FormCardContainer");
 
   if (!btnPost || !textarea || !commentsList) return;
 
   // Auto-expand textarea height dynamically with smooth scrolling after 220px
-  textarea.addEventListener('input', () => {
-    textarea.style.height = 'auto';
-    textarea.style.height = Math.min(textarea.scrollHeight, 220) + 'px';
+  textarea.addEventListener("input", () => {
+    textarea.style.height = "auto";
+    textarea.style.height = Math.min(textarea.scrollHeight, 220) + "px";
   });
 
   // General Attachment Button (📎)
   if (btnAttachGen && genInput) {
-    btnAttachGen.addEventListener('click', () => genInput.click());
-    genInput.addEventListener('change', (e) => {
+    btnAttachGen.addEventListener("click", () => genInput.click());
+    genInput.addEventListener("change", (e) => {
       if (e.target.files && e.target.files[0]) {
         const name = e.target.files[0].name;
-        pendingAttachment = { type: 'general', name: name };
+        pendingAttachment = { type: "general", name: name };
         renderAttachmentPreview(`📎 ${name}`);
         showToast(`General file attached: ${name}`);
       }
@@ -1533,11 +1780,11 @@ function initCommentsAndAttachments() {
 
   // W9 Attachment Button (📄 Attach W9 Doc)
   if (btnAttachW9 && w9Input) {
-    btnAttachW9.addEventListener('click', () => w9Input.click());
-    w9Input.addEventListener('change', (e) => {
+    btnAttachW9.addEventListener("click", () => w9Input.click());
+    w9Input.addEventListener("change", (e) => {
       if (e.target.files && e.target.files[0]) {
         const name = e.target.files[0].name;
-        pendingAttachment = { type: 'w9', name: name };
+        pendingAttachment = { type: "w9", name: name };
         renderAttachmentPreview(`📄 [W9 Doc] ${name}`);
         updateW9SidebarCard(name);
       }
@@ -1563,16 +1810,16 @@ function initCommentsAndAttachments() {
     `;
     showToast(`W9 Form "${docName}" attached to sidebar card!`);
 
-    const removeW9Btn = document.getElementById('btnRemoveW9Doc');
+    const removeW9Btn = document.getElementById("btnRemoveW9Doc");
     if (removeW9Btn) {
-      removeW9Btn.addEventListener('click', () => {
+      removeW9Btn.addEventListener("click", () => {
         w9Container.innerHTML = `
           <div class="w9-dropzone-box">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
             <p>No W9 form attached yet.<br>Use the 📄 doc icon in the comment box to attach.</p>
           </div>
         `;
-        showToast('W9 document removed.');
+        showToast("W9 document removed.");
       });
     }
   }
@@ -1583,62 +1830,64 @@ function initCommentsAndAttachments() {
       <span>${escapeHTML(label)}</span>
       <span class="preview-remove-btn" id="btnRemovePreview">✕</span>
     `;
-    previewBox.classList.add('active');
+    previewBox.classList.add("active");
 
-    const removeBtn = document.getElementById('btnRemovePreview');
+    const removeBtn = document.getElementById("btnRemovePreview");
     if (removeBtn) {
-      removeBtn.addEventListener('click', () => {
+      removeBtn.addEventListener("click", () => {
         pendingAttachment = null;
-        previewBox.classList.remove('active');
-        previewBox.innerHTML = '';
-        if (genInput) genInput.value = '';
-        if (w9Input) w9Input.value = '';
+        previewBox.classList.remove("active");
+        previewBox.innerHTML = "";
+        if (genInput) genInput.value = "";
+        if (w9Input) w9Input.value = "";
       });
     }
   }
 
   // Post Comment Handler
-  btnPost.addEventListener('click', () => {
+  btnPost.addEventListener("click", () => {
     const text = textarea.value.trim();
     if (!text && !pendingAttachment) {
-      showToast('Please enter a comment or attach a file!');
+      showToast("Please enter a comment or attach a file!");
       return;
     }
 
     // Handle W9 Attachment (Routes ONLY to W9 Sidebar Card!)
-    if (pendingAttachment && pendingAttachment.type === 'w9') {
+    if (pendingAttachment && pendingAttachment.type === "w9") {
       updateW9SidebarCard(pendingAttachment.name);
 
       // If user typed comment text alongside W9 doc, post text comment without W9 badge
       if (text) {
         postCommentToFeed(text, null);
       } else {
-        showToast(`W9 Form "${pendingAttachment.name}" uploaded to W9 Form card!`);
+        showToast(
+          `W9 Form "${pendingAttachment.name}" uploaded to W9 Form card!`,
+        );
       }
     } else {
       // General Attachment or text comment (Routes ONLY to Comments Feed!)
       postCommentToFeed(text, pendingAttachment);
-      showToast('Comment posted successfully!');
+      showToast("Comment posted successfully!");
     }
 
     // Reset Form
-    textarea.value = '';
-    textarea.style.height = 'auto';
+    textarea.value = "";
+    textarea.style.height = "auto";
     pendingAttachment = null;
     if (previewBox) {
-      previewBox.classList.remove('active');
-      previewBox.innerHTML = '';
+      previewBox.classList.remove("active");
+      previewBox.innerHTML = "";
     }
-    if (genInput) genInput.value = '';
-    if (w9Input) w9Input.value = '';
+    if (genInput) genInput.value = "";
+    if (w9Input) w9Input.value = "";
   });
 
   function postCommentToFeed(text, attachment) {
-    const commentItem = document.createElement('div');
-    commentItem.className = 'comment-item';
+    const commentItem = document.createElement("div");
+    commentItem.className = "comment-item";
 
-    let attachmentMarkup = '';
-    if (attachment && attachment.type === 'general') {
+    let attachmentMarkup = "";
+    if (attachment && attachment.type === "general") {
       attachmentMarkup = `<div class="comment-attached-badge">📎 ${escapeHTML(attachment.name)}</div>`;
     }
 
@@ -1649,7 +1898,7 @@ function initCommentsAndAttachments() {
           <span class="comment-author-name">Administrator</span>
           <span class="comment-time-tag">Just now</span>
         </div>
-        ${text ? `<p class="comment-item-text">${escapeHTML(text)}</p>` : ''}
+        ${text ? `<p class="comment-item-text">${escapeHTML(text)}</p>` : ""}
         ${attachmentMarkup}
         <div class="comment-item-reactions">
           <button class="reaction-btn like-btn" data-count="0">👍 <span class="like-count">0</span></button>
@@ -1665,37 +1914,37 @@ function initCommentsAndAttachments() {
 
   // Reaction Click Binding Function
   function bindReactionButtons(container) {
-    const likeBtns = container.querySelectorAll('.like-btn');
-    const dislikeBtns = container.querySelectorAll('.dislike-btn');
+    const likeBtns = container.querySelectorAll(".like-btn");
+    const dislikeBtns = container.querySelectorAll(".dislike-btn");
 
-    likeBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        let count = parseInt(btn.getAttribute('data-count') || '0', 10);
-        if (btn.classList.contains('reacted')) {
+    likeBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        let count = parseInt(btn.getAttribute("data-count") || "0", 10);
+        if (btn.classList.contains("reacted")) {
           count--;
-          btn.classList.remove('reacted');
+          btn.classList.remove("reacted");
         } else {
           count++;
-          btn.classList.add('reacted');
+          btn.classList.add("reacted");
         }
-        btn.setAttribute('data-count', count);
-        const counterSpan = btn.querySelector('.like-count');
+        btn.setAttribute("data-count", count);
+        const counterSpan = btn.querySelector(".like-count");
         if (counterSpan) counterSpan.textContent = count;
       });
     });
 
-    dislikeBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        let count = parseInt(btn.getAttribute('data-count') || '0', 10);
-        if (btn.classList.contains('reacted')) {
+    dislikeBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        let count = parseInt(btn.getAttribute("data-count") || "0", 10);
+        if (btn.classList.contains("reacted")) {
           count--;
-          btn.classList.remove('reacted');
+          btn.classList.remove("reacted");
         } else {
           count++;
-          btn.classList.add('reacted');
+          btn.classList.add("reacted");
         }
-        btn.setAttribute('data-count', count);
-        const counterSpan = btn.querySelector('.dislike-count');
+        btn.setAttribute("data-count", count);
+        const counterSpan = btn.querySelector(".dislike-count");
         if (counterSpan) counterSpan.textContent = count;
       });
     });
@@ -1717,7 +1966,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (312) 555-0144",
     type: "Electrician",
     location: "Chicago, IL",
-    remark: "Good Vendor"
+    remark: "Good Vendor",
   },
   {
     id: 202,
@@ -1727,7 +1976,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (312) 555-0211",
     type: "Window Cleaning",
     location: "Niles, IL",
-    remark: ""
+    remark: "",
   },
   {
     id: 203,
@@ -1737,7 +1986,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (312) 555-0322",
     type: "Plumbing",
     location: "Evanston, IL",
-    remark: "Preferred Partner"
+    remark: "Preferred Partner",
   },
   {
     id: 204,
@@ -1747,7 +1996,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (248) 555-0433",
     type: "HVAC",
     location: "West Bloomfield, MI",
-    remark: ""
+    remark: "",
   },
   {
     id: 205,
@@ -1757,7 +2006,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (954) 555-0588",
     type: "Fire Protection",
     location: "Coral Springs, FL",
-    remark: "Fast Response"
+    remark: "Fast Response",
   },
   {
     id: 206,
@@ -1767,7 +2016,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (312) 555-0677",
     type: "Roofing",
     location: "Schaumburg, IL",
-    remark: ""
+    remark: "",
   },
   {
     id: 207,
@@ -1777,7 +2026,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (312) 555-0799",
     type: "Locksmith",
     location: "Oak Brook, IL",
-    remark: "Available 24/7"
+    remark: "Available 24/7",
   },
   {
     id: 208,
@@ -1787,7 +2036,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (630) 555-0844",
     type: "Fences / Roll up Gates / Doors",
     location: "Aurora, IL",
-    remark: "Good Vendor"
+    remark: "Good Vendor",
   },
   {
     id: 209,
@@ -1797,7 +2046,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (630) 555-0966",
     type: "Glass Replacement",
     location: "Naperville, IL",
-    remark: ""
+    remark: "",
   },
   {
     id: 210,
@@ -1807,7 +2056,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (815) 555-1077",
     type: "Painter",
     location: "Joliet, IL",
-    remark: "Preferred Partner"
+    remark: "Preferred Partner",
   },
   {
     id: 211,
@@ -1817,7 +2066,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (847) 555-1188",
     type: "Carpet / Duct / Tiles Cleaning",
     location: "Des Plaines, IL",
-    remark: "Fast Response"
+    remark: "Fast Response",
   },
   {
     id: 212,
@@ -1827,7 +2076,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (847) 555-1299",
     type: "Awnings Replacement",
     location: "Elgin, IL",
-    remark: ""
+    remark: "",
   },
   {
     id: 213,
@@ -1837,7 +2086,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (312) 555-1322",
     type: "Fire Inspection & Extinguisher",
     location: "Schaumburg, IL",
-    remark: "Highly Recommended"
+    remark: "Highly Recommended",
   },
   {
     id: 214,
@@ -1847,7 +2096,7 @@ const initialVendorsData = [
     secondaryPhone: "+1 (847) 555-1411",
     type: "HVAC",
     location: "Highland Park, IL",
-    remark: ""
+    remark: "",
   },
   {
     id: 215,
@@ -1857,8 +2106,8 @@ const initialVendorsData = [
     secondaryPhone: "+1 (847) 555-1533",
     type: "Handyman / Electrician",
     location: "Skokie, IL",
-    remark: "Good Vendor"
-  }
+    remark: "Good Vendor",
+  },
 ];
 
 let masterVendorsDataset = [...initialVendorsData];
@@ -1867,32 +2116,36 @@ let currentVendorPage = 1;
 const VENDORS_PER_PAGE = 10;
 
 function renderMasterVendorsTable() {
-  const tbody = document.getElementById('masterVendorsTableBody');
+  const tbody = document.getElementById("masterVendorsTableBody");
   if (!tbody) return;
 
-  const searchInput = document.getElementById('vendorsTableFilterSearch');
-  const typeSelect = document.getElementById('filterVendorTypeSelect');
-  const locationInput = document.getElementById('filterVendorLocationInput');
+  const searchInput = document.getElementById("vendorsTableFilterSearch");
+  const typeSelect = document.getElementById("filterVendorTypeSelect");
+  const locationInput = document.getElementById("filterVendorLocationInput");
 
-  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';
-  const typeFilter = typeSelect ? typeSelect.value : 'ALL';
-  const locationFilter = locationInput ? locationInput.value.toLowerCase().trim() : '';
+  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : "";
+  const typeFilter = typeSelect ? typeSelect.value : "ALL";
+  const locationFilter = locationInput
+    ? locationInput.value.toLowerCase().trim()
+    : "";
 
-  const filteredVendors = masterVendorsDataset.filter(v => {
-    const matchesSearch = !searchTerm ||
+  const filteredVendors = masterVendorsDataset.filter((v) => {
+    const matchesSearch =
+      !searchTerm ||
       v.name.toLowerCase().includes(searchTerm) ||
       v.phone.toLowerCase().includes(searchTerm) ||
       v.type.toLowerCase().includes(searchTerm) ||
       v.location.toLowerCase().includes(searchTerm);
 
-    const matchesType = (typeFilter === 'ALL') || (v.type === typeFilter);
-    const matchesLocation = !locationFilter || v.location.toLowerCase().includes(locationFilter);
+    const matchesType = typeFilter === "ALL" || v.type === typeFilter;
+    const matchesLocation =
+      !locationFilter || v.location.toLowerCase().includes(locationFilter);
 
     return matchesSearch && matchesType && matchesLocation;
   });
 
-  const countBadge = document.getElementById('vendorsCountBadge');
-  const kpiTotal = document.getElementById('kpiTotalVendors');
+  const countBadge = document.getElementById("vendorsCountBadge");
+  const kpiTotal = document.getElementById("kpiTotalVendors");
   if (countBadge) countBadge.textContent = masterVendorsDataset.length;
   if (kpiTotal) kpiTotal.textContent = masterVendorsDataset.length;
 
@@ -1908,19 +2161,20 @@ function renderMasterVendorsTable() {
   const pagedVendors = filteredVendors.slice(startIndex, endIndex);
 
   // Update Pagination Controls UI
-  const pagInfo = document.getElementById('vendorPaginationInfo');
-  const pagPageNum = document.getElementById('vendorCurrentPageNum');
-  const btnPrev = document.getElementById('btnPrevVendorsPage');
-  const btnNext = document.getElementById('btnNextVendorsPage');
+  const pagInfo = document.getElementById("vendorPaginationInfo");
+  const pagPageNum = document.getElementById("vendorCurrentPageNum");
+  const btnPrev = document.getElementById("btnPrevVendorsPage");
+  const btnNext = document.getElementById("btnNextVendorsPage");
 
   if (pagInfo) {
-    pagInfo.textContent = totalFiltered > 0
-      ? `Showing ${startIndex + 1} to ${endIndex} of ${totalFiltered} Vendors`
-      : `Showing 0 of 0 Vendors`;
+    pagInfo.textContent =
+      totalFiltered > 0
+        ? `Showing ${startIndex + 1} to ${endIndex} of ${totalFiltered} Vendors`
+        : `Showing 0 of 0 Vendors`;
   }
   if (pagPageNum) pagPageNum.textContent = currentVendorPage;
-  if (btnPrev) btnPrev.disabled = (currentVendorPage <= 1);
-  if (btnNext) btnNext.disabled = (currentVendorPage >= totalPages);
+  if (btnPrev) btnPrev.disabled = currentVendorPage <= 1;
+  if (btnNext) btnNext.disabled = currentVendorPage >= totalPages;
 
   if (pagedVendors.length === 0) {
     tbody.innerHTML = `
@@ -1934,23 +2188,32 @@ function renderMasterVendorsTable() {
   }
 
   // Dynamically extract unique active trades from current dataset
-  const activeVendorTrades = Array.from(new Set(masterVendorsDataset.map(item => item.type))).sort();
+  const activeVendorTrades = Array.from(
+    new Set(masterVendorsDataset.map((item) => item.type)),
+  ).sort();
 
-  tbody.innerHTML = pagedVendors.map(v => {
-    const hasRemark = v.remark && v.remark.trim().length > 0;
-    const remarkBtnMarkup = hasRemark
-      ? `<button type="button" class="remark-btn has-remark" onclick="openRemarkModal(${v.id})">
+  tbody.innerHTML = pagedVendors
+    .map((v) => {
+      const hasRemark = v.remark && v.remark.trim().length > 0;
+      const remarkBtnMarkup = hasRemark
+        ? `<button type="button" class="remark-btn has-remark" onclick="openRemarkModal(${v.id})">
            <span>${escapeHTML(v.remark)}</span>
            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
          </button>`
-      : `<button type="button" class="remark-btn add-remark" onclick="openRemarkModal(${v.id})">Add Remark</button>`;
+        : `<button type="button" class="remark-btn add-remark" onclick="openRemarkModal(${v.id})">Add Remark</button>`;
 
-    const vendorTradesList = Array.from(new Set([...activeVendorTrades, v.type])).sort();
-    const typeOptions = vendorTradesList.map(trade => `
-      <option value="${escapeHTML(trade)}" ${v.type === trade ? 'selected' : ''}>${escapeHTML(trade)}</option>
-    `).join('');
+      const vendorTradesList = Array.from(
+        new Set([...activeVendorTrades, v.type]),
+      ).sort();
+      const typeOptions = vendorTradesList
+        .map(
+          (trade) => `
+      <option value="${escapeHTML(trade)}" ${v.type === trade ? "selected" : ""}>${escapeHTML(trade)}</option>
+    `,
+        )
+        .join("");
 
-    return `
+      return `
       <tr>
         <td>
           <div class="user-assigned-badge">
@@ -1982,11 +2245,12 @@ function renderMasterVendorsTable() {
         </td>
       </tr>
     `;
-  }).join('');
+    })
+    .join("");
 }
 
 function updateVendorType(vendorId, newType) {
-  const v = masterVendorsDataset.find(item => item.id === vendorId);
+  const v = masterVendorsDataset.find((item) => item.id === vendorId);
   if (v) {
     v.type = newType;
     showToast(`Vendor "${v.name}" trade updated to ${newType}!`);
@@ -1995,20 +2259,32 @@ function updateVendorType(vendorId, newType) {
 }
 
 function initVendorFilters() {
-  const searchInput = document.getElementById('vendorsTableFilterSearch');
-  const typeSelect = document.getElementById('filterVendorTypeSelect');
-  const locationInput = document.getElementById('filterVendorLocationInput');
-  const resetBtn = document.getElementById('btnResetVendorsFilters');
+  const searchInput = document.getElementById("vendorsTableFilterSearch");
+  const typeSelect = document.getElementById("filterVendorTypeSelect");
+  const locationInput = document.getElementById("filterVendorLocationInput");
+  const resetBtn = document.getElementById("btnResetVendorsFilters");
 
-  const btnPrev = document.getElementById('btnPrevVendorsPage');
-  const btnNext = document.getElementById('btnNextVendorsPage');
+  const btnPrev = document.getElementById("btnPrevVendorsPage");
+  const btnNext = document.getElementById("btnNextVendorsPage");
 
-  if (searchInput) searchInput.addEventListener('input', () => { currentVendorPage = 1; renderMasterVendorsTable(); });
-  if (typeSelect) typeSelect.addEventListener('change', () => { currentVendorPage = 1; renderMasterVendorsTable(); });
-  if (locationInput) locationInput.addEventListener('input', () => { currentVendorPage = 1; renderMasterVendorsTable(); });
+  if (searchInput)
+    searchInput.addEventListener("input", () => {
+      currentVendorPage = 1;
+      renderMasterVendorsTable();
+    });
+  if (typeSelect)
+    typeSelect.addEventListener("change", () => {
+      currentVendorPage = 1;
+      renderMasterVendorsTable();
+    });
+  if (locationInput)
+    locationInput.addEventListener("input", () => {
+      currentVendorPage = 1;
+      renderMasterVendorsTable();
+    });
 
   if (btnPrev) {
-    btnPrev.addEventListener('click', () => {
+    btnPrev.addEventListener("click", () => {
       if (currentVendorPage > 1) {
         currentVendorPage--;
         renderMasterVendorsTable();
@@ -2017,26 +2293,26 @@ function initVendorFilters() {
   }
 
   if (btnNext) {
-    btnNext.addEventListener('click', () => {
+    btnNext.addEventListener("click", () => {
       currentVendorPage++;
       renderMasterVendorsTable();
     });
   }
 
   if (resetBtn) {
-    resetBtn.addEventListener('click', () => {
-      if (searchInput) searchInput.value = '';
-      if (typeSelect) typeSelect.value = 'ALL';
-      if (locationInput) locationInput.value = '';
+    resetBtn.addEventListener("click", () => {
+      if (searchInput) searchInput.value = "";
+      if (typeSelect) typeSelect.value = "ALL";
+      if (locationInput) locationInput.value = "";
       currentVendorPage = 1;
       renderMasterVendorsTable();
-      showToast('Vendor filters reset');
+      showToast("Vendor filters reset");
     });
   }
 
-  const globalSearch = document.getElementById('globalSearchInput');
+  const globalSearch = document.getElementById("globalSearchInput");
   if (globalSearch) {
-    globalSearch.addEventListener('input', (e) => {
+    globalSearch.addEventListener("input", (e) => {
       if (searchInput) {
         searchInput.value = e.target.value;
         currentVendorPage = 1;
@@ -2048,34 +2324,36 @@ function initVendorFilters() {
 
 /* Remark Modal Logic */
 function initRemarkModal() {
-  const backdrop = document.getElementById('remarkModalBackdrop');
-  const closeBtn = document.getElementById('closeRemarkModalBtn');
-  const cancelBtn = document.getElementById('cancelRemarkModalBtn');
-  const form = document.getElementById('remarkForm');
+  const backdrop = document.getElementById("remarkModalBackdrop");
+  const closeBtn = document.getElementById("closeRemarkModalBtn");
+  const cancelBtn = document.getElementById("cancelRemarkModalBtn");
+  const form = document.getElementById("remarkForm");
 
-  if (closeBtn) closeBtn.addEventListener('click', closeRemarkModal);
-  if (cancelBtn) cancelBtn.addEventListener('click', closeRemarkModal);
+  if (closeBtn) closeBtn.addEventListener("click", closeRemarkModal);
+  if (cancelBtn) cancelBtn.addEventListener("click", closeRemarkModal);
   if (backdrop) {
-    backdrop.addEventListener('click', (e) => {
+    backdrop.addEventListener("click", (e) => {
       if (e.target === backdrop) closeRemarkModal();
     });
   }
 
   // Preset Chips
-  document.querySelectorAll('.remark-chip-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const val = btn.getAttribute('data-preset-val');
-      const textarea = document.getElementById('txtVendorRemark');
+  document.querySelectorAll(".remark-chip-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const val = btn.getAttribute("data-preset-val");
+      const textarea = document.getElementById("txtVendorRemark");
       if (textarea) textarea.value = val;
     });
   });
 
   if (form) {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener("submit", (e) => {
       e.preventDefault();
-      const txt = document.getElementById('txtVendorRemark').value.trim();
+      const txt = document.getElementById("txtVendorRemark").value.trim();
       if (currentEditingRemarkVendorId) {
-        const v = masterVendorsDataset.find(item => item.id === currentEditingRemarkVendorId);
+        const v = masterVendorsDataset.find(
+          (item) => item.id === currentEditingRemarkVendorId,
+        );
         if (v) {
           v.remark = txt;
           showToast(`Remark updated for "${v.name}"!`);
@@ -2088,69 +2366,73 @@ function initRemarkModal() {
 }
 
 function openRemarkModal(vendorId) {
-  const v = masterVendorsDataset.find(item => item.id === vendorId);
+  const v = masterVendorsDataset.find((item) => item.id === vendorId);
   if (!v) return;
 
   currentEditingRemarkVendorId = vendorId;
-  const backdrop = document.getElementById('remarkModalBackdrop');
-  const textarea = document.getElementById('txtVendorRemark');
-  const title = document.getElementById('remarkModalTitle');
+  const backdrop = document.getElementById("remarkModalBackdrop");
+  const textarea = document.getElementById("txtVendorRemark");
+  const title = document.getElementById("remarkModalTitle");
 
-  if (textarea) textarea.value = v.remark || '';
+  if (textarea) textarea.value = v.remark || "";
   if (title) title.textContent = `Remark for ${v.name}`;
-  if (backdrop) backdrop.classList.add('active');
+  if (backdrop) backdrop.classList.add("active");
 }
 
 function closeRemarkModal() {
-  const backdrop = document.getElementById('remarkModalBackdrop');
-  if (backdrop) backdrop.classList.remove('active');
+  const backdrop = document.getElementById("remarkModalBackdrop");
+  if (backdrop) backdrop.classList.remove("active");
   currentEditingRemarkVendorId = null;
 }
 
 function deleteVendor(id) {
-  const v = masterVendorsDataset.find(item => item.id === id);
+  const v = masterVendorsDataset.find((item) => item.id === id);
   if (!v) return;
   if (confirm(`Are you sure you want to remove vendor "${v.name}"?`)) {
-    masterVendorsDataset = masterVendorsDataset.filter(item => item.id !== id);
+    masterVendorsDataset = masterVendorsDataset.filter(
+      (item) => item.id !== id,
+    );
     renderMasterVendorsTable();
     showToast(`Vendor "${v.name}" removed`);
   }
 }
 
 function editVendor(id) {
-  const v = masterVendorsDataset.find(item => item.id === id);
+  const v = masterVendorsDataset.find((item) => item.id === id);
   if (!v) return;
-  openCRMModal('edit-vendor', v);
+  openCRMModal("edit-vendor", v);
 }
 
 /* ==========================================================================
    User Management Cards Grid & Account Operations (NON-TABLE GRID)
    ========================================================================== */
 function renderMasterUsersCards() {
-  const container = document.getElementById('masterUsersGrid');
+  const container = document.getElementById("masterUsersGrid");
   if (!container) return;
 
-  const searchInput = document.getElementById('usersFilterSearch');
-  const roleSelect = document.getElementById('filterUserRoleSelect');
-  const statusSelect = document.getElementById('filterUserStatusSelect');
+  const searchInput = document.getElementById("usersFilterSearch");
+  const roleSelect = document.getElementById("filterUserRoleSelect");
+  const statusSelect = document.getElementById("filterUserStatusSelect");
 
-  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';
-  const roleFilter = roleSelect ? roleSelect.value : 'ALL';
-  const statusFilter = statusSelect ? statusSelect.value : 'ALL';
+  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : "";
+  const roleFilter = roleSelect ? roleSelect.value : "ALL";
+  const statusFilter = statusSelect ? statusSelect.value : "ALL";
 
-  const filteredUsers = masterUsersDataset.filter(u => {
-    const matchesSearch = !searchTerm ||
+  const filteredUsers = masterUsersDataset.filter((u) => {
+    const matchesSearch =
+      !searchTerm ||
       u.fullName.toLowerCase().includes(searchTerm) ||
       u.loginName.toLowerCase().includes(searchTerm) ||
       u.systemRole.toLowerCase().includes(searchTerm);
 
-    const matchesRole = (roleFilter === 'ALL') || (u.systemRole === roleFilter);
-    const matchesStatus = (statusFilter === 'ALL') || (u.accountStatus === statusFilter);
+    const matchesRole = roleFilter === "ALL" || u.systemRole === roleFilter;
+    const matchesStatus =
+      statusFilter === "ALL" || u.accountStatus === statusFilter;
 
     return matchesSearch && matchesRole && matchesStatus;
   });
 
-  const countBadge = document.getElementById('usersCountBadge');
+  const countBadge = document.getElementById("usersCountBadge");
   if (countBadge) countBadge.textContent = filteredUsers.length;
 
   if (filteredUsers.length === 0) {
@@ -2164,12 +2446,18 @@ function renderMasterUsersCards() {
     return;
   }
 
-  container.innerHTML = filteredUsers.map(u => {
-    const isActive = u.accountStatus === 'Active / Operational';
-    const roleClass = u.systemRole === 'Administrator' ? 'administrator' : (u.systemRole === 'Team Lead' ? 'team-lead' : 'user');
-    const statusClass = isActive ? 'active' : 'suspended';
+  container.innerHTML = filteredUsers
+    .map((u) => {
+      const isActive = u.accountStatus === "Active / Operational";
+      const roleClass =
+        u.systemRole === "Administrator"
+          ? "administrator"
+          : u.systemRole === "Team Lead"
+            ? "team-lead"
+            : "user";
+      const statusClass = isActive ? "active" : "suspended";
 
-    return `
+      return `
       <div class="user-profile-card">
         <div class="user-card-header">
           <div class="user-avatar-wrapper">
@@ -2188,8 +2476,8 @@ function renderMasterUsersCards() {
         </div>
 
         <div class="user-card-footer">
-          <button type="button" class="user-card-btn toggle-btn ${isActive ? 'suspend' : 'activate'}" onclick="toggleUserStatus(${u.id})">
-            ${isActive ? 'Suspend' : 'Activate'}
+          <button type="button" class="user-card-btn toggle-btn ${isActive ? "suspend" : "activate"}" onclick="toggleUserStatus(${u.id})">
+            ${isActive ? "Suspend" : "Activate"}
           </button>
           <div class="user-action-group">
             <button type="button" class="user-card-btn edit-btn" onclick="editUserAccount(${u.id})">Edit</button>
@@ -2198,32 +2486,35 @@ function renderMasterUsersCards() {
         </div>
       </div>
     `;
-  }).join('');
+    })
+    .join("");
 }
 
 function initUserFilters() {
-  const searchInput = document.getElementById('usersFilterSearch');
-  const roleSelect = document.getElementById('filterUserRoleSelect');
-  const statusSelect = document.getElementById('filterUserStatusSelect');
-  const resetBtn = document.getElementById('btnResetUsersFilters');
+  const searchInput = document.getElementById("usersFilterSearch");
+  const roleSelect = document.getElementById("filterUserRoleSelect");
+  const statusSelect = document.getElementById("filterUserStatusSelect");
+  const resetBtn = document.getElementById("btnResetUsersFilters");
 
-  if (searchInput) searchInput.addEventListener('input', renderMasterUsersCards);
-  if (roleSelect) roleSelect.addEventListener('change', renderMasterUsersCards);
-  if (statusSelect) statusSelect.addEventListener('change', renderMasterUsersCards);
+  if (searchInput)
+    searchInput.addEventListener("input", renderMasterUsersCards);
+  if (roleSelect) roleSelect.addEventListener("change", renderMasterUsersCards);
+  if (statusSelect)
+    statusSelect.addEventListener("change", renderMasterUsersCards);
 
   if (resetBtn) {
-    resetBtn.addEventListener('click', () => {
-      if (searchInput) searchInput.value = '';
-      if (roleSelect) roleSelect.value = 'ALL';
-      if (statusSelect) statusSelect.value = 'ALL';
+    resetBtn.addEventListener("click", () => {
+      if (searchInput) searchInput.value = "";
+      if (roleSelect) roleSelect.value = "ALL";
+      if (statusSelect) statusSelect.value = "ALL";
       renderMasterUsersCards();
-      showToast('User filters reset');
+      showToast("User filters reset");
     });
   }
 
-  const globalSearch = document.getElementById('globalSearchInput');
+  const globalSearch = document.getElementById("globalSearchInput");
   if (globalSearch && searchInput) {
-    globalSearch.addEventListener('input', (e) => {
+    globalSearch.addEventListener("input", (e) => {
       searchInput.value = e.target.value;
       renderMasterUsersCards();
     });
@@ -2231,32 +2522,36 @@ function initUserFilters() {
 }
 
 function toggleUserStatus(userId) {
-  const user = masterUsersDataset.find(u => u.id === userId);
+  const user = masterUsersDataset.find((u) => u.id === userId);
   if (!user) return;
-  if (user.accountStatus === 'Active / Operational') {
-    user.accountStatus = 'Suspended / Blocked';
+  if (user.accountStatus === "Active / Operational") {
+    user.accountStatus = "Suspended / Blocked";
     showToast(`User account "@${user.loginName}" has been Suspended`);
   } else {
-    user.accountStatus = 'Active / Operational';
+    user.accountStatus = "Active / Operational";
     showToast(`User account "@${user.loginName}" is now Active`);
   }
   renderMasterUsersCards();
 }
 
 function deleteUserAccount(userId) {
-  const user = masterUsersDataset.find(u => u.id === userId);
+  const user = masterUsersDataset.find((u) => u.id === userId);
   if (!user) return;
-  if (confirm(`Are you sure you want to permanently delete user account "@${user.loginName}"?`)) {
-    masterUsersDataset = masterUsersDataset.filter(u => u.id !== userId);
+  if (
+    confirm(
+      `Are you sure you want to permanently delete user account "@${user.loginName}"?`,
+    )
+  ) {
+    masterUsersDataset = masterUsersDataset.filter((u) => u.id !== userId);
     renderMasterUsersCards();
     showToast(`User account "@${user.loginName}" deleted`);
   }
 }
 
 function editUserAccount(userId) {
-  const user = masterUsersDataset.find(u => u.id === userId);
+  const user = masterUsersDataset.find((u) => u.id === userId);
   if (!user) return;
-  openCRMModal('edit-user', user);
+  openCRMModal("edit-user", user);
 }
 
 /* ==========================================================================
@@ -2270,7 +2565,8 @@ const initialAuditLogsData = [
     avatar: "MB",
     action: "Status Changed",
     workOrder: "#WO-2026-00101",
-    details: "Changed status from Pending Approval to In Progress (Technician En Route)"
+    details:
+      "Changed status from Pending Approval to In Progress (Technician En Route)",
   },
   {
     id: 2,
@@ -2279,7 +2575,8 @@ const initialAuditLogsData = [
     avatar: "AM",
     action: "Created Work Order",
     workOrder: "#WO-2026-00116",
-    details: "Created emergency repair dispatch for Store #554 (Miami Springs HVAC)"
+    details:
+      "Created emergency repair dispatch for Store #554 (Miami Springs HVAC)",
   },
   {
     id: 3,
@@ -2288,7 +2585,8 @@ const initialAuditLogsData = [
     avatar: "SM",
     action: "Attached W9 Doc",
     workOrder: "#WO-2026-00104",
-    details: "Uploaded compliance document W9_Tax_2026_Ver.pdf for vendor TradeCraft"
+    details:
+      "Uploaded compliance document W9_Tax_2026_Ver.pdf for vendor TradeCraft",
   },
   {
     id: 4,
@@ -2297,7 +2595,7 @@ const initialAuditLogsData = [
     avatar: "MV",
     action: "Updated Vendor Trade",
     workOrder: "#WO-2026-00108",
-    details: "Reassigned trade category from Plumbing to General Contracting"
+    details: "Reassigned trade category from Plumbing to General Contracting",
   },
   {
     id: 5,
@@ -2306,7 +2604,7 @@ const initialAuditLogsData = [
     avatar: "SJ",
     action: "Status Changed",
     workOrder: "#WO-2026-00102",
-    details: "Marked work order as Completed & Verified by store manager"
+    details: "Marked work order as Completed & Verified by store manager",
   },
   {
     id: 6,
@@ -2315,7 +2613,7 @@ const initialAuditLogsData = [
     avatar: "MB",
     action: "User Modified",
     workOrder: "N/A",
-    details: "Promoted user account @alex_morgan to System Role 'Team Lead'"
+    details: "Promoted user account @alex_morgan to System Role 'Team Lead'",
   },
   {
     id: 7,
@@ -2324,7 +2622,7 @@ const initialAuditLogsData = [
     avatar: "JD",
     action: "Deleted Record",
     workOrder: "#WO-2026-00095",
-    details: "Removed duplicate invoice draft record #INV-8841 ($450.00)"
+    details: "Removed duplicate invoice draft record #INV-8841 ($450.00)",
   },
   {
     id: 8,
@@ -2333,7 +2631,8 @@ const initialAuditLogsData = [
     avatar: "RS",
     action: "Created Work Order",
     workOrder: "#WO-2026-00115",
-    details: "Logged new preventive maintenance request for Store #312 (Tampa General)"
+    details:
+      "Logged new preventive maintenance request for Store #312 (Tampa General)",
   },
   {
     id: 9,
@@ -2342,7 +2641,7 @@ const initialAuditLogsData = [
     avatar: "ER",
     action: "Status Changed",
     workOrder: "#WO-2026-00109",
-    details: "Updated status from In Progress to Awaiting Invoice Payment"
+    details: "Updated status from In Progress to Awaiting Invoice Payment",
   },
   {
     id: 10,
@@ -2351,7 +2650,7 @@ const initialAuditLogsData = [
     avatar: "MB",
     action: "Attached W9 Doc",
     workOrder: "#WO-2026-00111",
-    details: "Attached signed vendor contract agreement agreement_final.pdf"
+    details: "Attached signed vendor contract agreement agreement_final.pdf",
   },
   {
     id: 11,
@@ -2360,7 +2659,7 @@ const initialAuditLogsData = [
     avatar: "AM",
     action: "Updated Vendor Trade",
     workOrder: "#WO-2026-00103",
-    details: "Updated primary contractor contact phone to (305) 555-0199"
+    details: "Updated primary contractor contact phone to (305) 555-0199",
   },
   {
     id: 12,
@@ -2369,7 +2668,7 @@ const initialAuditLogsData = [
     avatar: "MV",
     action: "Created Work Order",
     workOrder: "#WO-2026-00114",
-    details: "Dispatched priority electrical inspection for Store #108"
+    details: "Dispatched priority electrical inspection for Store #108",
   },
   {
     id: 13,
@@ -2378,7 +2677,7 @@ const initialAuditLogsData = [
     avatar: "SJ",
     action: "Status Changed",
     workOrder: "#WO-2026-00099",
-    details: "Status escalated to Critical Priority due to refrigeration leak"
+    details: "Status escalated to Critical Priority due to refrigeration leak",
   },
   {
     id: 14,
@@ -2387,7 +2686,7 @@ const initialAuditLogsData = [
     avatar: "SM",
     action: "User Modified",
     workOrder: "N/A",
-    details: "Updated account status for @john_doe to 'Suspended / Blocked'"
+    details: "Updated account status for @john_doe to 'Suspended / Blocked'",
   },
   {
     id: 15,
@@ -2396,7 +2695,7 @@ const initialAuditLogsData = [
     avatar: "MB",
     action: "Created Work Order",
     workOrder: "#WO-2026-00113",
-    details: "Created work order for Store #402 (Orlando North Signage Repair)"
+    details: "Created work order for Store #402 (Orlando North Signage Repair)",
   },
   {
     id: 16,
@@ -2405,8 +2704,8 @@ const initialAuditLogsData = [
     avatar: "RS",
     action: "Deleted Record",
     workOrder: "#WO-2026-00088",
-    details: "Purged archived temporary log backup file #BAK-2026-08"
-  }
+    details: "Purged archived temporary log backup file #BAK-2026-08",
+  },
 ];
 
 let masterAuditLogsDataset = [...initialAuditLogsData];
@@ -2414,27 +2713,28 @@ let currentAuditPage = 1;
 const AUDIT_PER_PAGE = 10;
 
 function renderMasterAuditLogsTable() {
-  const tableBody = document.getElementById('masterAuditTableBody');
+  const tableBody = document.getElementById("masterAuditTableBody");
   if (!tableBody) return;
 
-  const searchInput = document.getElementById('auditFilterSearch');
-  const actionSelect = document.getElementById('filterAuditActionSelect');
-  const userSelect = document.getElementById('filterAuditUserSelect');
+  const searchInput = document.getElementById("auditFilterSearch");
+  const actionSelect = document.getElementById("filterAuditActionSelect");
+  const userSelect = document.getElementById("filterAuditUserSelect");
 
-  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';
-  const actionFilter = actionSelect ? actionSelect.value : 'ALL';
-  const userFilter = userSelect ? userSelect.value : 'ALL';
+  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : "";
+  const actionFilter = actionSelect ? actionSelect.value : "ALL";
+  const userFilter = userSelect ? userSelect.value : "ALL";
 
-  const filteredLogs = masterAuditLogsDataset.filter(log => {
-    const matchesSearch = !searchTerm || 
+  const filteredLogs = masterAuditLogsDataset.filter((log) => {
+    const matchesSearch =
+      !searchTerm ||
       log.timestamp.toLowerCase().includes(searchTerm) ||
       log.userName.toLowerCase().includes(searchTerm) ||
       log.action.toLowerCase().includes(searchTerm) ||
       log.workOrder.toLowerCase().includes(searchTerm) ||
       log.details.toLowerCase().includes(searchTerm);
 
-    const matchesAction = (actionFilter === 'ALL') || (log.action === actionFilter);
-    const matchesUser = (userFilter === 'ALL') || (log.userName === userFilter);
+    const matchesAction = actionFilter === "ALL" || log.action === actionFilter;
+    const matchesUser = userFilter === "ALL" || log.userName === userFilter;
 
     return matchesSearch && matchesAction && matchesUser;
   });
@@ -2449,10 +2749,10 @@ function renderMasterAuditLogsTable() {
   const pageLogs = filteredLogs.slice(startIndex, startIndex + AUDIT_PER_PAGE);
 
   // Update Pagination Controls
-  const paginationInfo = document.getElementById('auditPaginationInfo');
-  const currentPageNum = document.getElementById('auditCurrentPageNum');
-  const btnPrev = document.getElementById('btnPrevAuditPage');
-  const btnNext = document.getElementById('btnNextAuditPage');
+  const paginationInfo = document.getElementById("auditPaginationInfo");
+  const currentPageNum = document.getElementById("auditCurrentPageNum");
+  const btnPrev = document.getElementById("btnPrevAuditPage");
+  const btnNext = document.getElementById("btnNextAuditPage");
 
   if (paginationInfo) {
     const endDisplay = Math.min(startIndex + AUDIT_PER_PAGE, totalLogs);
@@ -2460,8 +2760,8 @@ function renderMasterAuditLogsTable() {
     paginationInfo.textContent = `Showing ${startDisplay} to ${endDisplay} of ${totalLogs} Log Entries`;
   }
   if (currentPageNum) currentPageNum.textContent = currentAuditPage;
-  if (btnPrev) btnPrev.disabled = (currentAuditPage <= 1);
-  if (btnNext) btnNext.disabled = (currentAuditPage >= totalPages);
+  if (btnPrev) btnPrev.disabled = currentAuditPage <= 1;
+  if (btnNext) btnNext.disabled = currentAuditPage >= totalPages;
 
   if (pageLogs.length === 0) {
     tableBody.innerHTML = `
@@ -2474,18 +2774,21 @@ function renderMasterAuditLogsTable() {
     return;
   }
 
-  tableBody.innerHTML = pageLogs.map(log => {
-    let actionBadgeClass = 'updated';
-    if (log.action.includes('Created')) actionBadgeClass = 'created';
-    else if (log.action.includes('Status')) actionBadgeClass = 'status';
-    else if (log.action.includes('Attached') || log.action.includes('W9')) actionBadgeClass = 'attached';
-    else if (log.action.includes('Deleted')) actionBadgeClass = 'deleted';
+  tableBody.innerHTML = pageLogs
+    .map((log) => {
+      let actionBadgeClass = "updated";
+      if (log.action.includes("Created")) actionBadgeClass = "created";
+      else if (log.action.includes("Status")) actionBadgeClass = "status";
+      else if (log.action.includes("Attached") || log.action.includes("W9"))
+        actionBadgeClass = "attached";
+      else if (log.action.includes("Deleted")) actionBadgeClass = "deleted";
 
-    const woTagHtml = log.workOrder !== 'N/A' 
-      ? `<a href="jobs.html" class="audit-workorder-tag">${escapeHTML(log.workOrder)}</a>`
-      : `<span class="audit-workorder-tag" style="opacity: 0.6;">N/A</span>`;
+      const woTagHtml =
+        log.workOrder !== "N/A"
+          ? `<a href="jobs.html" class="audit-workorder-tag">${escapeHTML(log.workOrder)}</a>`
+          : `<span class="audit-workorder-tag" style="opacity: 0.6;">N/A</span>`;
 
-    return `
+      return `
       <tr>
         <td><span class="audit-timestamp">${escapeHTML(log.timestamp)}</span></td>
         <td>
@@ -2499,35 +2802,48 @@ function renderMasterAuditLogsTable() {
         <td><span style="font-size: 13px; color: var(--text-main);">${escapeHTML(log.details)}</span></td>
       </tr>
     `;
-  }).join('');
+    })
+    .join("");
 }
 
 function initAuditFilters() {
-  const searchInput = document.getElementById('auditFilterSearch');
-  const actionSelect = document.getElementById('filterAuditActionSelect');
-  const userSelect = document.getElementById('filterAuditUserSelect');
-  const resetBtn = document.getElementById('btnResetAuditFilters');
+  const searchInput = document.getElementById("auditFilterSearch");
+  const actionSelect = document.getElementById("filterAuditActionSelect");
+  const userSelect = document.getElementById("filterAuditUserSelect");
+  const resetBtn = document.getElementById("btnResetAuditFilters");
 
-  const btnPrev = document.getElementById('btnPrevAuditPage');
-  const btnNext = document.getElementById('btnNextAuditPage');
+  const btnPrev = document.getElementById("btnPrevAuditPage");
+  const btnNext = document.getElementById("btnNextAuditPage");
 
-  if (searchInput) searchInput.addEventListener('input', () => { currentAuditPage = 1; renderMasterAuditLogsTable(); });
-  if (actionSelect) actionSelect.addEventListener('change', () => { currentAuditPage = 1; renderMasterAuditLogsTable(); });
-  if (userSelect) userSelect.addEventListener('change', () => { currentAuditPage = 1; renderMasterAuditLogsTable(); });
-
-  if (resetBtn) {
-    resetBtn.addEventListener('click', () => {
-      if (searchInput) searchInput.value = '';
-      if (actionSelect) actionSelect.value = 'ALL';
-      if (userSelect) userSelect.value = 'ALL';
+  if (searchInput)
+    searchInput.addEventListener("input", () => {
       currentAuditPage = 1;
       renderMasterAuditLogsTable();
-      showToast('Audit filters reset to default');
+    });
+  if (actionSelect)
+    actionSelect.addEventListener("change", () => {
+      currentAuditPage = 1;
+      renderMasterAuditLogsTable();
+    });
+  if (userSelect)
+    userSelect.addEventListener("change", () => {
+      currentAuditPage = 1;
+      renderMasterAuditLogsTable();
+    });
+
+  if (resetBtn) {
+    resetBtn.addEventListener("click", () => {
+      if (searchInput) searchInput.value = "";
+      if (actionSelect) actionSelect.value = "ALL";
+      if (userSelect) userSelect.value = "ALL";
+      currentAuditPage = 1;
+      renderMasterAuditLogsTable();
+      showToast("Audit filters reset to default");
     });
   }
 
   if (btnPrev) {
-    btnPrev.addEventListener('click', () => {
+    btnPrev.addEventListener("click", () => {
       if (currentAuditPage > 1) {
         currentAuditPage--;
         renderMasterAuditLogsTable();
@@ -2536,7 +2852,7 @@ function initAuditFilters() {
   }
 
   if (btnNext) {
-    btnNext.addEventListener('click', () => {
+    btnNext.addEventListener("click", () => {
       currentAuditPage++;
       renderMasterAuditLogsTable();
     });
@@ -2554,8 +2870,9 @@ const initialNotificationsData = [
     timeAgo: "8 mins ago",
     unread: true,
     workOrder: "#WO-2026-00101",
-    description: "Technician Mahad Bukhari is en route for emergency HVAC repair at Coral Springs location.",
-    iconType: "workorder"
+    description:
+      "Technician Mahad Bukhari is en route for emergency HVAC repair at Coral Springs location.",
+    iconType: "workorder",
   },
   {
     id: 2,
@@ -2564,8 +2881,9 @@ const initialNotificationsData = [
     timeAgo: "22 mins ago",
     unread: true,
     workOrder: "#WO-2026-00099",
-    description: "Automated sensor alert: Walk-in freezer temperature reached 42°F at Store #099 (Miami North).",
-    iconType: "critical"
+    description:
+      "Automated sensor alert: Walk-in freezer temperature reached 42°F at Store #099 (Miami North).",
+    iconType: "critical",
   },
   {
     id: 3,
@@ -2574,8 +2892,9 @@ const initialNotificationsData = [
     timeAgo: "1 hour ago",
     unread: true,
     workOrder: "#WO-2026-00104",
-    description: "Vendor TradeCraft Contracting uploaded updated 2026 W9 Tax Verification & Liability Certificate.",
-    iconType: "vendor"
+    description:
+      "Vendor TradeCraft Contracting uploaded updated 2026 W9 Tax Verification & Liability Certificate.",
+    iconType: "vendor",
   },
   {
     id: 4,
@@ -2584,8 +2903,9 @@ const initialNotificationsData = [
     timeAgo: "3 hours ago",
     unread: true,
     workOrder: "N/A",
-    description: "Administrator updated account privileges for @alex_morgan. New System Role: Team Lead.",
-    iconType: "security"
+    description:
+      "Administrator updated account privileges for @alex_morgan. New System Role: Team Lead.",
+    iconType: "security",
   },
   {
     id: 5,
@@ -2594,8 +2914,9 @@ const initialNotificationsData = [
     timeAgo: "5 hours ago",
     unread: true,
     workOrder: "#WO-2026-00102",
-    description: "ACH Direct Deposit of $750.00 confirmed for Electrical Repair at Fort Lauderdale Store #102.",
-    iconType: "workorder"
+    description:
+      "ACH Direct Deposit of $750.00 confirmed for Electrical Repair at Fort Lauderdale Store #102.",
+    iconType: "workorder",
   },
   {
     id: 6,
@@ -2604,8 +2925,9 @@ const initialNotificationsData = [
     timeAgo: "8 hours ago",
     unread: false,
     workOrder: "#WO-2026-00116",
-    description: "Dispatched contractor Apex Plumbing Co. for main line blockage at Store #554.",
-    iconType: "critical"
+    description:
+      "Dispatched contractor Apex Plumbing Co. for main line blockage at Store #554.",
+    iconType: "critical",
   },
   {
     id: 7,
@@ -2614,8 +2936,9 @@ const initialNotificationsData = [
     timeAgo: "1 day ago",
     unread: false,
     workOrder: "N/A",
-    description: "General Contractor license for BuildPro Solutions is scheduled to expire in 14 days.",
-    iconType: "vendor"
+    description:
+      "General Contractor license for BuildPro Solutions is scheduled to expire in 14 days.",
+    iconType: "vendor",
   },
   {
     id: 8,
@@ -2624,8 +2947,9 @@ const initialNotificationsData = [
     timeAgo: "1 day ago",
     unread: false,
     workOrder: "#WO-2026-00108",
-    description: "Store Manager Sarah Jenkins verified completion of lighting installation at Tampa Store #108.",
-    iconType: "workorder"
+    description:
+      "Store Manager Sarah Jenkins verified completion of lighting installation at Tampa Store #108.",
+    iconType: "workorder",
   },
   {
     id: 9,
@@ -2634,8 +2958,9 @@ const initialNotificationsData = [
     timeAgo: "2 days ago",
     unread: false,
     workOrder: "N/A",
-    description: "Successful login for @admin_mahad from IP Address 192.168.1.104 (Windows 11 Chrome).",
-    iconType: "security"
+    description:
+      "Successful login for @admin_mahad from IP Address 192.168.1.104 (Windows 11 Chrome).",
+    iconType: "security",
   },
   {
     id: 10,
@@ -2644,8 +2969,9 @@ const initialNotificationsData = [
     timeAgo: "2 days ago",
     unread: false,
     workOrder: "#WO-2026-00115",
-    description: "System automatically generated quarterly AC filter replacement schedule for 12 Florida stores.",
-    iconType: "workorder"
+    description:
+      "System automatically generated quarterly AC filter replacement schedule for 12 Florida stores.",
+    iconType: "workorder",
   },
   {
     id: 11,
@@ -2654,8 +2980,9 @@ const initialNotificationsData = [
     timeAgo: "3 days ago",
     unread: false,
     workOrder: "#WO-2026-00088",
-    description: "Automatic escalation triggered for unanswered service request at Store #312.",
-    iconType: "critical"
+    description:
+      "Automatic escalation triggered for unanswered service request at Store #312.",
+    iconType: "critical",
   },
   {
     id: 12,
@@ -2664,34 +2991,40 @@ const initialNotificationsData = [
     timeAgo: "4 days ago",
     unread: false,
     workOrder: "N/A",
-    description: "CoolTech Mechanical vendor status updated to 'Active / Operational'.",
-    iconType: "vendor"
-  }
+    description:
+      "CoolTech Mechanical vendor status updated to 'Active / Operational'.",
+    iconType: "vendor",
+  },
 ];
 
 let masterNotificationsDataset = [...initialNotificationsData];
-let currentNotifCategory = 'ALL';
+let currentNotifCategory = "ALL";
 
 function renderNotificationsFeed() {
-  const container = document.getElementById('notifFeedContainer');
+  const container = document.getElementById("notifFeedContainer");
   if (!container) return;
 
-  const searchInput = document.getElementById('notifFilterSearch');
-  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';
+  const searchInput = document.getElementById("notifFilterSearch");
+  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : "";
 
-  const filteredNotifs = masterNotificationsDataset.filter(n => {
-    const matchesSearch = !searchTerm ||
+  const filteredNotifs = masterNotificationsDataset.filter((n) => {
+    const matchesSearch =
+      !searchTerm ||
       n.title.toLowerCase().includes(searchTerm) ||
       n.description.toLowerCase().includes(searchTerm) ||
       n.workOrder.toLowerCase().includes(searchTerm) ||
       n.category.toLowerCase().includes(searchTerm);
 
     let matchesCat = true;
-    if (currentNotifCategory === 'UNREAD') matchesCat = n.unread;
-    else if (currentNotifCategory === 'WORK ORDER') matchesCat = (n.category === 'WORK ORDER');
-    else if (currentNotifCategory === 'CRITICAL') matchesCat = (n.category === 'CRITICAL');
-    else if (currentNotifCategory === 'VENDOR') matchesCat = (n.category === 'VENDOR');
-    else if (currentNotifCategory === 'SECURITY') matchesCat = (n.category === 'SECURITY');
+    if (currentNotifCategory === "UNREAD") matchesCat = n.unread;
+    else if (currentNotifCategory === "WORK ORDER")
+      matchesCat = n.category === "WORK ORDER";
+    else if (currentNotifCategory === "CRITICAL")
+      matchesCat = n.category === "CRITICAL";
+    else if (currentNotifCategory === "VENDOR")
+      matchesCat = n.category === "VENDOR";
+    else if (currentNotifCategory === "SECURITY")
+      matchesCat = n.category === "SECURITY";
 
     return matchesSearch && matchesCat;
   });
@@ -2710,24 +3043,26 @@ function renderNotificationsFeed() {
     return;
   }
 
-  container.innerHTML = filteredNotifs.map(n => {
-    let iconSvg = '';
-    if (n.iconType === 'workorder') {
-      iconSvg = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>`;
-    } else if (n.iconType === 'critical') {
-      iconSvg = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>`;
-    } else if (n.iconType === 'vendor') {
-      iconSvg = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg>`;
-    } else {
-      iconSvg = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>`;
-    }
+  container.innerHTML = filteredNotifs
+    .map((n) => {
+      let iconSvg = "";
+      if (n.iconType === "workorder") {
+        iconSvg = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>`;
+      } else if (n.iconType === "critical") {
+        iconSvg = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>`;
+      } else if (n.iconType === "vendor") {
+        iconSvg = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg>`;
+      } else {
+        iconSvg = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>`;
+      }
 
-    const woTag = n.workOrder !== 'N/A' 
-      ? `<a href="jobs.html" class="notif-workorder-link"><span>${escapeHTML(n.workOrder)}</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>`
-      : '';
+      const woTag =
+        n.workOrder !== "N/A"
+          ? `<a href="jobs.html" class="notif-workorder-link"><span>${escapeHTML(n.workOrder)}</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>`
+          : "";
 
-    return `
-      <div class="notification-card-item ${n.unread ? 'unread' : ''}" id="notif-item-${n.id}">
+      return `
+      <div class="notification-card-item ${n.unread ? "unread" : ""}" id="notif-item-${n.id}">
         <div class="notif-item-left">
           <div class="notif-icon-circle ${n.iconType}">
             ${iconSvg}
@@ -2738,99 +3073,184 @@ function renderNotificationsFeed() {
               <span class="notif-time-text">• ${escapeHTML(n.timeAgo)}</span>
             </div>
             <div class="notif-description-text">${escapeHTML(n.description)}</div>
-            ${woTag ? `<div>${woTag}</div>` : ''}
+            ${woTag ? `<div>${woTag}</div>` : ""}
           </div>
         </div>
 
         <div class="notif-item-right-actions">
-          ${n.unread ? `<button type="button" class="notif-action-btn" onclick="markSingleNotifAsRead(${n.id})">Mark as Read</button>` : ''}
+          ${n.unread ? `<button type="button" class="notif-action-btn" onclick="markSingleNotifAsRead(${n.id})">Mark as Read</button>` : ""}
           <button type="button" class="notif-dismiss-btn" title="Dismiss Notification" onclick="dismissNotification(${n.id})">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
           </button>
         </div>
       </div>
     `;
-  }).join('');
+    })
+    .join("");
 }
 
 function updateNotifKPIs() {
-  const unreadCount = masterNotificationsDataset.filter(n => n.unread).length;
-  const navBadge = document.getElementById('unreadNotifNavBadge');
-  const unreadTabBtn = document.querySelector('.notif-tab-btn[data-category="UNREAD"]');
+  const unreadCount = masterNotificationsDataset.filter((n) => n.unread).length;
+  const navBadge = document.getElementById("unreadNotifNavBadge");
+  const unreadTabBtn = document.querySelector(
+    '.notif-tab-btn[data-category="UNREAD"]',
+  );
 
   if (navBadge) navBadge.textContent = unreadCount;
   if (unreadTabBtn) unreadTabBtn.textContent = `Unread (${unreadCount})`;
 }
 
 function markSingleNotifAsRead(id) {
-  const notif = masterNotificationsDataset.find(n => n.id === id);
+  const notif = masterNotificationsDataset.find((n) => n.id === id);
   if (!notif || !notif.unread) return;
   notif.unread = false;
   renderNotificationsFeed();
-  showToast('Notification marked as Read');
+  showToast("Notification marked as Read");
 }
 
 function dismissNotification(id) {
-  const notif = masterNotificationsDataset.find(n => n.id === id);
+  const notif = masterNotificationsDataset.find((n) => n.id === id);
   if (!notif) return;
-  masterNotificationsDataset = masterNotificationsDataset.filter(n => n.id !== id);
+  masterNotificationsDataset = masterNotificationsDataset.filter(
+    (n) => n.id !== id,
+  );
   renderNotificationsFeed();
-  showToast('Notification dismissed');
+  showToast("Notification dismissed");
 }
 
 function markAllNotificationsAsRead() {
   let count = 0;
-  masterNotificationsDataset.forEach(n => {
+  masterNotificationsDataset.forEach((n) => {
     if (n.unread) {
       n.unread = false;
       count++;
     }
   });
   renderNotificationsFeed();
-  showToast(count > 0 ? `Marked ${count} notifications as Read` : 'All notifications are already read');
+  showToast(
+    count > 0
+      ? `Marked ${count} notifications as Read`
+      : "All notifications are already read",
+  );
 }
 
 function filterNotifCategory(category, btnElement) {
   currentNotifCategory = category;
-  const tabs = document.querySelectorAll('.notif-tab-btn');
-  tabs.forEach(t => t.classList.remove('active'));
-  if (btnElement) btnElement.classList.add('active');
+  const tabs = document.querySelectorAll(".notif-tab-btn");
+  tabs.forEach((t) => t.classList.remove("active"));
+  if (btnElement) btnElement.classList.add("active");
   renderNotificationsFeed();
 }
 
 function resetNotifFilters() {
-  const searchInput = document.getElementById('notifFilterSearch');
-  if (searchInput) searchInput.value = '';
-  currentNotifCategory = 'ALL';
-  const tabs = document.querySelectorAll('.notif-tab-btn');
-  tabs.forEach(t => t.classList.remove('active'));
-  if (tabs.length > 0) tabs[0].classList.add('active');
+  const searchInput = document.getElementById("notifFilterSearch");
+  if (searchInput) searchInput.value = "";
+  currentNotifCategory = "ALL";
+  const tabs = document.querySelectorAll(".notif-tab-btn");
+  tabs.forEach((t) => t.classList.remove("active"));
+  if (tabs.length > 0) tabs[0].classList.add("active");
   renderNotificationsFeed();
-  showToast('Notification filters reset');
+  showToast("Notification filters reset");
 }
 
 function initNotifEvents() {
-  const searchInput = document.getElementById('notifFilterSearch');
-  if (searchInput) searchInput.addEventListener('input', renderNotificationsFeed);
+  const searchInput = document.getElementById("notifFilterSearch");
+  if (searchInput)
+    searchInput.addEventListener("input", renderNotificationsFeed);
 }
 
 /* ==========================================================================
    SYSTEM & PERFORMANCE ANALYTICS CONTROLLERS & DATASETS
    ========================================================================== */
 const initialStaffPerformanceData = [
-  { member: "Alex Morgan", avatar: "AM", role: "Team Lead", assigned: 65, completed: 59, ratio: "91%", vendorPaid: "$19,040.85" },
-  { member: "Marcus Vance", avatar: "MV", role: "Team Lead", assigned: 48, completed: 45, ratio: "94%", vendorPaid: "$14,210.00" },
-  { member: "Sophia Martinez", avatar: "SM", role: "User", assigned: 33, completed: 32, ratio: "97%", vendorPaid: "$10,657.13" },
-  { member: "Sarah Jenkins", avatar: "SJ", role: "User", assigned: 24, completed: 23, ratio: "96%", vendorPaid: "$8,400.00" },
-  { member: "Mahad Bukhari", avatar: "MB", role: "Administrator", assigned: 7, completed: 7, ratio: "100%", vendorPaid: "$0.00" }
+  {
+    member: "Alex Morgan",
+    avatar: "AM",
+    role: "Team Lead",
+    assigned: 65,
+    completed: 59,
+    ratio: "91%",
+    vendorPaid: "$19,040.85",
+  },
+  {
+    member: "Marcus Vance",
+    avatar: "MV",
+    role: "Team Lead",
+    assigned: 48,
+    completed: 45,
+    ratio: "94%",
+    vendorPaid: "$14,210.00",
+  },
+  {
+    member: "Sophia Martinez",
+    avatar: "SM",
+    role: "User",
+    assigned: 33,
+    completed: 32,
+    ratio: "97%",
+    vendorPaid: "$10,657.13",
+  },
+  {
+    member: "Sarah Jenkins",
+    avatar: "SJ",
+    role: "User",
+    assigned: 24,
+    completed: 23,
+    ratio: "96%",
+    vendorPaid: "$8,400.00",
+  },
+  {
+    member: "Mahad Bukhari",
+    avatar: "MB",
+    role: "Administrator",
+    assigned: 7,
+    completed: 7,
+    ratio: "100%",
+    vendorPaid: "$0.00",
+  },
 ];
 
 const initialLedgerActivityData = [
-  { amount: "$300.00", workOrder: "#WO-2026-00082", type: "CLIENT", clearStatus: "FULL", date: "Jul 18, 2026, 06:15 UTC", method: "ACH Transfer" },
-  { amount: "$95.00", workOrder: "#WO-2026-00090", type: "VENDOR", clearStatus: "FULL", date: "Jul 16, 2026, 22:35 UTC", method: "Zelle" },
-  { amount: "$411.00", workOrder: "#WO-2026-00091", type: "VENDOR", clearStatus: "FULL", date: "Jul 16, 2026, 22:34 UTC", method: "Zelle" },
-  { amount: "$400.00", workOrder: "#WO-2026-00093", type: "VENDOR", clearStatus: "FULL", date: "Jul 16, 2026, 22:32 UTC", method: "Zelle" },
-  { amount: "$302.50", workOrder: "#WO-2026-00098", type: "VENDOR", clearStatus: "FULL", date: "Jul 16, 2026, 22:30 UTC", method: "Zelle" }
+  {
+    amount: "$300.00",
+    workOrder: "#WO-2026-00082",
+    type: "CLIENT",
+    clearStatus: "FULL",
+    date: "Jul 18, 2026, 06:15 UTC",
+    method: "ACH Transfer",
+  },
+  {
+    amount: "$95.00",
+    workOrder: "#WO-2026-00090",
+    type: "VENDOR",
+    clearStatus: "FULL",
+    date: "Jul 16, 2026, 22:35 UTC",
+    method: "Zelle",
+  },
+  {
+    amount: "$411.00",
+    workOrder: "#WO-2026-00091",
+    type: "VENDOR",
+    clearStatus: "FULL",
+    date: "Jul 16, 2026, 22:34 UTC",
+    method: "Zelle",
+  },
+  {
+    amount: "$400.00",
+    workOrder: "#WO-2026-00093",
+    type: "VENDOR",
+    clearStatus: "FULL",
+    date: "Jul 16, 2026, 22:32 UTC",
+    method: "Zelle",
+  },
+  {
+    amount: "$302.50",
+    workOrder: "#WO-2026-00098",
+    type: "VENDOR",
+    clearStatus: "FULL",
+    date: "Jul 16, 2026, 22:30 UTC",
+    method: "Zelle",
+  },
 ];
 
 const monthlyTrendData = [
@@ -2841,7 +3261,7 @@ const monthlyTrendData = [
   { month: "May '26", jobs: 28, height: "72%" },
   { month: "Jun '26", jobs: 70, height: "98%", highlight: true },
   { month: "Jul '26", jobs: 34, height: "82%" },
-  { month: "Aug '26", jobs: 15, height: "45%" }
+  { month: "Aug '26", jobs: 15, height: "45%" },
 ];
 
 let statusDoughnutChartInstance = null;
@@ -2855,75 +3275,90 @@ function renderAnalyticsPage() {
   renderStaffLeaderboard();
   renderLedgerActivityFeed();
 
-  const rangeSelect = document.getElementById('analyticsDateRangeSelect');
+  const rangeSelect = document.getElementById("analyticsDateRangeSelect");
   if (rangeSelect) {
-    rangeSelect.addEventListener('change', () => {
-      showToast(`Analytics filter updated: ${rangeSelect.options[rangeSelect.selectedIndex].text}`);
+    rangeSelect.addEventListener("change", () => {
+      showToast(
+        `Analytics filter updated: ${rangeSelect.options[rangeSelect.selectedIndex].text}`,
+      );
     });
   }
 
-  const globalSearch = document.getElementById('globalSearchInput');
+  const globalSearch = document.getElementById("globalSearchInput");
   if (globalSearch) {
-    globalSearch.addEventListener('input', (e) => {
+    globalSearch.addEventListener("input", (e) => {
       filterAnalyticsBySearch(e.target.value.toLowerCase().trim());
     });
   }
 }
 
 function initTradeAreaLineChart() {
-  const ctx = document.getElementById('tradeAreaLineChart');
-  if (!ctx || typeof Chart === 'undefined') return;
+  const ctx = document.getElementById("tradeAreaLineChart");
+  if (!ctx || typeof Chart === "undefined") return;
 
   if (tradeAreaLineChartInstance) {
     tradeAreaLineChartInstance.destroy();
   }
 
-  const context = ctx.getContext('2d');
+  const context = ctx.getContext("2d");
 
   // Gradient Fill for Series 1 (Blue)
   const gradientBlue = context.createLinearGradient(0, 0, 0, 320);
-  gradientBlue.addColorStop(0, 'rgba(26, 115, 232, 0.28)');
-  gradientBlue.addColorStop(1, 'rgba(26, 115, 232, 0.01)');
+  gradientBlue.addColorStop(0, "rgba(26, 115, 232, 0.28)");
+  gradientBlue.addColorStop(1, "rgba(26, 115, 232, 0.01)");
 
   // Gradient Fill for Series 2 (Gold / Yellow)
   const gradientGold = context.createLinearGradient(0, 0, 0, 320);
-  gradientGold.addColorStop(0, 'rgba(247, 201, 72, 0.38)');
-  gradientGold.addColorStop(1, 'rgba(247, 201, 72, 0.01)');
+  gradientGold.addColorStop(0, "rgba(247, 201, 72, 0.38)");
+  gradientGold.addColorStop(1, "rgba(247, 201, 72, 0.01)");
 
   tradeAreaLineChartInstance = new Chart(ctx, {
-    type: 'line',
+    type: "line",
     data: {
-      labels: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+      labels: [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+      ],
       datasets: [
         {
-          label: 'Total Dispatch Volume',
+          label: "Total Dispatch Volume",
           data: [400, 400, 640, 500, 890, 750, 840, 600, 940, 500, 640, 700],
-          borderColor: '#1A73E8',
+          borderColor: "#1A73E8",
           borderWidth: 3.5,
           backgroundColor: gradientBlue,
           fill: true,
           tension: 0.45,
           pointRadius: 0,
           pointHoverRadius: 6,
-          pointHoverBackgroundColor: '#1A73E8',
-          pointHoverBorderColor: '#FFFFFF',
-          pointHoverBorderWidth: 2
+          pointHoverBackgroundColor: "#1A73E8",
+          pointHoverBorderColor: "#FFFFFF",
+          pointHoverBorderWidth: 2,
         },
         {
-          label: 'Revenue Target Growth',
+          label: "Revenue Target Growth",
           data: [350, 350, 410, 370, 490, 400, 540, 410, 590, 440, 540, 400],
-          borderColor: '#F7C948',
+          borderColor: "#F7C948",
           borderWidth: 3.5,
           backgroundColor: gradientGold,
           fill: true,
           tension: 0.45,
           pointRadius: 0,
           pointHoverRadius: 6,
-          pointHoverBackgroundColor: '#F7C948',
-          pointHoverBorderColor: '#FFFFFF',
-          pointHoverBorderWidth: 2
-        }
-      ]
+          pointHoverBackgroundColor: "#F7C948",
+          pointHoverBorderColor: "#FFFFFF",
+          pointHoverBorderWidth: 2,
+        },
+      ],
     },
     options: {
       responsive: true,
@@ -2933,123 +3368,164 @@ function initTradeAreaLineChart() {
           left: 10,
           right: 15,
           top: 10,
-          bottom: 5
-        }
+          bottom: 5,
+        },
       },
       plugins: {
         legend: { display: false },
         tooltip: {
-          backgroundColor: '#1E2022',
-          titleFont: { family: 'Plus Jakarta Sans', size: 12, weight: '700' },
-          bodyFont: { family: 'Plus Jakarta Sans', size: 12 },
+          backgroundColor: "#1E2022",
+          titleFont: { family: "Plus Jakarta Sans", size: 12, weight: "700" },
+          bodyFont: { family: "Plus Jakarta Sans", size: 12 },
           padding: 12,
           cornerRadius: 12,
-          displayColors: true
-        }
+          displayColors: true,
+        },
       },
       scales: {
         x: {
           grid: { display: false },
           ticks: {
-            font: { family: 'Plus Jakarta Sans', size: 11, weight: '600' },
-            color: '#787A7D'
-          }
+            font: { family: "Plus Jakarta Sans", size: 11, weight: "600" },
+            color: "#787A7D",
+          },
         },
         y: {
           grid: {
-            color: 'rgba(0, 0, 0, 0.04)',
-            drawBorder: false
+            color: "rgba(0, 0, 0, 0.04)",
+            drawBorder: false,
           },
           ticks: {
-            font: { family: 'Plus Jakarta Sans', size: 10 },
-            color: '#787A7D',
-            stepSize: 200
+            font: { family: "Plus Jakarta Sans", size: 10 },
+            color: "#787A7D",
+            stepSize: 200,
           },
           min: 200,
-          max: 1000
-        }
-      }
-    }
+          max: 1000,
+        },
+      },
+    },
   });
 }
 
 function initStatusDoughnutChart() {
-  const ctx = document.getElementById('statusDoughnutChart');
-  if (!ctx || typeof Chart === 'undefined') return;
+  const ctx = document.getElementById("statusDoughnutChart");
+  if (!ctx || typeof Chart === "undefined") return;
 
   if (statusDoughnutChartInstance) {
     statusDoughnutChartInstance.destroy();
   }
 
   statusDoughnutChartInstance = new Chart(ctx, {
-    type: 'doughnut',
+    type: "doughnut",
     data: {
-      labels: ['Done (Completed)', 'In Progress', 'Pending Approval', 'Scheduled', 'Cancelled'],
-      datasets: [{
-        data: [104, 28, 12, 6, 3],
-        backgroundColor: ['#34D399', '#1A73E8', '#D97706', '#7C3AED', '#E53E3E'],
-        hoverBackgroundColor: ['#2AD59B', '#1565C0', '#B45309', '#6D28D9', '#C53030'],
-        borderWidth: 0,
-        borderRadius: 6,
-        spacing: 3
-      }]
+      labels: [
+        "Done (Completed)",
+        "In Progress",
+        "Pending Approval",
+        "Scheduled",
+        "Cancelled",
+      ],
+      datasets: [
+        {
+          data: [104, 28, 12, 6, 3],
+          backgroundColor: [
+            "#34D399",
+            "#1A73E8",
+            "#D97706",
+            "#7C3AED",
+            "#E53E3E",
+          ],
+          hoverBackgroundColor: [
+            "#2AD59B",
+            "#1565C0",
+            "#B45309",
+            "#6D28D9",
+            "#C53030",
+          ],
+          borderWidth: 0,
+          borderRadius: 6,
+          spacing: 3,
+        },
+      ],
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      cutout: '76%',
+      cutout: "76%",
       plugins: {
         legend: { display: false },
         tooltip: {
-          backgroundColor: '#1E2022',
-          titleFont: { family: 'Plus Jakarta Sans', size: 12, weight: '700' },
-          bodyFont: { family: 'Plus Jakarta Sans', size: 12 },
+          backgroundColor: "#1E2022",
+          titleFont: { family: "Plus Jakarta Sans", size: 12, weight: "700" },
+          bodyFont: { family: "Plus Jakarta Sans", size: 12 },
           padding: 10,
           cornerRadius: 10,
           displayColors: true,
           callbacks: {
-            label: function(context) {
+            label: function (context) {
               const val = context.raw;
               const total = 153;
               const pct = ((val / total) * 100).toFixed(1);
               return ` ${context.label}: ${val} (${pct}%)`;
-            }
-          }
-        }
-      }
-    }
+            },
+          },
+        },
+      },
+    },
   });
 }
 
 function initMonthlyBarChart() {
-  const ctx = document.getElementById('monthlyJobsBarChart');
-  if (!ctx || typeof Chart === 'undefined') return;
+  const ctx = document.getElementById("monthlyJobsBarChart");
+  if (!ctx || typeof Chart === "undefined") return;
 
   if (monthlyBarChartInstance) {
     monthlyBarChartInstance.destroy();
   }
 
   monthlyBarChartInstance = new Chart(ctx, {
-    type: 'bar',
+    type: "bar",
     data: {
-      labels: ["Jan '26", "Feb '26", "Mar '26", "Apr '26", "May '26", "Jun '26", "Jul '26", "Aug '26"],
-      datasets: [{
-        label: 'Work Orders Created',
-        data: [12, 18, 24, 19, 28, 70, 34, 15],
-        backgroundColor: [
-          '#1E2022', '#1E2022', '#1E2022', '#1E2022', '#1E2022',
-          '#F7C948',
-          '#1E2022', '#1E2022'
-        ],
-        hoverBackgroundColor: [
-          '#313438', '#313438', '#313438', '#313438', '#313438',
-          '#E5B837',
-          '#313438', '#313438'
-        ],
-        borderRadius: 14,
-        borderSkipped: false,
-        barThickness: 28
-      }]
+      labels: [
+        "Jan '26",
+        "Feb '26",
+        "Mar '26",
+        "Apr '26",
+        "May '26",
+        "Jun '26",
+        "Jul '26",
+        "Aug '26",
+      ],
+      datasets: [
+        {
+          label: "Work Orders Created",
+          data: [12, 18, 24, 19, 28, 70, 34, 15],
+          backgroundColor: [
+            "#1E2022",
+            "#1E2022",
+            "#1E2022",
+            "#1E2022",
+            "#1E2022",
+            "#F7C948",
+            "#1E2022",
+            "#1E2022",
+          ],
+          hoverBackgroundColor: [
+            "#313438",
+            "#313438",
+            "#313438",
+            "#313438",
+            "#313438",
+            "#E5B837",
+            "#313438",
+            "#313438",
+          ],
+          borderRadius: 14,
+          borderSkipped: false,
+          barThickness: 28,
+        },
+      ],
     },
     options: {
       responsive: true,
@@ -3057,52 +3533,58 @@ function initMonthlyBarChart() {
       plugins: {
         legend: { display: false },
         tooltip: {
-          backgroundColor: '#1E2022',
-          titleFont: { family: 'Plus Jakarta Sans', size: 12, weight: '700' },
-          bodyFont: { family: 'Plus Jakarta Sans', size: 12 },
+          backgroundColor: "#1E2022",
+          titleFont: { family: "Plus Jakarta Sans", size: 12, weight: "700" },
+          bodyFont: { family: "Plus Jakarta Sans", size: 12 },
           padding: 10,
           cornerRadius: 10,
           callbacks: {
-            label: function(context) {
+            label: function (context) {
               return ` ${context.raw} Work Orders Created`;
-            }
-          }
-        }
+            },
+          },
+        },
       },
       scales: {
         x: {
           grid: { display: false },
           ticks: {
-            font: { family: 'Plus Jakarta Sans', size: 11, weight: '600' },
-            color: '#787A7D'
-          }
+            font: { family: "Plus Jakarta Sans", size: 11, weight: "600" },
+            color: "#787A7D",
+          },
         },
         y: {
-          grid: { color: 'rgba(0,0,0,0.04)' },
+          grid: { color: "rgba(0,0,0,0.04)" },
           ticks: {
-            font: { family: 'Plus Jakarta Sans', size: 10 },
-            color: '#787A7D',
-            stepSize: 20
+            font: { family: "Plus Jakarta Sans", size: 10 },
+            color: "#787A7D",
+            stepSize: 20,
           },
-          beginAtZero: true
-        }
-      }
-    }
+          beginAtZero: true,
+        },
+      },
+    },
   });
 }
 
 function updateMonthlyBarChart() {
   initMonthlyBarChart();
-  showToast('Monthly Jobs trend updated');
+  showToast("Monthly Jobs trend updated");
 }
 
 function renderStaffLeaderboard() {
-  const tbody = document.getElementById('analyticsLeaderboardBody');
+  const tbody = document.getElementById("analyticsLeaderboardBody");
   if (!tbody) return;
 
-  tbody.innerHTML = initialStaffPerformanceData.map(st => {
-    const roleClass = st.role === 'Administrator' ? 'administrator' : (st.role === 'Team Lead' ? 'team-lead' : 'user');
-    return `
+  tbody.innerHTML = initialStaffPerformanceData
+    .map((st) => {
+      const roleClass =
+        st.role === "Administrator"
+          ? "administrator"
+          : st.role === "Team Lead"
+            ? "team-lead"
+            : "user";
+      return `
       <tr>
         <td>
           <div class="user-assigned-badge">
@@ -3124,14 +3606,17 @@ function renderStaffLeaderboard() {
         <td><span class="vendor-charge-text">${escapeHTML(st.vendorPaid)}</span></td>
       </tr>
     `;
-  }).join('');
+    })
+    .join("");
 }
 
 function renderLedgerActivityFeed() {
-  const container = document.getElementById('analyticsLedgerFeed');
+  const container = document.getElementById("analyticsLedgerFeed");
   if (!container) return;
 
-  container.innerHTML = initialLedgerActivityData.map(tx => `
+  container.innerHTML = initialLedgerActivityData
+    .map(
+      (tx) => `
     <div class="ledger-transaction-card">
       <div class="ledger-item-left">
         <span class="ledger-amount">${escapeHTML(tx.amount)}</span>
@@ -3147,20 +3632,31 @@ function renderLedgerActivityFeed() {
         <span>${escapeHTML(tx.method)} • ${escapeHTML(tx.date)}</span>
       </div>
     </div>
-  `).join('');
+  `,
+    )
+    .join("");
 }
 
 function filterAnalyticsBySearch(query) {
-  const tbody = document.getElementById('analyticsLeaderboardBody');
+  const tbody = document.getElementById("analyticsLeaderboardBody");
   if (!tbody) return;
 
-  const filteredStaff = initialStaffPerformanceData.filter(st =>
-    !query || st.member.toLowerCase().includes(query) || st.role.toLowerCase().includes(query)
+  const filteredStaff = initialStaffPerformanceData.filter(
+    (st) =>
+      !query ||
+      st.member.toLowerCase().includes(query) ||
+      st.role.toLowerCase().includes(query),
   );
 
-  tbody.innerHTML = filteredStaff.map(st => {
-    const roleClass = st.role === 'Administrator' ? 'administrator' : (st.role === 'Team Lead' ? 'team-lead' : 'user');
-    return `
+  tbody.innerHTML = filteredStaff
+    .map((st) => {
+      const roleClass =
+        st.role === "Administrator"
+          ? "administrator"
+          : st.role === "Team Lead"
+            ? "team-lead"
+            : "user";
+      return `
       <tr>
         <td>
           <div class="user-assigned-badge">
@@ -3182,75 +3678,56 @@ function filterAnalyticsBySearch(query) {
         <td><span class="vendor-charge-text">${escapeHTML(st.vendorPaid)}</span></td>
       </tr>
     `;
-  }).join('');
+    })
+    .join("");
 }
 
 function exportAnalyticsReport(type) {
-  showToast(`Exporting analytics performance report as ${type.toUpperCase()}...`);
+  showToast(
+    `Exporting analytics performance report as ${type.toUpperCase()}...`,
+  );
 }
 
 function initMobileSidebar() {
-  const sidebarBtn = document.getElementById('sidebarToggleBtn');
-  const sidebar = document.querySelector('.crm-sidebar');
-  let backdrop = document.getElementById('sidebarBackdrop');
-
-  if (!backdrop && sidebar) {
-    backdrop = document.createElement('div');
-    backdrop.id = 'sidebarBackdrop';
-    backdrop.className = 'sidebar-backdrop';
-    document.body.appendChild(backdrop);
-  }
+  const sidebarBtn = document.getElementById("sidebarToggleBtn");
+  const sidebar = document.querySelector(".crm-sidebar");
+  const backdrop = document.getElementById("sidebarBackdrop");
 
   if (sidebarBtn && sidebar) {
-    sidebarBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      sidebar.classList.toggle('active');
-      if (backdrop) backdrop.classList.toggle('active');
+    sidebarBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("active");
+      if (backdrop) backdrop.classList.toggle("active");
     });
   }
 
   if (backdrop && sidebar) {
-    backdrop.addEventListener('click', () => {
-      sidebar.classList.remove('active');
-      backdrop.classList.remove('active');
-    });
-  }
-
-  // Close sidebar when clicking any navigation item on mobile
-  if (sidebar) {
-    const navLinks = sidebar.querySelectorAll('.nav-item-link, a');
-    navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        if (window.innerWidth <= 1024) {
-          sidebar.classList.remove('active');
-          if (backdrop) backdrop.classList.remove('active');
-        }
-      });
+    backdrop.addEventListener("click", () => {
+      sidebar.classList.remove("active");
+      backdrop.classList.remove("active");
     });
   }
 }
 
 function initLoginPage() {
-  const loginForm = document.getElementById('storeopsLoginForm');
-  const toggleBtn = document.getElementById('passwordToggleBtn');
-  const passInput = document.getElementById('loginPassword');
+  const loginForm = document.getElementById("storeopsLoginForm");
+  const toggleBtn = document.getElementById("passwordToggleBtn");
+  const passInput = document.getElementById("loginPassword");
 
   if (toggleBtn && passInput) {
-    toggleBtn.addEventListener('click', () => {
-      const isPassword = passInput.type === 'password';
-      passInput.type = isPassword ? 'text' : 'password';
-      showToast(isPassword ? 'Password text visible' : 'Password hidden');
+    toggleBtn.addEventListener("click", () => {
+      const isPassword = passInput.type === "password";
+      passInput.type = isPassword ? "text" : "password";
+      showToast(isPassword ? "Password text visible" : "Password hidden");
     });
   }
 
   if (loginForm) {
-    loginForm.addEventListener('submit', (e) => {
+    loginForm.addEventListener("submit", (e) => {
       e.preventDefault();
-      showToast('Welcome back, Administrator! Authenticating credentials...');
+      showToast("Welcome back, Administrator! Authenticating credentials...");
       setTimeout(() => {
-        window.location.href = 'index.html';
+        window.location.href = "index.html";
       }, 1200);
     });
   }
 }
-
