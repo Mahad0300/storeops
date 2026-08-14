@@ -3192,10 +3192,18 @@ function exportAnalyticsReport(type) {
 function initMobileSidebar() {
   const sidebarBtn = document.getElementById('sidebarToggleBtn');
   const sidebar = document.querySelector('.crm-sidebar');
-  const backdrop = document.getElementById('sidebarBackdrop');
+  let backdrop = document.getElementById('sidebarBackdrop');
+
+  if (!backdrop && sidebar) {
+    backdrop = document.createElement('div');
+    backdrop.id = 'sidebarBackdrop';
+    backdrop.className = 'sidebar-backdrop';
+    document.body.appendChild(backdrop);
+  }
 
   if (sidebarBtn && sidebar) {
-    sidebarBtn.addEventListener('click', () => {
+    sidebarBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
       sidebar.classList.toggle('active');
       if (backdrop) backdrop.classList.toggle('active');
     });
@@ -3205,6 +3213,19 @@ function initMobileSidebar() {
     backdrop.addEventListener('click', () => {
       sidebar.classList.remove('active');
       backdrop.classList.remove('active');
+    });
+  }
+
+  // Close sidebar when clicking any navigation item on mobile
+  if (sidebar) {
+    const navLinks = sidebar.querySelectorAll('.nav-item-link, a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 1024) {
+          sidebar.classList.remove('active');
+          if (backdrop) backdrop.classList.remove('active');
+        }
+      });
     });
   }
 }
