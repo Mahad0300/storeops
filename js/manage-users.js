@@ -141,15 +141,9 @@ function toggleUserStatus(userId) {
 function deleteUserAccount(userId) {
   const user = masterUsersDataset.find((u) => u.id === userId);
   if (!user) return;
-  if (
-    confirm(
-      `Are you sure you want to permanently delete user account "@${user.loginName}"?`,
-    )
-  ) {
-    masterUsersDataset = masterUsersDataset.filter((u) => u.id !== userId);
-    renderMasterUsersCards();
-    showToast(`User account "@${user.loginName}" deleted`);
-  }
+  masterUsersDataset = masterUsersDataset.filter((u) => u.id !== userId);
+  renderMasterUsersCards();
+  showToast(`User account "@${user.loginName}" deleted successfully`);
 }
 
 function editUserAccount(userId) {

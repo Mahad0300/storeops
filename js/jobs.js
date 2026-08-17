@@ -586,11 +586,9 @@ function updateFinancialSummaryKPIs() {
 }
 
 function deleteJobOrder(id) {
-  if (confirm(`Are you sure you want to remove Work Order #${id}?`)) {
-    masterJobsDataset = masterJobsDataset.filter((j) => j.id !== id);
-    renderAllJobsMasterTable();
-    showToast(`Work Order #${id} removed`);
-  }
+  masterJobsDataset = masterJobsDataset.filter((j) => j.id !== id);
+  renderAllJobsMasterTable();
+  showToast(`Work Order #${id} removed successfully`);
 }
 
 function viewJobDetails(id) {

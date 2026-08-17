@@ -61,7 +61,7 @@ function initSettingsFormHandlers() {
 
 function terminateSession(cardId) {
   const card = document.getElementById(cardId);
-  if (card && confirm("Are you sure you want to revoke access for this device?")) {
+  if (card) {
     card.style.transition = "all 0.3s ease";
     card.style.opacity = "0";
     card.style.transform = "translateX(20px)";
@@ -74,15 +74,13 @@ function terminateSession(cardId) {
 
 function terminateAllOtherSessions() {
   const mobileCard = document.getElementById("mobileSessionCard");
-  if (confirm("Are you sure you want to sign out all other devices except this browser?")) {
-    if (mobileCard) {
-      mobileCard.style.transition = "all 0.3s ease";
-      mobileCard.style.opacity = "0";
-      mobileCard.style.transform = "translateX(20px)";
-      setTimeout(() => {
-        mobileCard.remove();
-      }, 300);
-    }
-    showToast("All other active device sessions signed out");
+  if (mobileCard) {
+    mobileCard.style.transition = "all 0.3s ease";
+    mobileCard.style.opacity = "0";
+    mobileCard.style.transform = "translateX(20px)";
+    setTimeout(() => {
+      mobileCard.remove();
+    }, 300);
   }
+  showToast("All other active device sessions signed out");
 }

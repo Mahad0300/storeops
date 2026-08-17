@@ -20,28 +20,60 @@
   --glass-shadow-hover:
     0 16px 36px rgba(0, 0, 0, 0.05), inset 0 1px 1px rgba(255, 255, 255, 0.95);
 
-  /* Accent Colors */
+  /* Dark Theme & Surface Colors */
   --bg-card-dark: #25272a;
   --bg-card-dark-hover: #313438;
+  --bg-card-dark-alt: #33363a;
+  --bg-card-dark-border: #484c52;
   --bg-pill-dark: #1e2022;
+
+  /* Accent Brand Yellows & Ambers */
   --accent-yellow: #f7c948;
   --accent-yellow-hover: #e5b837;
   --accent-yellow-light: #fde8a5;
-  --accent-green: #34d399;
-  --accent-green-bg: rgba(230, 244, 234, 0.85);
-  --accent-red-bg: rgba(252, 232, 230, 0.85);
-  --accent-blue-bg: rgba(232, 240, 254, 0.85);
+  --accent-yellow-glow: #fde047;
+  --accent-amber: #f59e0b;
+  --accent-amber-text: #d97706;
+  --accent-amber-bg: #fef3c7;
+  --accent-amber-light-bg: #fef7e0;
 
-  /* Extended Status Tokens */
+  /* Status Greens (Success / Active / Operational) */
+  --accent-green: #34d399;
+  --accent-green-dark: #059669;
   --accent-green-text: #137333;
+  --accent-green-bg: rgba(230, 244, 234, 0.85);
   --accent-green-active-bg: #e6f4ea;
-  --accent-red-text: #dc2626;
+
+  /* Status Reds (Danger / Suspended / Deleted) */
   --accent-red-main: #ef4444;
+  --accent-red-text: #dc2626;
+  --accent-red-dark-text: #c5221f;
+  --accent-red-deep-text: #d93025;
+  --accent-red-deep-dark: #b8251b;
+  --accent-red-bg: rgba(252, 232, 230, 0.85);
   --accent-red-light-bg: #fef2f2;
+  --accent-red-badge-bg: #fce8e6;
   --accent-red-border-subtle: #fecaca;
+
+  /* Status Blues (Info / Scheduled / User Role) */
+  --accent-blue-main: #1a73e8;
+  --accent-blue-bg: rgba(232, 240, 254, 0.85);
+  --accent-blue-badge-bg: #e8f0fe;
+
+  /* Status Purples (Team Lead / Special Roles) */
+  --accent-purple-main: #7c3aed;
+  --accent-purple-badge-bg: #f3e8ff;
+
+  /* Neutral Surface, Borders & Inputs */
+  --surface-white: #ffffff;
+  --surface-light-gray: #f8fafc;
+  --surface-subtle-gray: #f1f5f9;
+  --surface-disabled-gray: #e2e8f0;
+  --border-subtle-gray: #cbd5e1;
 
   /* Text Colors */
   --text-main: #1a1c1e;
+  --text-dark-alt: #1a1a1a;
   --text-muted: #787a7d;
   --text-light: #a0a2a6;
   --text-white: #ffffff;
@@ -370,8 +402,8 @@ textarea {
 }
 
 .logout-btn:hover {
-  background: #fce8e6 !important;
-  color: #d93025 !important;
+  background: var(--accent-red-badge-bg) !important;
+  color: var(--accent-red-deep-text) !important;
   border-color: rgba(217, 48, 37, 0.3) !important;
   transform: scale(1.05);
 }
@@ -588,23 +620,23 @@ textarea {
 }
 .kpi-icon-box.blue {
   background: rgba(26, 115, 232, 0.12);
-  color: #1a73e8;
+  color: var(--accent-blue-main);
 }
 .kpi-icon-box.amber {
   background: rgba(217, 119, 6, 0.12);
-  color: #d97706;
+  color: var(--accent-amber-text);
 }
 .kpi-icon-box.purple {
   background: rgba(124, 58, 237, 0.12);
-  color: #7c3aed;
+  color: var(--accent-purple-main);
 }
 .kpi-icon-box.green {
   background: rgba(19, 115, 51, 0.12);
-  color: #137333;
+  color: var(--accent-green-text);
 }
 .kpi-icon-box.coral {
   background: rgba(217, 48, 37, 0.12);
-  color: #d93025;
+  color: var(--accent-red-deep-text);
 }
 
 .kpi-trend-pill {
@@ -618,16 +650,16 @@ textarea {
   white-space: nowrap;
 }
 .kpi-trend-pill.up {
-  background: #e6f4ea;
-  color: #137333;
+  background: var(--accent-green-active-bg);
+  color: var(--accent-green-text);
 }
 .kpi-trend-pill.down {
-  background: #fef7e0;
-  color: #b06000;
+  background: var(--accent-amber-light-bg);
+  color: var(--accent-amber-text);
 }
 .kpi-trend-pill.blue {
-  background: #e8f0fe;
-  color: #1a73e8;
+  background: var(--accent-blue-badge-bg);
+  color: var(--accent-blue-main);
 }
 
 .kpi-bottom-content {
@@ -1076,33 +1108,33 @@ textarea {
   display: inline-block;
 }
 .badge-status.pending {
-  background: #fce8e6;
-  color: #c5221f;
+  background: var(--accent-red-badge-bg);
+  color: var(--accent-red-dark-text);
   border: 1px solid rgba(197, 34, 31, 0.2);
 }
 .badge-status.new {
-  background: #e8f0fe;
-  color: #1a73e8;
+  background: var(--accent-blue-badge-bg);
+  color: var(--accent-blue-main);
   border: 1px solid rgba(26, 115, 232, 0.2);
 }
 .badge-status.scheduled {
-  background: #f3e8ff;
-  color: #7c3aed;
+  background: var(--accent-purple-badge-bg);
+  color: var(--accent-purple-main);
   border: 1px solid rgba(124, 58, 237, 0.25);
 }
 .badge-status.in-progress {
-  background: #fef7e0;
-  color: #b06000;
+  background: var(--accent-amber-light-bg);
+  color: var(--accent-amber-text);
   border: 1px solid rgba(176, 96, 0, 0.2);
 }
 .badge-status.done {
-  background: #e6f4ea;
-  color: #137333;
+  background: var(--accent-green-active-bg);
+  color: var(--accent-green-text);
   border: 1px solid rgba(19, 115, 51, 0.2);
 }
 .badge-status.cancelled {
-  background: #f1f5f9;
-  color: #64748b;
+  background: var(--surface-subtle-gray);
+  color: var(--text-muted);
   border: 1px solid rgba(100, 116, 139, 0.2);
 }
 
@@ -1115,11 +1147,11 @@ textarea {
 }
 .badge-urgency.sla {
   background: rgba(0, 0, 0, 0.05);
-  color: #5f6368;
+  color: var(--text-muted);
 }
 .badge-urgency.urgent {
-  background: #fce8e6;
-  color: #d93025;
+  background: var(--accent-red-badge-bg);
+  color: var(--accent-red-deep-text);
   font-weight: 700;
 }
 
@@ -3423,20 +3455,20 @@ textarea:focus {
 }
 
 .user-role-tag-pill.administrator {
-  background: #1e2022;
-  color: #ffffff;
+  background: var(--bg-pill-dark);
+  color: var(--text-white);
 }
 
 .user-role-tag-pill.team-lead {
-  background: #f3e8ff;
-  color: #7c3aed;
+  background: var(--accent-purple-badge-bg);
+  color: var(--accent-purple-main);
   border: 1px solid rgba(124, 58, 237, 0.2);
 }
 
 .user-role-tag-pill.user,
 .user-role-tag-pill.field-contractor {
-  background: #e8f0fe;
-  color: #1a73e8;
+  background: var(--accent-blue-badge-bg);
+  color: var(--accent-blue-main);
   border: 1px solid rgba(26, 115, 232, 0.2);
 }
 
@@ -3448,14 +3480,14 @@ textarea:focus {
 }
 
 .user-status-tag-pill.active {
-  background: #e6f4ea;
-  color: #137333;
+  background: var(--accent-green-active-bg);
+  color: var(--accent-green-text);
   border: 1px solid rgba(19, 115, 51, 0.2);
 }
 
 .user-status-tag-pill.suspended {
-  background: #fce8e6;
-  color: #c5221f;
+  background: var(--accent-red-badge-bg);
+  color: var(--accent-red-dark-text);
   border: 1px solid rgba(197, 34, 31, 0.2);
 }
 
@@ -3491,20 +3523,20 @@ textarea:focus {
 /* Suspend / Activate Toggle Button */
 .user-card-btn.toggle-btn.suspend {
   background: rgba(239, 68, 68, 0.1);
-  color: #dc2626;
+  color: var(--accent-red-text);
 }
 .user-card-btn.toggle-btn.suspend:hover {
-  background: #dc2626;
-  color: #ffffff;
+  background: var(--accent-red-text);
+  color: var(--text-white);
 }
 
 .user-card-btn.toggle-btn.activate {
   background: rgba(52, 211, 153, 0.18);
-  color: #059669;
+  color: var(--accent-green-dark);
 }
 .user-card-btn.toggle-btn.activate:hover {
-  background: #059669;
-  color: #ffffff;
+  background: var(--accent-green-dark);
+  color: var(--text-white);
 }
 
 /* Edit Button */
@@ -3514,17 +3546,17 @@ textarea:focus {
 }
 .user-card-btn.edit-btn:hover {
   background: var(--bg-pill-dark);
-  color: #ffffff;
+  color: var(--text-white);
 }
 
 /* Delete Button */
 .user-card-btn.delete-btn {
   background: rgba(239, 68, 68, 0.08);
-  color: #dc2626;
+  color: var(--accent-red-text);
 }
 .user-card-btn.delete-btn:hover {
-  background: #dc2626;
-  color: #ffffff;
+  background: var(--accent-red-text);
+  color: var(--text-white);
 }
 
 .users-panel-clean {
@@ -3644,32 +3676,32 @@ textarea:focus {
 }
 
 .action-badge.created {
-  background: #e6f4ea;
-  color: #137333;
+  background: var(--accent-green-active-bg);
+  color: var(--accent-green-text);
   border: 1px solid rgba(19, 115, 51, 0.2);
 }
 
 .action-badge.updated {
-  background: #e8f0fe;
-  color: #1a73e8;
+  background: var(--accent-blue-badge-bg);
+  color: var(--accent-blue-main);
   border: 1px solid rgba(26, 115, 232, 0.2);
 }
 
 .action-badge.status {
-  background: #f3e8ff;
-  color: #7c3aed;
+  background: var(--accent-purple-badge-bg);
+  color: var(--accent-purple-main);
   border: 1px solid rgba(124, 58, 237, 0.2);
 }
 
 .action-badge.attached {
-  background: #fef3c7;
-  color: #d97706;
+  background: var(--accent-amber-bg);
+  color: var(--accent-amber-text);
   border: 1px solid rgba(217, 119, 6, 0.2);
 }
 
 .action-badge.deleted {
-  background: #fce8e6;
-  color: #c5221f;
+  background: var(--accent-red-badge-bg);
+  color: var(--accent-red-dark-text);
   border: 1px solid rgba(197, 34, 31, 0.2);
 }
 
@@ -3873,20 +3905,20 @@ textarea:focus {
 }
 
 .notif-badge-tag.workorder {
-  background: #e8f0fe;
-  color: #1a73e8;
+  background: var(--accent-blue-badge-bg);
+  color: var(--accent-blue-main);
 }
 .notif-badge-tag.critical {
-  background: #fce8e6;
-  color: #dc2626;
+  background: var(--accent-red-badge-bg);
+  color: var(--accent-red-text);
 }
 .notif-badge-tag.vendor {
-  background: #fef3c7;
-  color: #d97706;
+  background: var(--accent-amber-bg);
+  color: var(--accent-amber-text);
 }
 .notif-badge-tag.security {
-  background: #f3e8ff;
-  color: #7c3aed;
+  background: var(--accent-purple-badge-bg);
+  color: var(--accent-purple-main);
 }
 
 .notif-time-text {
@@ -4432,28 +4464,28 @@ textarea:focus {
 }
 
 .trade-icon-box.blue {
-  background: #e8f0fe;
-  color: #1a73e8;
+  background: var(--accent-blue-badge-bg);
+  color: var(--accent-blue-main);
 }
 .trade-icon-box.amber {
-  background: #fef7e0;
-  color: #d97706;
+  background: var(--accent-amber-light-bg);
+  color: var(--accent-amber-text);
 }
 .trade-icon-box.coral {
-  background: #fce8e6;
-  color: #d93025;
+  background: var(--accent-red-badge-bg);
+  color: var(--accent-red-deep-text);
 }
 .trade-icon-box.purple {
-  background: #f3e8ff;
-  color: #7c3aed;
+  background: var(--accent-purple-badge-bg);
+  color: var(--accent-purple-main);
 }
 .trade-icon-box.green {
-  background: #e6f4ea;
-  color: #137333;
+  background: var(--accent-green-active-bg);
+  color: var(--accent-green-text);
 }
 .trade-icon-box.dark {
-  background: #1e2022;
-  color: #ffffff;
+  background: var(--bg-pill-dark);
+  color: var(--text-white);
 }
 
 .trade-info-col {

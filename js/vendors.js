@@ -452,13 +452,11 @@ function closeRemarkModal() {
 function deleteVendor(id) {
   const v = masterVendorsDataset.find((item) => item.id === id);
   if (!v) return;
-  if (confirm(`Are you sure you want to remove vendor "${v.name}"?`)) {
-    masterVendorsDataset = masterVendorsDataset.filter(
-      (item) => item.id !== id,
-    );
-    renderMasterVendorsTable();
-    showToast(`Vendor "${v.name}" removed`);
-  }
+  masterVendorsDataset = masterVendorsDataset.filter(
+    (item) => item.id !== id,
+  );
+  renderMasterVendorsTable();
+  showToast(`Vendor "${v.name}" removed successfully`);
 }
 
 function editVendor(id) {

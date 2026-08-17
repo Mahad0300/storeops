@@ -62,14 +62,10 @@ function initWorkOrderConfigControls() {
   const deleteBtn = document.querySelector(".btn-delete-order");
   if (deleteBtn) {
     deleteBtn.addEventListener("click", () => {
-      if (
-        confirm("Are you sure you want to permanently delete this work order?")
-      ) {
-        showToast("Work Order WO-2026-00109 deleted");
-        setTimeout(() => {
-          window.location.href = "jobs.php";
-        }, 1200);
-      }
+      showToast("Work Order WO-2026-00109 deleted successfully");
+      setTimeout(() => {
+        window.location.href = "jobs.php";
+      }, 1000);
     });
   }
 
