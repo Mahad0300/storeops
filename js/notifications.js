@@ -182,7 +182,7 @@ function renderNotificationsFeed() {
 
   if (filteredNotifs.length === 0) {
     container.innerHTML = `
-      <div class="users-empty-card" style="grid-column: span 1;">
+      <div class="users-empty-card col-span-1">
         <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="users-empty-icon"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
         <div class="users-empty-title">No Notifications Found</div>
         <div class="users-empty-sub">No notifications match your active search or category filter.</div>
@@ -206,7 +206,7 @@ function renderNotificationsFeed() {
 
       const woTag =
         n.workOrder !== "N/A"
-          ? `<a href="jobs.html" class="notif-workorder-link"><span>${escapeHTML(n.workOrder)}</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>`
+          ? `<a href="jobs.php" class="notif-workorder-link"><span>${escapeHTML(n.workOrder)}</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>`
           : "";
 
       return `

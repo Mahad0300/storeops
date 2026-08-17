@@ -349,7 +349,7 @@ function initLogout() {
     logoutBtn.addEventListener("click", () => {
       showToast("Logged out of Administrator account");
       setTimeout(() => {
-        window.location.href = "index.html";
+        window.location.href = "index.php";
       }, 1000);
     });
   }
@@ -422,23 +422,20 @@ function initTaskList() {
 }
 
 function initModals() {
-  const closeBtns = document.querySelectorAll(
-    ".modal-close-btn, .modal-cancel-btn",
-  );
-  closeBtns.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const modal = btn.closest(".crm-modal-backdrop");
-      if (modal) modal.classList.remove("active");
-    });
-  });
-
-  const backdrops = document.querySelectorAll(".crm-modal-backdrop");
-  backdrops.forEach((backdrop) => {
-    backdrop.addEventListener("click", (e) => {
-      if (e.target === backdrop) {
-        backdrop.classList.remove("active");
+  document.addEventListener("click", (e) => {
+    const closeBtn = e.target.closest(".modal-close-btn, .modal-cancel-btn");
+    if (closeBtn) {
+      const modal = closeBtn.closest(".modal-backdrop");
+      if (modal) {
+        modal.style.display = "none";
+        modal.classList.remove("active");
       }
-    });
+    }
+
+    if (e.target.classList.contains("modal-backdrop")) {
+      e.target.style.display = "none";
+      e.target.classList.remove("active");
+    }
   });
 }
 
@@ -507,12 +504,23 @@ function openCRMModal(type, editData = null) {
   if (!backdrop) {
     backdrop = document.createElement("div");
     backdrop.id = "dynamicCRMModalBackdrop";
-    backdrop.className = "crm-modal-backdrop";
+    backdrop.className = "modal-backdrop crm-modal-backdrop";
     document.body.appendChild(backdrop);
+
+    backdrop.addEventListener("click", (e) => {
+      if (e.target === backdrop) closeModal();
+    });
+  } else {
+    backdrop.className = "modal-backdrop crm-modal-backdrop";
   }
 
+  const isEditMode =
+    (type === "edit-job" || type === "edit-vendor" || type === "edit-user") &&
+    editData !== null;
+  const editRecordId = isEditMode ? editData.id : "";
   let title = "Create New Record";
-  let content = "";
+  let bodyFieldsHtml = "";
+  let submitBtnText = "Submit";
 
   const userOptions = masterUsersDataset
     .map(
@@ -522,68 +530,62 @@ function openCRMModal(type, editData = null) {
     .join("");
 
   if (type === "job" || type === "edit-job") {
-    const isEdit = type === "edit-job" && editData;
-    title = isEdit
+    title = isEditMode
       ? `Edit Work Order #${editData.id}`
       : "Create New Work Order";
+    submitBtnText = isEditMode ? "Save Changes" : "Create Work Order";
 
-    content = `
-      <form id="crmModalForm" data-type="${type}" ${isEdit ? `data-edit-id="${editData.id}"` : ""}>
+    bodyFieldsHtml = `
+      <div class="form-group">
+        <label class="form-label">Store Location Name</label>
+        <input type="text" id="mStoreName" class="form-control" required placeholder="e.g. CORAL SPRINGS" value="${isEditMode ? escapeHTML(editData.storeName) : ""}" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Full Street Address</label>
+        <input type="text" id="mStoreAddress" class="form-control" required placeholder="e.g. N University Dr, Ste 1313, Coral Springs, FL" value="${isEditMode ? escapeHTML(editData.storeAddress) : ""}" />
+      </div>
+      <div class="modal-form-grid-2col">
         <div class="form-group">
-          <label class="form-label">Store Location Name</label>
-          <input type="text" id="mStoreName" class="form-input" required placeholder="e.g. CORAL SPRINGS" value="${isEdit ? escapeHTML(editData.storeName) : ""}" />
+          <label class="form-label">Trade / Designation</label>
+          <select id="mDesignation" class="form-control">
+            <option ${isEditMode && editData.designation === "Electrician" ? "selected" : ""}>Electrician</option>
+            <option ${isEditMode && editData.designation === "HVAC" ? "selected" : ""}>HVAC</option>
+            <option ${isEditMode && editData.designation === "Plumbing Service" ? "selected" : ""}>Plumbing Service</option>
+            <option ${isEditMode && editData.designation === "Fire Protection" ? "selected" : ""}>Fire Protection</option>
+            <option ${isEditMode && editData.designation === "Window Cleaning" ? "selected" : ""}>Window Cleaning</option>
+            <option ${isEditMode && editData.designation === "Roofing Repair" ? "selected" : ""}>Roofing Repair</option>
+            <option ${isEditMode && editData.designation === "Security System" ? "selected" : ""}>Security System</option>
+            <option ${isEditMode && editData.designation === "Elevator Maint." ? "selected" : ""}>Elevator Maint.</option>
+          </select>
         </div>
         <div class="form-group">
-          <label class="form-label">Full Street Address</label>
-          <input type="text" id="mStoreAddress" class="form-input" required placeholder="e.g. N University Dr, Ste 1313, Coral Springs, FL" value="${isEdit ? escapeHTML(editData.storeAddress) : ""}" />
+          <label class="form-label">Assigned Operations Staff</label>
+          <select id="mAssignedUser" class="form-control">
+            ${userOptions}
+          </select>
         </div>
-        <div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-          <div class="form-group">
-            <label class="form-label">Trade / Designation</label>
-            <select id="mDesignation" class="form-select">
-              <option ${isEdit && editData.designation === "Electrician" ? "selected" : ""}>Electrician</option>
-              <option ${isEdit && editData.designation === "HVAC" ? "selected" : ""}>HVAC</option>
-              <option ${isEdit && editData.designation === "Plumbing Service" ? "selected" : ""}>Plumbing Service</option>
-              <option ${isEdit && editData.designation === "Fire Protection" ? "selected" : ""}>Fire Protection</option>
-              <option ${isEdit && editData.designation === "Window Cleaning" ? "selected" : ""}>Window Cleaning</option>
-              <option ${isEdit && editData.designation === "Roofing Repair" ? "selected" : ""}>Roofing Repair</option>
-              <option ${isEdit && editData.designation === "Security System" ? "selected" : ""}>Security System</option>
-              <option ${isEdit && editData.designation === "Elevator Maint." ? "selected" : ""}>Elevator Maint.</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Assigned Operations Staff</label>
-            <select id="mAssignedUser" class="form-select">
-              ${userOptions}
-            </select>
-          </div>
+      </div>
+      <div class="modal-form-grid-2col">
+        <div class="form-group">
+          <label class="form-label">Est. Revenue ($)</label>
+          <input type="number" step="0.01" id="mJobRevenue" class="form-control" required placeholder="1200.00" value="${isEditMode ? editData.jobRevenue : "850.00"}" />
         </div>
-        <div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-          <div class="form-group">
-            <label class="form-label">Est. Revenue ($)</label>
-            <input type="number" step="0.01" id="mJobRevenue" class="form-input" required placeholder="1200.00" value="${isEdit ? editData.jobRevenue : "850.00"}" />
-          </div>
-          <div class="form-group">
-            <label class="form-label">Urgency Level</label>
-            <select id="mUrgency" class="form-select">
-              <option value="Within SLA" ${isEdit && editData.urgency === "Within SLA" ? "selected" : ""}>Within SLA</option>
-              <option value="Urgent" ${isEdit && editData.urgency === "Urgent" ? "selected" : ""}>Urgent Priority</option>
-            </select>
-          </div>
+        <div class="form-group">
+          <label class="form-label">Urgency Level</label>
+          <select id="mUrgency" class="form-control">
+            <option value="Within SLA" ${isEditMode && editData.urgency === "Within SLA" ? "selected" : ""}>Within SLA</option>
+            <option value="Urgent" ${isEditMode && editData.urgency === "Urgent" ? "selected" : ""}>Urgent Priority</option>
+          </select>
         </div>
-        <div class="modal-footer" style="margin-top: 24px; display: flex; justify-content: flex-end; gap: 12px;">
-          <button type="button" class="btn btn-secondary modal-cancel-btn" onclick="closeModal()">Cancel</button>
-          <button type="submit" class="btn btn-primary">${isEdit ? "Save Changes" : "Create Work Order"}</button>
-        </div>
-      </form>
+      </div>
     `;
   } else if (type === "vendor" || type === "edit-vendor") {
-    const isEdit = type === "edit-vendor" && editData;
-    title = isEdit
+    title = isEditMode
       ? `Edit Vendor "${editData.name}"`
       : "Register Certified Vendor";
+    submitBtnText = isEditMode ? "Save Vendor Changes" : "Register Vendor";
 
-    const phonesList = isEdit
+    const phonesList = isEditMode
       ? [
           editData.phone,
           ...(editData.secondaryPhone
@@ -595,112 +597,107 @@ function openCRMModal(type, editData = null) {
     const phoneRowsHtml = phonesList
       .map(
         (ph, idx) => `
-      <div class="vendor-phone-row" style="display: flex; gap: 8px; margin-bottom: 8px;">
-        <input type="text" class="form-input vendor-phone-input" placeholder="${idx === 0 ? "+1 (800) 555-0199 (Primary)" : "+1 (312) 555-0144 (Secondary)"}" value="${escapeHTML(ph)}" required />
-        ${idx > 0 ? `<button type="button" class="btn btn-secondary" onclick="removePhoneRow(this)">✕</button>` : `<button type="button" class="btn btn-secondary" onclick="addVendorPhoneRow()">+ Add</button>`}
+      <div class="vendor-phone-row">
+        <input type="text" class="form-control vendor-phone-input" placeholder="${idx === 0 ? "+1 (800) 555-0199 (Primary)" : "+1 (312) 555-0144 (Secondary)"}" value="${escapeHTML(ph)}" required />
+        ${idx > 0 ? `<button type="button" class="btn-remove-phone" onclick="removePhoneRow(this)" title="Remove phone number">✕</button>` : `<button type="button" class="btn-add-phone" onclick="addVendorPhoneRow()">+ Add</button>`}
       </div>
     `,
       )
       .join("");
 
-    content = `
-      <form id="crmModalForm" data-type="${type}" ${isEdit ? `data-edit-id="${editData.id}"` : ""}>
-        <div class="form-group">
-          <label class="form-label">Vendor Company Name</label>
-          <input type="text" id="mVendorName" class="form-input" required placeholder="e.g. Apex Electrical Solutions" value="${isEdit ? escapeHTML(editData.name) : ""}" />
+    bodyFieldsHtml = `
+      <div class="form-group">
+        <label class="form-label">Vendor Company Name</label>
+        <input type="text" id="mVendorName" class="form-control" required placeholder="e.g. Apex Electrical Solutions" value="${isEditMode ? escapeHTML(editData.name) : ""}" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Trade / Specialty Discipline</label>
+        <select id="mVendorType" class="form-control">
+          <option ${isEditMode && editData.type === "Electrician" ? "selected" : ""}>Electrician</option>
+          <option ${isEditMode && editData.type === "HVAC" ? "selected" : ""}>HVAC</option>
+          <option ${isEditMode && editData.type === "Plumbing" ? "selected" : ""}>Plumbing</option>
+          <option ${isEditMode && editData.type === "Fire Protection" ? "selected" : ""}>Fire Protection</option>
+          <option ${isEditMode && editData.type === "Window Cleaning" ? "selected" : ""}>Window Cleaning</option>
+          <option ${isEditMode && editData.type === "Roofing" ? "selected" : ""}>Roofing</option>
+          <option ${isEditMode && editData.type === "Locksmith" ? "selected" : ""}>Locksmith</option>
+          <option ${isEditMode && editData.type === "Glass Replacement" ? "selected" : ""}>Glass Replacement</option>
+          <option ${isEditMode && editData.type === "Painter" ? "selected" : ""}>Painter</option>
+          <option ${isEditMode && editData.type === "Awnings Replacement" ? "selected" : ""}>Awnings Replacement</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Contact Phone Number(s)</label>
+        <div id="vendorPhoneInputsContainer">
+          ${phoneRowsHtml}
         </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Primary Service Location / HQ</label>
+        <input type="text" id="mVendorLocation" class="form-control" required placeholder="e.g. Chicago, IL" value="${isEditMode ? escapeHTML(editData.location) : ""}" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Remarks / Badges</label>
+        <input type="text" id="mVendorRemark" class="form-control" placeholder="e.g. Good Vendor, Fast Response" value="${isEditMode ? escapeHTML(editData.remark || "") : ""}" />
+      </div>
+    `;
+  } else if (type === "user" || type === "edit-user") {
+    title = isEditMode
+      ? `Edit User "${editData.fullName}"`
+      : "Create System User Account";
+    submitBtnText = isEditMode ? "Save User Changes" : "Create Account";
+
+    bodyFieldsHtml = `
+      <div class="form-group">
+        <label class="form-label">System Username</label>
+        <input type="text" id="mUserLogin" class="form-control" required placeholder="e.g. alex_morgan" value="${isEditMode ? escapeHTML(editData.loginName) : ""}" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Full Name</label>
+        <input type="text" id="mUserName" class="form-control" required placeholder="e.g. Alex Morgan" value="${isEditMode ? escapeHTML(editData.fullName) : ""}" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Password</label>
+        <input type="password" id="mUserPassword" class="form-control" required placeholder="••••••••" value="${isEditMode ? escapeHTML(editData.password) : "••••••••"}" />
+      </div>
+      <div class="modal-form-grid-2col">
         <div class="form-group">
-          <label class="form-label">Trade / Specialty Discipline</label>
-          <select id="mVendorType" class="form-select">
-            <option ${isEdit && editData.type === "Electrician" ? "selected" : ""}>Electrician</option>
-            <option ${isEdit && editData.type === "HVAC" ? "selected" : ""}>HVAC</option>
-            <option ${isEdit && editData.type === "Plumbing" ? "selected" : ""}>Plumbing</option>
-            <option ${isEdit && editData.type === "Fire Protection" ? "selected" : ""}>Fire Protection</option>
-            <option ${isEdit && editData.type === "Window Cleaning" ? "selected" : ""}>Window Cleaning</option>
-            <option ${isEdit && editData.type === "Roofing" ? "selected" : ""}>Roofing</option>
-            <option ${isEdit && editData.type === "Locksmith" ? "selected" : ""}>Locksmith</option>
-            <option ${isEdit && editData.type === "Glass Replacement" ? "selected" : ""}>Glass Replacement</option>
-            <option ${isEdit && editData.type === "Painter" ? "selected" : ""}>Painter</option>
-            <option ${isEdit && editData.type === "Awnings Replacement" ? "selected" : ""}>Awnings Replacement</option>
+          <label class="form-label">System Role</label>
+          <select id="mUserRole" class="form-control">
+            <option ${isEditMode && editData.systemRole === "Administrator" ? "selected" : ""}>Administrator</option>
+            <option ${isEditMode && editData.systemRole === "Team Lead" ? "selected" : ""}>Team Lead</option>
+            <option ${isEditMode && editData.systemRole === "User" ? "selected" : ""}>User</option>
           </select>
         </div>
         <div class="form-group">
-          <label class="form-label">Contact Phone Number(s)</label>
-          <div id="vendorPhoneInputsContainer">
-            ${phoneRowsHtml}
-          </div>
+          <label class="form-label">Account Status</label>
+          <select id="mUserStatus" class="form-control">
+            <option value="Active / Operational" ${isEditMode && editData.accountStatus === "Active / Operational" ? "selected" : ""}>Active / Operational</option>
+            <option value="Suspended / Blocked" ${isEditMode && editData.accountStatus === "Suspended / Blocked" ? "selected" : ""}>Suspended / Blocked</option>
+          </select>
         </div>
-        <div class="form-group">
-          <label class="form-label">Primary Service Location / HQ</label>
-          <input type="text" id="mVendorLocation" class="form-input" required placeholder="e.g. Chicago, IL" value="${isEdit ? escapeHTML(editData.location) : ""}" />
-        </div>
-        <div class="form-group">
-          <label class="form-label">Remarks / Badges</label>
-          <input type="text" id="mVendorRemark" class="form-input" placeholder="e.g. Good Vendor, Fast Response" value="${isEdit ? escapeHTML(editData.remark || "") : ""}" />
-        </div>
-        <div class="modal-footer" style="margin-top: 24px; display: flex; justify-content: flex-end; gap: 12px;">
-          <button type="button" class="btn btn-secondary modal-cancel-btn" onclick="closeModal()">Cancel</button>
-          <button type="submit" class="btn btn-primary">${isEdit ? "Save Vendor Changes" : "Register Vendor"}</button>
-        </div>
-      </form>
-    `;
-  } else if (type === "user" || type === "edit-user") {
-    const isEdit = type === "edit-user" && editData;
-    title = isEdit
-      ? `Edit User "${editData.fullName}"`
-      : "Create System User Account";
-
-    content = `
-      <form id="crmModalForm" data-type="${type}" ${isEdit ? `data-edit-id="${editData.id}"` : ""}>
-        <div class="form-group">
-          <label class="form-label">System Username</label>
-          <input type="text" id="mUserLogin" class="form-input" required placeholder="e.g. alex_morgan" value="${isEdit ? escapeHTML(editData.loginName) : ""}" />
-        </div>
-        <div class="form-group">
-          <label class="form-label">Full Name</label>
-          <input type="text" id="mUserName" class="form-input" required placeholder="e.g. Alex Morgan" value="${isEdit ? escapeHTML(editData.fullName) : ""}" />
-        </div>
-        <div class="form-group">
-          <label class="form-label">Password</label>
-          <input type="password" id="mUserPassword" class="form-input" required placeholder="••••••••" value="${isEdit ? escapeHTML(editData.password) : "••••••••"}" />
-        </div>
-        <div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-          <div class="form-group">
-            <label class="form-label">System Role</label>
-            <select id="mUserRole" class="form-select">
-              <option ${isEdit && editData.systemRole === "Administrator" ? "selected" : ""}>Administrator</option>
-              <option ${isEdit && editData.systemRole === "Team Lead" ? "selected" : ""}>Team Lead</option>
-              <option ${isEdit && editData.systemRole === "User" ? "selected" : ""}>User</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Account Status</label>
-            <select id="mUserStatus" class="form-select">
-              <option value="Active / Operational" ${isEdit && editData.accountStatus === "Active / Operational" ? "selected" : ""}>Active / Operational</option>
-              <option value="Suspended / Blocked" ${isEdit && editData.accountStatus === "Suspended / Blocked" ? "selected" : ""}>Suspended / Blocked</option>
-            </select>
-          </div>
-        </div>
-        <div class="modal-footer" style="margin-top: 24px; display: flex; justify-content: flex-end; gap: 12px;">
-          <button type="button" class="btn btn-secondary modal-cancel-btn" onclick="closeModal()">Cancel</button>
-          <button type="submit" class="btn btn-primary">${isEdit ? "Save User Changes" : "Create Account"}</button>
-        </div>
-      </form>
+      </div>
     `;
   }
 
   backdrop.innerHTML = `
-    <div class="crm-modal-container modal-sm-480">
+    <div class="modal-content">
       <div class="modal-header">
         <h3 class="modal-title">${escapeHTML(title)}</h3>
-        <button class="modal-close-btn" onclick="closeModal()">✕</button>
+        <span class="modal-close-btn" onclick="closeModal()">&times;</span>
       </div>
-      <div class="modal-body">
-        ${content}
-      </div>
+      <form id="crmModalForm" data-type="${type}" ${isEditMode ? `data-edit-id="${editRecordId}"` : ""}>
+        <div class="modal-body">
+          ${bodyFieldsHtml}
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-secondary modal-cancel-btn" onclick="closeModal()">Cancel</button>
+          <button type="submit" class="btn-primary-action">${escapeHTML(submitBtnText)}</button>
+        </div>
+      </form>
     </div>
   `;
 
+  backdrop.style.display = "flex";
   backdrop.classList.add("active");
 
   const form = document.getElementById("crmModalForm");
@@ -715,7 +712,10 @@ function openCRMModal(type, editData = null) {
 
 function closeModal() {
   const backdrop = document.getElementById("dynamicCRMModalBackdrop");
-  if (backdrop) backdrop.classList.remove("active");
+  if (backdrop) {
+    backdrop.style.display = "none";
+    backdrop.classList.remove("active");
+  }
 }
 
 function addVendorPhoneRow() {
@@ -723,10 +723,9 @@ function addVendorPhoneRow() {
   if (!container) return;
   const div = document.createElement("div");
   div.className = "vendor-phone-row";
-  div.style.cssText = "display: flex; gap: 8px; margin-bottom: 8px;";
   div.innerHTML = `
-    <input type="text" class="form-input vendor-phone-input" placeholder="+1 (312) 555-0144 (Secondary)" required />
-    <button type="button" class="btn btn-secondary" onclick="removePhoneRow(this)">✕</button>
+    <input type="text" class="form-control vendor-phone-input" placeholder="+1 (312) 555-0144 (Secondary)" required />
+    <button type="button" class="btn-remove-phone" onclick="removePhoneRow(this)" title="Remove phone number">✕</button>
   `;
   container.appendChild(div);
 }

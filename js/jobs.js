@@ -165,7 +165,7 @@ function renderAllJobsMasterTable() {
   if (pagedJobs.length === 0) {
     tbody.innerHTML = `
       <tr>
-        <td colspan="10" style="text-align: center; padding: 24px; color: var(--text-muted);">
+        <td colspan="10" class="table-empty-cell">
           No work orders found matching your filters.
         </td>
       </tr>
@@ -179,8 +179,10 @@ function renderAllJobsMasterTable() {
       return `
       <tr>
         <td>
-          <div class="location-name">${escapeHTML(job.storeName)}</div>
-          <div class="location-address">${escapeHTML(job.storeAddress)}</div>
+          <a href="job-detail.php" class="location-cell-link" onclick="viewJobDetails(${job.id}); return false;">
+            <div class="location-name">${escapeHTML(job.storeName)}</div>
+            <div class="location-address">${escapeHTML(job.storeAddress)}</div>
+          </a>
         </td>
         <td><span class="designation-text">${escapeHTML(job.designation)}</span></td>
         <td>
@@ -189,17 +191,20 @@ function renderAllJobsMasterTable() {
             <span>${escapeHTML(job.assignedUser)}</span>
           </div>
         </td>
-        <td style="color: var(--text-muted); font-size: 12px;">${escapeHTML(job.addedDate)}</td>
+        <td class="cell-muted-sm">${escapeHTML(job.addedDate)}</td>
         <td><span class="vendor-charge-text">$${job.vendorCharges.toFixed(2)}</span></td>
         <td><span class="job-revenue-text">$${job.jobRevenue.toFixed(2)}</span></td>
         <td><span class="net-profit-pill">+$${netRevenue.toFixed(2)}</span></td>
         <td><span class="badge-urgency ${job.urgency === "Urgent" ? "urgent" : "sla"}">${escapeHTML(job.urgency)}</span></td>
         <td><span class="badge-status ${getStatusClass(job.status)}">${escapeHTML(job.status)}</span></td>
-        <td style="text-align: right;">
+        <td class="text-right">
           <div class="table-actions-cell">
-            <button class="table-action-btn" onclick="editJobOrder(${job.id})">Edit</button>
-            <button class="table-action-btn" onclick="viewJobDetails(${job.id})">View</button>
-            <button class="table-action-btn" onclick="deleteJobOrder(${job.id})">Delete</button>
+            <button class="table-action-btn edit-action-btn" onclick="editJobOrder(${job.id})" title="Edit Work Order">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+            </button>
+            <button class="table-action-btn delete-action-btn" onclick="deleteJobOrder(${job.id})" title="Delete Work Order">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+            </button>
           </div>
         </td>
       </tr>
@@ -589,7 +594,7 @@ function deleteJobOrder(id) {
 }
 
 function viewJobDetails(id) {
-  window.location.href = "job-detail.html";
+  window.location.href = "job-detail.php";
 }
 
 function editJobOrder(id) {

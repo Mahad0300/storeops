@@ -17,7 +17,7 @@
       <div class="login-form-col">
         <!-- Top Left Branding -->
         <div class="login-brand-header">
-          <a href="index.html" class="login-brand-link">
+          <a href="index.php" class="login-brand-link">
             <img
               src="assets/images/storelogo.webp"
               alt="StoreOps Logo"

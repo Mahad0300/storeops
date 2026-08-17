@@ -67,7 +67,7 @@ function initWorkOrderConfigControls() {
       ) {
         showToast("Work Order WO-2026-00109 deleted");
         setTimeout(() => {
-          window.location.href = "jobs.html";
+          window.location.href = "jobs.php";
         }, 1200);
       }
     });

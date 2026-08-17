@@ -219,7 +219,7 @@ function renderMasterAuditLogsTable() {
   if (pageLogs.length === 0) {
     tableBody.innerHTML = `
       <tr>
-        <td colspan="5" style="text-align: center; padding: 36px; color: var(--text-muted);">
+        <td colspan="5" class="table-empty-cell-lg">
           No audit log entries match your filter or search query.
         </td>
       </tr>
@@ -238,8 +238,8 @@ function renderMasterAuditLogsTable() {
 
       const woTagHtml =
         log.workOrder !== "N/A"
-          ? `<a href="jobs.html" class="audit-workorder-tag">${escapeHTML(log.workOrder)}</a>`
-          : `<span class="audit-workorder-tag" style="opacity: 0.6;">N/A</span>`;
+          ? `<a href="jobs.php" class="audit-workorder-tag">${escapeHTML(log.workOrder)}</a>`
+          : `<span class="audit-workorder-tag audit-na-tag">N/A</span>`;
 
       return `
       <tr>
@@ -252,7 +252,7 @@ function renderMasterAuditLogsTable() {
         </td>
         <td><span class="action-badge ${actionBadgeClass}">${escapeHTML(log.action)}</span></td>
         <td>${woTagHtml}</td>
-        <td><span style="font-size: 13px; color: var(--text-main);">${escapeHTML(log.details)}</span></td>
+        <td><span class="cell-main-sm">${escapeHTML(log.details)}</span></td>
       </tr>
     `;
     })

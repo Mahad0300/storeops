@@ -1,11 +1,21 @@
-<!doctype html>
+<?php
+// Default values if not set by page
+if (!isset($pageTitle)) {
+    $pageTitle = "StoreOps CRM - Smart Operations Management";
+}
+if (!isset($activePage)) {
+    $activePage = "";
+}
+?>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manage Users - StoreOps CRM</title>
+    <title><?php echo htmlspecialchars($pageTitle); ?></title>
     <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
+    <?php if (isset($extraHead)) echo $extraHead; ?>
   </head>
   <body>
     <!-- Mobile Sidebar Backdrop Overlay -->
@@ -17,7 +27,7 @@
       <aside class="crm-sidebar">
         <!-- Top Branding -->
         <div class="sidebar-header">
-          <a href="dashboard.html" class="sidebar-logo-link">
+          <a href="dashboard.php" class="sidebar-logo-link">
             <img
               src="assets/images/storelogo.webp"
               alt="StoreOps Logo"
@@ -29,7 +39,11 @@
         <!-- Navigation Categories -->
         <nav class="sidebar-nav">
           <div class="nav-section-title">OVERVIEW</div>
-          <a href="dashboard.html" class="nav-link" data-view="dashboard">
+          <a
+            href="dashboard.php"
+            class="nav-link <?php echo ($activePage === 'dashboard') ? 'active' : ''; ?>"
+            data-view="dashboard"
+          >
             <div class="nav-left-group">
               <svg
                 width="18"
@@ -48,7 +62,11 @@
             </div>
           </a>
 
-          <a href="jobs.html" class="nav-link" data-view="jobs">
+          <a
+            href="jobs.php"
+            class="nav-link <?php echo ($activePage === 'jobs') ? 'active' : ''; ?>"
+            data-view="jobs"
+          >
             <div class="nav-left-group">
               <svg
                 width="18"
@@ -67,7 +85,33 @@
             <span class="nav-badge yellow" id="jobsCountBadge">153</span>
           </a>
 
-          <a href="analytics.html" class="nav-link" data-view="analytics">
+          <a
+            href="my-assigned-jobs.php"
+            class="nav-link <?php echo ($activePage === 'my-assigned-jobs') ? 'active' : ''; ?>"
+            data-view="my-assigned-jobs"
+          >
+            <div class="nav-left-group">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              <span class="nav-label">My Assigned Jobs</span>
+            </div>
+            <span class="nav-badge yellow" id="myJobsCountBadge">42</span>
+          </a>
+
+          <a
+            href="analytics.php"
+            class="nav-link <?php echo ($activePage === 'analytics') ? 'active' : ''; ?>"
+            data-view="analytics"
+          >
             <div class="nav-left-group">
               <svg
                 width="18"
@@ -85,7 +129,11 @@
             </div>
           </a>
 
-          <a href="vendors.html" class="nav-link" data-view="vendors">
+          <a
+            href="vendors.php"
+            class="nav-link <?php echo ($activePage === 'vendors') ? 'active' : ''; ?>"
+            data-view="vendors"
+          >
             <div class="nav-left-group">
               <svg
                 width="18"
@@ -106,7 +154,11 @@
           </a>
 
           <div class="nav-section-title">ADMINISTRATION</div>
-          <a href="manage-users.html" class="nav-link active" data-view="users">
+          <a
+            href="manage-users.php"
+            class="nav-link <?php echo ($activePage === 'manage-users') ? 'active' : ''; ?>"
+            data-view="users"
+          >
             <div class="nav-left-group">
               <svg
                 width="18"
@@ -123,12 +175,14 @@
               </svg>
               <span>Manage Users</span>
             </div>
-            <span class="nav-counter-badge count-yellow" id="usersCountBadge"
-              >8</span
-            >
+            <span class="nav-badge yellow" id="usersCountBadge">8</span>
           </a>
 
-          <a href="audit-logs.html" class="nav-link" data-view="audit">
+          <a
+            href="audit-logs.php"
+            class="nav-link <?php echo ($activePage === 'audit-logs') ? 'active' : ''; ?>"
+            data-view="audit"
+          >
             <div class="nav-left-group">
               <svg
                 width="18"
@@ -152,8 +206,8 @@
 
           <div class="nav-section-title">ACCOUNT</div>
           <a
-            href="notifications.html"
-            class="nav-link"
+            href="notifications.php"
+            class="nav-link <?php echo ($activePage === 'notifications') ? 'active' : ''; ?>"
             data-view="notifications"
           >
             <div class="nav-left-group">
@@ -170,13 +224,10 @@
               </svg>
               <span class="nav-label">Notifications</span>
             </div>
+            <span class="nav-badge yellow" id="unreadNotifNavBadge">5</span>
           </a>
 
-          <a
-            href="index.html"
-            class="nav-link setting-btn"
-            data-view="settings"
-          >
+          <a href="settings.php" class="nav-link setting-btn <?php echo ($activePage === 'settings') ? 'active' : ''; ?>" data-view="settings">
             <div class="nav-left-group">
               <svg
                 width="18"
@@ -200,14 +251,10 @@
         <div class="sidebar-footer">
           <div class="sidebar-user-card">
             <div class="user-card-info">
-              <div class="user-card-avatar">AD</div>
+              <div class="user-card-avatar">MC</div>
               <div class="user-card-details">
-                <span id="sidebarUserName" class="user-card-name"
-                  >Administrator</span
-                >
-                <span id="sidebarUserRole" class="user-card-role"
-                  >Admin • Active</span
-                >
+                <span id="sidebarUserName" class="user-card-name">Michael Carter</span>
+                <span id="sidebarUserRole" class="user-card-role">Admin • Active</span>
               </div>
             </div>
             <button
@@ -274,7 +321,7 @@
               <input
                 type="text"
                 id="globalSearchInput"
-                placeholder="Search system users by login name, full name, role..."
+                placeholder="Search work orders, locations, vendors..."
                 class="search-input"
               />
             </div>
@@ -282,10 +329,11 @@
 
           <!-- User Profile Badge & Notifications -->
           <div class="header-right-actions">
+
             <button
               class="icon-btn"
               title="Notifications"
-              onclick="window.location.href = 'notifications.html'"
+              onclick="window.location.href = 'notifications.php'"
             >
               <svg
                 width="16"
@@ -301,151 +349,14 @@
             </button>
 
             <div class="user-profile-badge">
-              <div class="user-avatar">AD</div>
+              <div class="user-avatar">MC</div>
               <div class="user-meta">
-                <span id="headerUserName" class="user-name">Administrator</span>
-                <span id="headerUserRole" class="user-role-tag"
-                  >ADMINISTRATOR</span
-                >
+                <span id="headerUserName" class="user-name">Michael Carter</span>
+                <span id="headerUserRole" class="user-role-tag">ADMINISTRATOR</span>
               </div>
             </div>
           </div>
         </header>
 
-        <!-- USER MANAGEMENT MAIN PAGE WORKSPACE -->
-        <div id="usersView" class="page-view-section active">
-          <div class="hero-header-row">
-            <div>
-              <h1 class="hero-title">User & Staff Management</h1>
-              <p class="hero-subtitle">
-                Manage platform accounts, authentication credentials, system
-                roles, and operational account statuses.
-              </p>
-            </div>
-            <button
-              class="crm-btn-primary main-create-btn"
-              onclick="openCRMModal('user')"
-            >
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2.5"
-              >
-                <line x1="12" y1="5" x2="12" y2="19"></line>
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-              </svg>
-              ADD NEW USER
-            </button>
-          </div>
-
-          <!-- Master Users Filter Toolbar & Cards Panel Container -->
-          <div class="users-panel-clean">
-            <!-- Filter Controls Toolbar Header (No background container) -->
-            <div class="jobs-filter-toolbar users-filter-toolbar">
-              <div class="toolbar-left-search">
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <circle cx="11" cy="11" r="8"></circle>
-                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-                <input
-                  type="text"
-                  id="usersFilterSearch"
-                  placeholder="Filter by login name, full name, role..."
-                  class="toolbar-search-input"
-                />
-              </div>
-
-              <div class="toolbar-filters-group">
-                <!-- System Role Filter -->
-                <select id="filterUserRoleSelect" class="toolbar-select">
-                  <option value="ALL">All System Roles</option>
-                  <option value="User">User</option>
-                  <option value="Team Lead">Team Lead</option>
-                  <option value="Administrator">Administrator</option>
-                </select>
-
-                <!-- Account Status Filter -->
-                <select id="filterUserStatusSelect" class="toolbar-select">
-                  <option value="ALL">All Account Statuses</option>
-                  <option value="Active / Operational">
-                    Active / Operational
-                  </option>
-                  <option value="Suspended / Blocked">
-                    Suspended / Blocked
-                  </option>
-                </select>
-
-                <!-- Reset / Refresh Button -->
-                <button
-                  class="icon-btn refresh-btn"
-                  id="btnResetUsersFilters"
-                  title="Reset User Filters"
-                >
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <polyline points="23 4 23 10 17 10"></polyline>
-                    <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-
-            <!-- User Cards Grid (NON-TABLE LAYOUT) -->
-            <div id="masterUsersGrid" class="users-cards-grid">
-              <!-- User Cards Rendered Dynamically via JS -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Dynamic CRM Quick Action Modal -->
-    <div id="crmModalBackdrop" class="modal-backdrop">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 id="modalTitle" class="modal-title">
-            Add System User / Contractor
-          </h3>
-          <span id="closeModalBtn" class="modal-close-btn">&times;</span>
-        </div>
-        <form id="crmModalForm">
-          <div class="modal-body" id="modalDynamicFields">
-            <!-- Dynamic Input Fields Rendered via JS -->
-          </div>
-          <div class="modal-footer">
-            <button
-              type="submit"
-              id="modalSubmitBtn"
-              class="btn-primary-action"
-            >
-              Save Entry
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-
-    <!-- Toast Notification Container -->
-    <div id="toastContainer" class="toast-container"></div>
-
-    <!-- Main JavaScript File -->
-    <script src="js/common.js"></script>
-    <script src="js/manage-users.js"></script>
-  </body>
-</html>
+        <!-- MAIN PAGE CONTENT CONTAINER -->
+        <main class="main-workspace-body">
