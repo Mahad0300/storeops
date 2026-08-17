@@ -32,6 +32,14 @@
   --accent-red-bg: rgba(252, 232, 230, 0.85);
   --accent-blue-bg: rgba(232, 240, 254, 0.85);
 
+  /* Extended Status Tokens */
+  --accent-green-text: #137333;
+  --accent-green-active-bg: #e6f4ea;
+  --accent-red-text: #dc2626;
+  --accent-red-main: #ef4444;
+  --accent-red-light-bg: #fef2f2;
+  --accent-red-border-subtle: #fecaca;
+
   /* Text Colors */
   --text-main: #1a1c1e;
   --text-muted: #787a7d;
@@ -5827,8 +5835,8 @@ input:checked + .toggle-slider:before {
 .badge-session-current {
   font-size: 10.5px !important;
   font-weight: 700 !important;
-  background: #e6f4ea !important;
-  color: #137333 !important;
+  background: var(--accent-green-active-bg) !important;
+  color: var(--accent-green-text) !important;
   padding: 2px 8px !important;
   border-radius: 20px !important;
   margin-left: 6px !important;
@@ -5848,9 +5856,9 @@ input:checked + .toggle-slider:before {
 }
 
 .btn-danger-outline {
-  border-color: #fecaca !important;
-  color: #ef4444 !important;
-  background: #fef2f2 !important;
+  border-color: var(--accent-red-border-subtle) !important;
+  color: var(--accent-red-main) !important;
+  background: var(--accent-red-light-bg) !important;
 }
 
 .table-empty-cell {
@@ -5902,7 +5910,7 @@ input:checked + .toggle-slider:before {
 }
 
 .avatar-dark-bg {
-  background: #25272a !important;
+  background: var(--bg-card-dark) !important;
 }
 
 .audit-na-tag {
